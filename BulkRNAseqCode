@@ -1,0 +1,243 @@
+###TimeCourse_DEandGO
+
+# Pairwise differential expression by DEseq2 #
+# Kat Lande 2022
+
+library(DESeq2)
+library(WebGestaltR)
+
+# Function that runs DEseq differential expression on a DESeq data set object: 
+DESeq_and_Filt <- function(D, filter_thresh=10){
+  keep <- rowSums(counts(D)) >= filter_thresh
+  D <- D[keep,]
+  
+  #Run DESeq
+  D <- DESeq(D)
+  return(D)
+}
+# D = DESeq data set object
+# Filter_Thresh = minimum raw counts per row
+
+# Function that returns DESeq results as a df:
+DfExpr_Table <- function(input, FDR = 0.05, FC = 1, title=NULL, avg_count=NULL){
+  
+  if(is.null(title)==T){
+    tab <- as.data.frame(results(input,alpha=0.05))
+  } else {
+    tab <- as.data.frame(results(input, name=title, alpha=0.05))
+  }
+  
+  tab <- na.omit(tab)
+  tab <- tab[tab$padj <= FDR,]
+  tab <- tab[tab$log2FoldChange >= FC | tab$log2FoldChange <= -(FC),]
+  
+  if(is.null(avg_count)==F){
+    tab <- tab[tab$baseMean >= avg_count,]
+  }
+  
+  return(tab)
+}
+# input: DESeq object
+# FDR: FDR significance threshold, auto=0.05.
+# FC: abs(log2FC) significance threshold, auto=1
+# title: name of comparison (if DESeq object contains multiple), auto=NULL
+# avg_count: base mean expression threshold, auto=NULL
+
+# Function that runs pairwise ctl-trt DEseq over a time course. Returns a DF of DE results for all filtered genes at each time point.
+# Currently only set up to compare a single variable across timepoints.
+DEtime <- function(Counts, Meta, n.Timepoints, Group.n, Uneven_Groups=F, control.n=NULL, treatment.n=NULL,
+                   filter.cutoff=32, names=NULL){
+  
+  t=1
+  while(t <= n.Timepoints){
+    
+    # calculating column indices for each comparison:
+    if(Uneven_Groups == F){ # balanced group sizes across all timepoints and conditions
+      startR=(((t-1)*Group.n)+1)
+      endR=startR+(Group.n-1)
+      
+      startW=startR+(n.Timepoints*Group.n)
+      endW=endR+(n.Timepoints*Group.n)
+    } else { # if group sizes are unbalanced, calculate the column indices manually:
+      
+      Group.n <- treatment.n[t]
+      Group.n.ctl <- control.n[t]
+      
+      if(t==1){
+        startR=1
+        startW=(sum(treatment.n))+1
+      } else{
+        startR=sum(treatment.n[1:t-1])+1
+        startW=(sum(control.n[1:t-1])+1)+(sum(treatment.n))
+      }
+      endR=startR+(Group.n-1)
+      endW=startW+(Group.n.ctl-1)
+    }
+    
+    cat(paste0("Timepoint ", t, " Samples:\n"))
+    cat(colnames(Counts[c(startR:endR,startW:endW)]))
+    cat("\n")
+    
+    # DEG from one time point:
+    rez <- DfExpr_Table(DESeq_and_Filt(
+      DESeqDataSetFromMatrix(countData = Counts[c(startR:endR,startW:endW)],
+                             colData = Meta[c(startR:endR,startW:endW),],
+                             design = as.formula(~Condition)), filter_thresh = filter.cutoff), FDR = 2, FC = 0)
+    
+    rez$Gene <- row.names(rez)
+    row.names(rez) <-c()
+    
+    # Add name for the time point:
+    if(is.null(names)){
+      rez$Time <- colnames(Counts.Run1[c(startR:endR,startW:endW)])[1]
+    } else {
+      rez$Time <- names[t]
+    }
+    
+    # make the output DF:
+    if(exists("All_Genes")==F){
+      All_Genes <- rez
+    }else{All_Genes <- rbind(All_Genes, rez)}
+    
+    rm(rez, startR, startW, endR, endW)
+    t=t+1
+  }
+
+  return(All_Genes)
+}
+# Counts: raw counts to compare. Count data MUST be ordered by time, and then group. E.g., columns ordered as such:
+#         Treat_0m  Treat_5m  Treat_10m ... Ctl_0m  Ctl_5m  Ctl_10m ...
+# Meta: Meta data for Counts. Meta data rows must be the same order as Counts columns. Comparison variable for DEseq (in this case, recovery vs. well-watered) MUST be called "Condition" in meta data file
+# n.Timepoints: number of timepoints to compare
+# Group.n: number of samples per comparison group, if all groups are balanced
+# Uneven_Groups: if TRUE manual group sizes can be added for treatment and control
+# control.n: vector of n size for each group in the control set, should be the same length as n.Timepoints
+# treatment.n: vector of n size for each group in the treatment set, should be the same length as n.Timepoints
+# names: character vectors of names for each time point. If not supplied, will use the name of the first sample in the group.
+
+# ORA Gene ontology with WebGestaltR for a single comparison
+oneORA <- function(df, bkgd, time, org="athaliana", genetype="entrezgene", 
+         database="geneontology_Biological_Process_noRedundant"){
+
+  if(length(df$Gene[df$log2FoldChange < 0 & df$Time == time]) > 0){
+    
+    genes <- df$Gene[df$log2FoldChange < 0 & df$Time == time]
+    genes<-genes[!is.na(genes)]
+    genes<-unique(genes)
+    refGenes<-unique(bkgd)
+    refGenes<-refGenes[!is.na(refGenes)] #Ref genes = all filtered genes
+    
+    dres <- WebGestaltR(enrichMethod="ORA",
+                        organism=org,
+                        enrichDatabase=database,
+                        interestGene=genes,
+                        referenceGene=refGenes,
+                        projectName=paste0(time,"_Downregulated"),
+                        topThr=100,
+                        sigMethod="top", 
+                        interestGeneType=genetype,
+                        referenceGeneType=genetype)
+    dres$dir <- "downregulated"
+    d=1
+  }
+  else{ 
+    d=0
+    cat("\nNot enough downregulated genes for ORA!")}
+
+  
+  if(length(df$Gene[df$log2FoldChange > 0 & df$Time == time]) > 0){
+    
+    genes <- df$Gene[df$log2FoldChange > 0 & df$Time == time]
+    genes<-genes[!is.na(genes)]
+    genes<-unique(genes)
+    refGenes<-unique(bkgd)
+    refGenes<-refGenes[!is.na(refGenes)] 
+    
+    ures <- WebGestaltR(enrichMethod="ORA",
+                        organism=org,
+                        enrichDatabase=database,
+                        interestGene=genes,
+                        referenceGene=refGenes,
+                        projectName=paste0(time,"_Upregulated"),
+                        topThr=100,
+                        sigMethod="top", 
+                        interestGeneType=genetype,
+                        referenceGeneType=genetype)
+    ures$dir <- "upregulated"
+    u=1
+  }
+  else { 
+    u=0
+    cat("\nNot enough upregulated genes for ORA!") }
+  
+  if(u==1 & d ==1){
+    return(rbind(ures,dres))
+  } else if(u==1 & d==0){
+    return(ures)
+  } else if(u==0&d==1){
+   return(dres) 
+  } else{
+    cat("\n No Results !\n")
+  }
+}
+# df: DEG results. Filtered output from DEtime.
+# bkgd: all genes to use as a background genomic set. 
+# time: timepoint to look for enrichment in; must match a level of the Time column of df.
+# org: WebGestaltR() organism input, AUTO="athaliana"
+# genetype: WebGestaltR() genetype option, AUTO="entrezgene", 
+# database: WebGestaltR() GO database to query, AUTO="geneontology_Biological_Process_noRedundant"
+
+
+
+##### Run pairwise DE and query for GO enrichment #####
+
+# Prep steps:
+
+# read in count data as `Counts`
+# read in meta data as `Meta`
+
+# Order the count data by time, and then condition variable E.g., columns ordered as such:
+#         Treat_0m  Treat_5m  Treat_10m ... Ctl_0m  Ctl_5m  Ctl_10m ...
+
+# Order the rows of `Meta` to match the order of the columns of `Counts`.
+# colnames of Counts should be identical to row.names of `Meta`
+# Rename the colname of the comparison variable for DE (in this case, recovery vs. well-watered) to "Condition" in `Meta`
+
+
+AllGenes <- DEtime(Counts, Meta, n.Timepoints=9, Group.n=3, filter.cutoff=32) # gives all genes without a cutoff
+# In Arabidopsis, convert TAIR symbols to entrezgene. Gene symbols can be used as an input for other species.
+dfANNO<-read.table("at10_GeneIDsymbol.tsv",sep="\t",header=T) # TAIR to entrezgene conversion file
+AllGenes$Gene<-dfANNO$GeneID[match(AllGenes$Gene,dfANNO$TAIR)] 
+
+# Filter genes by fold change and FDR to get DEG:
+DEG <- AllGenes[abs(AllGenes$log2FoldChange) > 1 & AllGenes$padj <= 0.01,]
+
+# Run ORA at each time point:
+for(time in unique(DEG$Time)){
+  cat(time)
+  cat("\n")
+  res <- oneORA(DEG, AllGenes$Gene, time)
+  if(is.data.frame(res)){
+    res$Time <- time
+    if(exists("allORA")==F){
+      allORA <- res
+    } else {
+      allORA <- rbind(allORA, res)
+    }
+  }
+  rm(res)
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
