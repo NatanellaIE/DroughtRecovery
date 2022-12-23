@@ -1,0 +1,2009 @@
+Gene ID	Name	Organ	Cell type
+AT5G57800	FLP1,FACELESS POLLEN 1,WAX2,YRE	Flower	Abaxial Epidermis
+AT3G09730	POLAR LOCALIZATION DURING ASYMMETRIC DIVISION AND protein	Flower	Adaxial Epidermis
+AT3G09730	POLAR LOCALIZATION DURING ASYMMETRIC DIVISION AND protein	Flower	GC 
+AT3G01500	ATBCA1,BETA CARBONIC ANHYDRASE 1,ATSABP3,ARABIDOPSIS THALIANA SALICYLIC ACID-BINDING PROTEIN 3,SABP3,SALICYLIC ACID-BINDING PROTEIN 3	Flower	Epidermis
+AT5G60490	AtFLA12	Flower	Xylem
+AT1G04040 	AT1G04040 	Leaf	Epidermis
+AT5G28630	AT5G28630	Leaf	Epidermis
+AT5G44430	PDF1.2c 	Leaf	Abaxial Epidermis
+AT1G22690	AT1G22690	Leaf	GC
+AT1G62510	AT1G62510	Leaf	Hydrathode
+AT3G16660	AT3G16660	Leaf	Hydrathode
+AT3G16670	AT3G16670	Leaf	Hydrathode
+AT1G21250	WAK1	Leaf	Growing leaves
+AT2G26250	FDH	NA	Epidermis
+AT2G30424	TCL2	NA	Epidermis
+AT4G21750	ATML1	NA	Epidermis
+AT4G14480	BLUS1	NA	GC
+AT5G26000	GC, MI	NA	GC
+AT1G22150	SULTR1;3	NA	Phloem
+AT3G19710	BCAT4	NA	Phloem
+AT5G09220	AAP2	NA	Phloem
+AT5G23010	MAM1	NA	Phloem
+AT5G50160	FRO8	NA	Phloem
+AT5G59780	MYB59	NA	Stem Vasculature
+AT1G79840	GL2	NA	Trichome development
+AT5G40330	MYB23	NA	Trichome development
+AT4G38740	Cyclophilin ROC1	NA	Vasculature
+AT5G02380	MET2B	NA	Vasculature
+AT5G02600	NaKR1	NA	Vasculature
+AT5G15950	SAMDC2	NA	Vasculature
+AT1G67560	LOX6	NA	Xylem
+AT4G35350	XCP1	NA	Xylem
+AT1G01320	Tetratricopeptide repeat (TPR)-like superfamily protein	NA	Sepals, young flower.
+AT1G13930	oleosin-B3-like protein	NA	Sepals
+AT1G23510	OBP32pep protein	NA	Petal, mature flowers
+AT1G24260	AGL9,AGAMOUS-like 9	NA	Pollen tube growth
+AT1G28270	AtRALF4	NA	Pollen tube growth
+AT1G29910	AB180,LHCB1.2,LIGHT HARVESTING CHLOROPHYLL A/B BINDING PROTEIN 1.2	NA	Mesophyll
+AT1G52510	alpha/beta-Hydrolases superfamily protein	NA	Sepals, young and mature
+AT1G54270	eif4a-2	NA	Is not petal
+AT1G55670	photosystem I subunit G	NA	Mesophyll
+AT1G55670	photosystem I subunit G	NA	Mesophyll
+AT1G62020	Coatomer, alpha subunit	NA	Stamen mature flower
+AT1G69870	AtNPF2.13,NPF2.13,NRT1/ PTR family 2.13	NA	Mesophyll
+AT1G69870	AtNPF2.13,NPF2.13,NRT1/ PTR family 2.13	NA	Mesophyll
+AT1G75920	GDSL-like Lipase/Acylhydrolase superfamily protein	NA	Young Flower
+AT2G06520	photosystem II subunit X	NA	Mesophyll
+AT2G16940	Splicing factor, CC1-like protein	NA	Carpel
+AT2G17033	pentatricopeptide (PPR) repeat-containing protein	NA	Sepal young flowers
+AT2G21870	MALE GAMETOPHYTE DEFECTIVE 1	NA	Stamen, fillament
+AT2G42840	protodermal factor 1	NA	Trichome
+AT2G42840	protodermal factor 1	NA	Protoderm
+AT2G45660	ATSOC1,SUPPRESSOR OF OVEREXPRESSION OF CO 1,SOC1,SUPPRESSOR OF OVEREXPRESSION OF CO 1	NA	Stamen
+AT2G45660	ATSOC1,SUPPRESSOR OF OVEREXPRESSION OF CO 1,SOC1,SUPPRESSOR OF OVEREXPRESSION OF CO 1	NA	Carpel
+AT2G47260	ATWRKY23,WRKY DNA-BINDING PROTEIN 23	NA	MI
+AT4G24450	ATGWD2,GWD3	NA	Vasculature
+AT4G38740	rotamase CYP 1	NA	Phloem
+AT5G02380	metallothionein 2B	NA	Phloem
+AT5G04480	BUP,Bursting pollen	NA	Pollen tube development
+AT5G15950	Adenosylmethionine decarboxylase family protein	NA	Vasculatore
+AT5G16560	KAN1,KANADI 1	NA	Mesophyll
+AT5G25980	BGLU37,BETA GLUCOSIDASE 37	NA	MI
+AT5G48620	Disease resistance protein (CC-NBS-LRR class) family	NA	Sepal
+AT5G57350	AHA3,H(+)-ATPase 3,ATAHA3,ARABIDOPSIS THALIANA ARABIDOPSIS H(+)-ATPASE	NA	Phloem
+AT5G65590	SCAP1,STOMATAL CARPENTER 1	NA	Petals
+AT1G23420	INO	NA	Ovule
+AT5G60490	FLA12	NA	Xylem
+AT4G32880	ATHB-8	NA	Xylem
+AT5G19530	ACL5	NA	Xylem
+AT3G25710	TMO5	NA	Xylem
+AT5G02600	NAKR1	NA	Phloem Parenchyma and Companion cells
+AT5G02380	MT2B	NA	Phloem Parenchyma and Companion cells
+AT4G38740	CYP18-3	NA	Phloem Parenchyma and Companion cells
+AT3G48740	SWEET11	NA	Phloem Parenchyma
+AT5G23660	SWEET12	NA	Phloem Parenchyma and Companion cells
+AT1G22710	SUC2	NA	Companion cells
+AT1G79430	APL	NA	Companion cells
+AT4G13770	CYP83-A1	NA	Phloem Parenchyma and Companion cells
+AT1G52190	NPF1.2	NA	Companion cells
+AT5G54660	HSP21.7	NA	Phloem Parenchyma and Companion cells
+AT5G57350	AHA3	NA	Phloem Parenchyma and Companion cells
+AT3G25710	TMO5	NA	Procambium
+AT5G61480	PXY	NA	Procambium
+AT2G37640	EXPA3	NA	Epidermis
+AT3G29030	EXPA5	NA	Epidermis
+AT2G32990	AtGH9B8	NA	Epidermis
+AT1G80080	TMM	NA	Epidermis
+AT2G42840	PDF1	NA	Epidermis
+AT1G68530	CUT1	NA	Epidermis
+AT1G51500	CER5	NA	Epidermis
+AT1G27950	LPTG1	NA	Epidermis
+AT5G49160	DMT1	NA	Epidermis
+AT4G27230	HTA2	NA	Epidermis
+AT1G08880	HTA5	NA	Epidermis
+AT5G59870	HTA6	NA	Epidermis
+AT1G51060	HTA10	NA	Epidermis
+AT3G20670	HTA13	NA	Epidermis
+AT3G17360	POK1	NA	Epidermis
+AT3G19050	POK2	NA	Epidermis
+AT4G23800	HMGB6	NA	Epidermis
+AT4G33270	CDC20-1	NA	Epidermis
+AT4G33260	CDC20-2	NA	Epidermis
+AT5G54585	AT5G54585	NA	Epidermis
+AT1G04040	AT1G04040	NA	Epidermis
+AT5G28630	AT5G28630	NA	Epidermis
+AT2G26580	YAB5	NA	Abaxial Epidermis
+AT4G21910	AT4G21910	NA	Abaxial Epidermis
+AT4G00180	YAB3	NA	Abaxial Epidermis
+AT5G13930	CHS	NA	Adaxial Epidermis
+AT1G18810	AT1G18810	NA	Adaxial Epidermis
+AT5G62210	AT5G62210	NA	Adaxial Epidermis
+AT1G04250	AXR3	NA	Adaxial Epidermis
+AT5G53210	SPCH	NA	Stomatal lineage
+AT3G06120	MUTE	NA	Stomatal lineage
+AT3G24140	FAMA	NA	Stomatal lineage
+AT1G80080	TMM	NA	Stomatal lineage
+AT1G34245	EPF2	NA	Stomatal lineage
+AT1G68530	CER6	NA	GC
+AT1G12480	SLAC1	NA	GC
+AT4G37490	CYCB1	NA	Dividing
+AT1G18370	H2B	NA	Dividing
+AT5G54640	HTA1	NA	Dividing
+AT1G18370	NACK1	NA	Dividing
+AT1G07370	PCNA1	NA	Dividing
+AT2G29570	PCNA2	NA	Dividing
+AT1G77990	SULTR2;2	NA	Bundle Sheath
+AT2G43150	AT2G43150	NA	Bundle Sheath
+AT1G12010	AT1G12010	NA	Bundle Sheath
+AT5G05690	CYP90A1	NA	Palisade mesophyll
+AT1G70410	BCA4	NA	Palisade mesophyll
+AT4G23060	IQD22	NA	Palisade mesophyll
+AT5G17170	ENH1	NA	Mesophyll
+AT4G23600	CORI3	NA	Spongy mesophyll
+AT1G29910	CAB3	NA	Mesophyll
+AT2G05100	LHCB2.1	NA	Mesophyll
+AT2G27250	CLV3	NA	SAM CZ
+AT2G17950	WUS	NA	SAM RM
+AT3G17360	POK1	NA	Dividing
+AT3G19050	POK2	NA	Dividing
+AT5G23420	HMGB6	NA	Dividing
+AT4G33270	CDC20.1	NA	Dividing
+AT4G33260	CDC20.2	NA	Dividing
+AT4G27230	HISTONE 	NA	Dividing
+AT5G49160	MET1	NA	Dividing
+AT3G15353	AT3G15353	NA	Seed coat
+AT5G02380	AT5G02380	NA	Seed coat
+AT1G21310	AT1G21310	NA	Seed coat
+AT5G25980	TGG2	NA	MI
+AT3G01670	SEOR2	NA	Sieve element
+AT3G01680	SEOR1	NA	Sieve element
+AT1G05760	RTM1	NA	Sieve element
+AT5G04890	RTM2	NA	Sieve element
+AT1G20850	XCP2	NA	Xylem
+AT5G62380	VND6	NA	Xylem
+AT2G01540	CAR10	Root	Trichoblast
+AT1G23750	AT1G23750	Root	Trichoblast
+AT1G05810	ARA	Root	Trichoblast
+AT5G40860	AT5G40860	Root	Trichoblast
+AT3G07880	GDI1	Root	Trichoblast
+AT5G40510	AT5G40510	Root	Trichoblast
+AT1G73580	CAR3	Root	Trichoblast
+AT4G24026	AT4G24026	Root	Trichoblast
+AT5G58010	BHLH82	Root	Trichoblast
+AT1G70460	PERK13	Root	Trichoblast
+AT3G60330	AHA7	Root	Trichoblast
+AT1G48930	AtGH9C1	Root	Trichoblast
+AT4G01480	PPA5	Root	Trichoblast
+AT2G47530	AT2G47530	Root	Trichoblast
+AT4G34580	SFH1	Root	Trichoblast
+AT1G12560	EXPA7	Root	Trichoblast
+AT1G06923	AT1G06923	Root	Trichoblast
+AT3G09925	AT3G09925	Root	Trichoblast
+AT3G54590	EXT2	Root	Trichoblast
+AT1G30870	PER7	Root	Trichoblast
+AT5G05500	AT5G05500	Root	Trichoblast
+AT3G54580	AT3G54580	Root	Trichoblast
+AT2G47540	AT2G47540	Root	Trichoblast
+AT4G00680	ADF8	Root	Trichoblast
+AT1G30990	AT1G30990	Root	Trichoblast
+AT1G13950	ELF5A-1	Root	Trichoblast
+AT1G53680	GSTU28	Root	Trichoblast
+AT5G67400	PER73	Root	Trichoblast
+AT3G23190	AT3G23190	Root	Trichoblast
+AT2G41970	AT2G41970	Root	Trichoblast
+AT4G40090	AGP3	Root	Trichoblast
+AT3G49960	PER35	Root	Trichoblast
+AT3G21180	ACA9	Root	Trichoblast
+AT1G01750	ADF11	Root	Trichoblast
+AT4G25820	XTH14	Root	Trichoblast
+AT5G42510	DIR1	Root	Trichoblast
+AT4G29180	RHS16	Root	Trichoblast
+AT1G27140	GSTU14	Root	Trichoblast
+AT4G33880	BHLH85	Root	Trichoblast
+AT5G04960	PME46	Root	Trichoblast
+AT1G62980	EXPA18	Root	Trichoblast
+AT1G12040	LRX1	Root	Trichoblast
+AT5G57625	AT5G57625	Root	Trichoblast
+AT2G22290	RABH1D	Root	Trichoblast
+AT5G49270	COBL9	Root	Trichoblast
+AT3G12540	AT3G12540	Root	Trichoblast
+AT5G06640	AT5G06640	Root	Trichoblast
+AT4G08400	AT4G08400	Root	Trichoblast
+AT4G08410	AT4G08410	Root	Trichoblast
+AT5G01610	AT5G01610	Root	Trichoblast
+AT1G02460	AT1G02460	Root	Xylem Pole Pericycle
+AT1G30760	AT1G30760	Root	Xylem Pole Pericycle
+AT3G26610	AT3G26610	Root	Xylem Pole Pericycle
+AT4G28410	AT4G28410	Root	Xylem Pole Pericycle
+AT2G18800	XTH21	Root	Xylem Pole Pericycle
+AT4G20210	TPS08	Root	Xylem Pole Pericycle
+AT3G61490	AT3G61490	Root	Xylem Pole Pericycle
+AT1G31670	AT1G31670	Root	Xylem Pole Pericycle
+AT2G26040	PYL2	Root	Xylem Pole Pericycle
+AT5G19730	PME53	Root	Xylem Pole Pericycle
+AT3G11630	BAS1	Root	Xylem Pole Pericycle
+AT4G17030	EXLB1	Root	Xylem Pole Pericycle
+AT5G26930	GATA23	Root	Xylem Pole Pericycle
+AT5G09760	AT5G09760	Root	Xylem Pole Pericycle
+AT3G11150	AT3G11150	Root	Xylem Pole Pericycle
+AT5G16570	GLN1-4	Root	Xylem Pole Pericycle
+AT4G33550	AT4G33550	Root	Xylem Pole Pericycle
+AT5G07030	AT5G07030	Root	Xylem Pole Pericycle
+AT4G30460	AT4G30460	Root	Xylem Pole Pericycle
+AT5G43180	AT5G43180	Root	Xylem Pole Pericycle
+AT5G46730	AT5G46730	Root	Xylem Pole Pericycle
+AT5G44530	AT5G44530	Root	Xylem Pole Pericycle
+AT2G40970	MYBC1	Root	Xylem Pole Pericycle
+AT3G13810	AtIDD11	Root	Xylem Pole Pericycle
+AT4G20230	AT4G20230	Root	Xylem Pole Pericycle
+AT5G17870	PSRP6	Root	Xylem Pole Pericycle
+AT2G07680	ATMRP11	Root	Xylem Pole Pericycle
+AT4G23500	AT4G23500	Root	Xylem Pole Pericycle
+AT4G24770	CP31A	Root	Xylem Pole Pericycle
+AT2G26700	PID2	Root	Xylem Pole Pericycle
+AT3G29680	AT3G29680	Root	Xylem Pole Pericycle
+AT4G34620	RPS16-1	Root	Xylem Pole Pericycle
+AT5G56500	CPN60B3	Root	Xylem Pole Pericycle
+AT2G23030	SRK2J	Root	Xylem Pole Pericycle
+AT5G16040	AT5G16040	Root	Xylem Pole Pericycle
+AT1G16310	MTP10	Root	Xylem Pole Pericycle
+AT3G45700	NPF2.4	Root	Xylem Pole Pericycle
+AT1G23760	PGL1	Root	Xylem Pole Pericycle
+AT3G61510	ACS1	Root	Xylem Pole Pericycle
+AT1G16350	AT1G16350	Root	Xylem Pole Pericycle
+AT1G08440	ALMT2	Root	Xylem Pole Pericycle
+AT5G20720	CPN20	Root	Xylem Pole Pericycle
+AT5G47500	PME68	Root	Xylem Pole Pericycle
+AT4G37295	AT4G37295	Root	Xylem Pole Pericycle
+AT5G62630	HIPL2	Root	Xylem Pole Pericycle
+AT1G52300	RPL37B	Root	Xylem Pole Pericycle
+AT2G23530	AT2G23530	Root	Xylem Pole Pericycle
+AT3G53460	CP29	Root	Xylem Pole Pericycle
+AT1G11330	AT1G11330	Root	Xylem Pole Pericycle
+AT5G66816	CEP6	Root	Xylem Pole Pericycle
+AT3G19320	AT3G19320	Root	Elongation_Atrichoblast
+AT1G65481	AT1G65481	Root	Elongation_Atrichoblast
+AT1G54820	AT1G54820	Root	Elongation_Atrichoblast
+AT1G19600	AT1G19600	Root	Elongation_Atrichoblast
+AT4G01890	AT4G01890	Root	Elongation_Atrichoblast
+AT2G39040	PER24	Root	Elongation_Atrichoblast
+AT1G30690	PATL4	Root	Elongation_Atrichoblast
+AT2G40250	AT2G40250	Root	Elongation_Atrichoblast
+AT3G49845	AT3G49845	Root	Elongation_Atrichoblast
+AT5G60950	COBL5	Root	Elongation_Atrichoblast
+AT4G20260	PCAP1	Root	Elongation_Atrichoblast
+AT1G06120	AT1G06120	Root	Elongation_Atrichoblast
+AT1G65310	ATXTH17	Root	Elongation_Atrichoblast
+AT1G15350	AT1G15350	Root	Elongation_Atrichoblast
+AT5G45510	AT5G45510	Root	Elongation_Atrichoblast
+AT1G14960	AT1G14960	Root	Elongation_Atrichoblast
+AT3G05860	AT3G05860	Root	Elongation_Atrichoblast
+AT1G05650	AT1G05650	Root	Elongation_Atrichoblast
+AT2G30930	AT2G30930	Root	Elongation_Atrichoblast
+AT2G39530	AT2G39530	Root	Elongation_Atrichoblast
+AT3G23510	AT3G23510	Root	Elongation_Atrichoblast
+AT3G46280	AT3G46280	Root	Elongation_Atrichoblast
+AT4G17470	AT4G17470	Root	Elongation_Atrichoblast
+AT3G29780	RALFL27	Root	Elongation_Atrichoblast
+AT1G51850	AT1G51850	Root	Elongation_Atrichoblast
+AT2G31540	AT2G31540	Root	Elongation_Atrichoblast
+AT4G10380	NIP5-1	Root	Elongation_Atrichoblast
+AT1G19900	AT1G19900	Root	Elongation_Atrichoblast
+AT1G49030	PCR6	Root	Elongation_Atrichoblast
+AT4G17870	PYR1	Root	Elongation_Atrichoblast
+AT5G23750	AT5G23750	Root	Elongation_Atrichoblast
+AT3G18200	AT3G18200	Root	Elongation_Atrichoblast
+AT4G12545	AIR1B	Root	Elongation_Atrichoblast
+AT1G25450	KCS5	Root	Elongation_Atrichoblast
+AT4G25830	AT4G25830	Root	Elongation_Atrichoblast
+AT3G28750	AT3G28750	Root	Elongation_Atrichoblast
+AT2G39410	AT2G39410	Root	Elongation_Atrichoblast
+AT1G10550	XTH33	Root	Elongation_Atrichoblast
+AT5G16730	AT5G16730	Root	Elongation_Atrichoblast
+AT1G51800	IOS1	Root	Elongation_Atrichoblast
+AT4G23870	AT4G23870	Root	Elongation_Atrichoblast
+AT1G23110	AT1G23110	Root	Elongation_Atrichoblast
+AT1G31772	AT1G31772	Root	Elongation_Atrichoblast
+AT4G22666	AT4G22666	Root	Elongation_Atrichoblast
+AT4G29350	PRO2	Root	Elongation_Atrichoblast
+AT3G46010	ADF1	Root	Elongation_Atrichoblast
+AT4G21850	MSRB9	Root	Elongation_Atrichoblast
+AT3G28345	ABCB15	Root	Elongation_Atrichoblast
+AT2G02610	AT2G02610	Root	Elongation_Atrichoblast
+AT3G05936	AT3G05936	Root	Elongation_Atrichoblast
+AT4G32410	CESA1	Root	Elongation_Cortex
+AT1G62510	AT1G62510	Root	Elongation_Cortex
+AT2G02780	AT2G02780	Root	Elongation_Cortex
+AT5G42590	CYP71A16	Root	Elongation_Cortex
+AT4G19410	AT4G19410	Root	Elongation_Cortex
+AT5G19250	AT5G19250	Root	Elongation_Cortex
+AT2G34660	ABCC2	Root	Elongation_Cortex
+AT5G64620	C/VIF2	Root	Elongation_Cortex
+AT5G55250	IAMT1	Root	Elongation_Cortex
+AT2G06850	XTH4	Root	Elongation_Cortex
+AT2G03370	AT2G03370	Root	Elongation_Cortex
+AT1G15210	ABCG35	Root	Elongation_Cortex
+AT3G26300	CYP71B34	Root	Elongation_Cortex
+AT4G22460	AT4G22460	Root	Elongation_Cortex
+AT2G27000	CYP705A8	Root	Elongation_Cortex
+AT4G12730	FLA2	Root	Elongation_Cortex
+AT2G45960	PIP1B	Root	Elongation_Cortex
+AT1G77990	SULTR2;2	Root	Elongation_Cortex
+AT1G79410	5-Oct	Root	Elongation_Cortex
+AT3G52470	AT3G52470	Root	Elongation_Cortex
+AT5G49360	BXL1	Root	Elongation_Cortex
+AT5G15410	CNGC2	Root	Elongation_Cortex
+AT5G66920	sks17	Root	Elongation_Cortex
+AT1G76160	sks5	Root	Elongation_Cortex
+AT3G12700	NANA	Root	Elongation_Cortex
+AT4G30950	FAD6	Root	Elongation_Cortex
+AT2G15370	FUT5	Root	Elongation_Cortex
+AT4G01150	CURT1A	Root	Elongation_Cortex
+AT2G39010	PIP2-6	Root	Elongation_Cortex
+AT1G05850	CTL1	Root	Elongation_Cortex
+AT3G14840	LRR-RLK	Root	Elongation_Cortex
+AT3G26590	DTX29	Root	Elongation_Cortex
+AT1G01620	PIP1-3	Root	Elongation_Cortex
+AT1G29025	AT1G29025	Root	Elongation_Cortex
+AT3G57020	SSL9	Root	Elongation_Cortex
+AT5G55480	GDPDL4	Root	Elongation_Cortex
+AT1G58360	AAP1	Root	Elongation_Cortex
+AT4G39350	CESA2	Root	Elongation_Cortex
+AT1G07143	AT1G07143	Root	Elongation_Cortex
+AT4G00430	PIP1.4	Root	Elongation_Cortex
+AT4G12880	ENODL19	Root	Elongation_Cortex
+AT5G04330	CYP84A4	Root	Elongation_Cortex
+AT4G30170	PER45	Root	Elongation_Cortex
+AT1G01630	AT1G01630	Root	Elongation_Cortex
+AT1G03870	FLA9	Root	Elongation_Cortex
+AT3G21670	NPF6.4	Root	Elongation_Cortex
+AT5G61820	AT5G61820	Root	Elongation_Cortex
+AT3G23530	AT3G23530	Root	Elongation_Cortex
+AT2G45180	AT2G45180	Root	Elongation_Cortex
+AT5G14120	AT5G14120	Root	Elongation_Cortex
+AT4G22110	AT4G22110	Root	Elongation_Endodermis
+AT3G17820	GLN1-3	Root	Elongation_Endodermis
+AT2G48030	AT2G48030	Root	Elongation_Endodermis
+AT1G68570	NPF3.1	Root	Elongation_Endodermis
+AT3G59620	JAL39	Root	Elongation_Endodermis
+AT1G16390	3-Oct	Root	Elongation_Endodermis
+AT1G49660	CXE5	Root	Elongation_Endodermis
+AT4G16447	AT4G16447	Root	Elongation_Endodermis
+AT4G32710	PERK14	Root	Elongation_Endodermis
+AT1G01360	PYL9	Root	Elongation_Endodermis
+AT4G18930	AT4G18930	Root	Elongation_Endodermis
+AT1G19840	AT1G19840	Root	Elongation_Endodermis
+AT5G49800	AT5G49800	Root	Elongation_Endodermis
+AT2G36890	RAX2	Root	Elongation_Endodermis
+AT5G38790	AT5G38790	Root	Elongation_Endodermis
+AT1G22640	MYB3	Root	Elongation_Endodermis
+AT5G63595	FLS4	Root	Elongation_Endodermis
+AT5G46600	ALMT13	Root	Elongation_Endodermis
+AT4G16270	PER40	Root	Elongation_Endodermis
+AT5G57620	MYB36	Root	Elongation_Endodermis
+AT5G64570	BXL4	Root	Elongation_Endodermis
+AT5G01595	AT5G01595	Root	Elongation_Endodermis
+AT1G09560	GLP4	Root	Elongation_Endodermis
+AT2G14900	GASA7	Root	Elongation_Endodermis
+AT1G22650	INVD	Root	Elongation_Endodermis
+AT1G72940	AT1G72940	Root	Elongation_Endodermis
+AT4G11290	PER39	Root	Elongation_Endodermis
+AT4G17300	NS1	Root	Elongation_Endodermis
+AT4G24220	VEP1	Root	Elongation_Endodermis
+AT1G14580	AT1G14580	Root	Elongation_Endodermis
+AT4G05100	AtMYB74	Root	Elongation_Endodermis
+AT5G53320	AT5G53320	Root	Elongation_Endodermis
+AT5G28020	CYSD2	Root	Elongation_Endodermis
+AT5G60460	AT5G60460	Root	Elongation_Endodermis
+AT3G24450	AT3G24450	Root	Elongation_Endodermis
+AT5G28010	AT5G28010	Root	Elongation_Endodermis
+AT2G22000	PEP6	Root	Elongation_Endodermis
+AT1G02205	CER1	Root	Elongation_Endodermis
+AT1G72630	EFL2	Root	Elongation_Endodermis
+AT3G10525	SMR1	Root	Elongation_Endodermis
+AT2G36307	ZPR4	Root	Elongation_Endodermis
+AT1G05260	PER3	Root	Elongation_Endodermis
+AT3G45070	AT3G45070	Root	Elongation_Endodermis
+AT5G45210	AT5G45210	Root	Elongation_Endodermis
+AT1G08847	AT1G08847	Root	Elongation_Endodermis
+AT2G23130	AGP17	Root	Elongation_Endodermis
+AT2G47930	AGP26	Root	Elongation_Endodermis
+AT1G59940	ARR3	Root	Elongation_Endodermis
+AT5G05180	AT5G05180	Root	Elongation_Endodermis
+AT1G16370	6-Oct	Root	Elongation_Endodermis
+AT1G31812	ACBP6	Root	Elongation_Metaphloem & Companion Cell
+AT4G26840	SUMO1	Root	Elongation_Metaphloem & Companion Cell
+AT1G27530	AT1G27530	Root	Elongation_Metaphloem & Companion Cell
+AT2G08610	AT2G08610	Root	Elongation_Metaphloem & Companion Cell
+AT3G21600	AT3G21600	Root	Elongation_Metaphloem & Companion Cell
+AT1G23530	AT1G23530	Root	Elongation_Metaphloem & Companion Cell
+AT5G42146	AT5G42146	Root	Elongation_Metaphloem & Companion Cell
+AT1G75820	CLV1	Root	Elongation_Metaphloem & Companion Cell
+AT1G13440	GAPC2	Root	Elongation_Metaphloem & Companion Cell
+AT4G36410	UBC17	Root	Elongation_Metaphloem & Companion Cell
+AT3G06962	AT3G06962	Root	Elongation_Metaphloem & Companion Cell
+AT5G41380	AT5G41380	Root	Elongation_Metaphloem & Companion Cell
+AT1G12010	AT1G12010	Root	Elongation_Metaphloem & Companion Cell
+AT5G27690	HIPP36	Root	Elongation_Metaphloem & Companion Cell
+AT2G46630	AT2G46630	Root	Elongation_Metaphloem & Companion Cell
+AT4G26970	ACO2	Root	Elongation_Metaphloem & Companion Cell
+AT1G54575	AT1G54575	Root	Elongation_Metaphloem & Companion Cell
+AT3G12730	PHL12	Root	Elongation_Metaphloem & Companion Cell
+AT5G26620	AT5G26620	Root	Elongation_Metaphloem & Companion Cell
+AT5G57350	AHA3	Root	Elongation_Metaphloem & Companion Cell
+AT3G03270	AT3G03270	Root	Elongation_Metaphloem & Companion Cell
+AT1G78580	TPS1	Root	Elongation_Metaphloem & Companion Cell
+AT2G15310	ATARFB1A	Root	Elongation_Metaphloem & Companion Cell
+AT4G10120	SPS4	Root	Elongation_Metaphloem & Companion Cell
+AT1G10380	AT1G10380	Root	Elongation_Metaphloem & Companion Cell
+AT1G75210	AT1G75210	Root	Elongation_Metaphloem & Companion Cell
+AT5G06850	FTIP1	Root	Elongation_Metaphloem & Companion Cell
+AT2G18960	AHA1	Root	Elongation_Metaphloem & Companion Cell
+AT5G02600	NAKR1	Root	Elongation_Metaphloem & Companion Cell
+AT3G03495	AT3G03495	Root	Elongation_Metaphloem & Companion Cell
+AT1G71870	DTX54	Root	Elongation_Metaphloem & Companion Cell
+AT2G47710	AT2G47710	Root	Elongation_Metaphloem & Companion Cell
+AT3G04300	AT3G04300	Root	Elongation_Metaphloem & Companion Cell
+AT5G58690	PLC5	Root	Elongation_Metaphloem & Companion Cell
+AT5G53120	SPDS3	Root	Elongation_Metaphloem & Companion Cell
+AT1G02705	AT1G02705	Root	Elongation_Metaphloem & Companion Cell
+AT5G53850	AT5G53850	Root	Elongation_Metaphloem & Companion Cell
+AT1G22050	MUB6	Root	Elongation_Metaphloem & Companion Cell
+AT5G04080	AT5G04080	Root	Elongation_Metaphloem & Companion Cell
+AT4G16480	INT4	Root	Elongation_Metaphloem & Companion Cell
+AT2G02000	GAD3	Root	Elongation_Metaphloem & Companion Cell
+AT5G12140	CYS1	Root	Elongation_Metaphloem & Companion Cell
+AT5G63990	SAL3	Root	Elongation_Metaphloem & Companion Cell
+AT3G48940	AT3G48940	Root	Elongation_Metaphloem & Companion Cell
+AT2G36330	AT2G36330	Root	Elongation_Metaphloem & Companion Cell
+AT3G23820	GAE6	Root	Elongation_Metaphloem & Companion Cell
+AT5G50720	HVA22E	Root	Elongation_Metaphloem & Companion Cell
+AT1G11570	NTL	Root	Elongation_Metaphloem & Companion Cell
+AT5G65280	GCL1	Root	Elongation_Metaphloem & Companion Cell
+AT1G23730	BCA3	Root	Elongation_Metaphloem & Companion Cell
+AT1G23350	AT1G23350	Root	Elongation_Metaxylem
+AT4G08685	SAH7	Root	Elongation_Metaxylem
+AT5G53830	VQ33	Root	Elongation_Metaxylem
+AT3G54820	PIP2-5	Root	Elongation_Metaxylem
+AT3G17600	IAA31	Root	Elongation_Metaxylem
+AT2G21540	SFH3	Root	Elongation_Metaxylem
+AT3G47290	ATPLC8	Root	Elongation_Metaxylem
+AT1G03010	AT1G03010	Root	Elongation_Metaxylem
+AT5G06710	HAT14	Root	Elongation_Metaxylem
+AT2G46572	AT2G46572	Root	Elongation_Metaxylem
+AT3G10080	AT3G10080	Root	Elongation_Metaxylem
+AT1G14700	PAP3	Root	Elongation_Metaxylem
+AT1G27380	RIC2	Root	Elongation_Metaxylem
+AT2G28410	AT2G28410	Root	Elongation_Metaxylem
+AT1G26570	UGD1	Root	Elongation_Metaxylem
+AT5G60490	FLA12	Root	Elongation_Metaxylem
+AT2G35760	AT2G35760	Root	Elongation_Metaxylem
+AT5G06670	AT5G06670	Root	Elongation_Metaxylem
+AT1G08283	AT1G08283	Root	Elongation_Metaxylem
+AT5G52655	AT5G52655	Root	Elongation_Metaxylem
+AT1G68810	BHLH30	Root	Elongation_Metaxylem
+AT3G51670	PATL6	Root	Elongation_Metaxylem
+AT1G14190	AT1G14190	Root	Elongation_Metaxylem
+AT4G06195	AT4G06195	Root	Elongation_Metaxylem
+AT1G52150	ATHB-15	Root	Elongation_Metaxylem
+AT2G40530	CEP15	Root	Elongation_Metaxylem
+AT3G23630	IPT7	Root	Elongation_Metaxylem
+AT4G32880	ATHB-8	Root	Elongation_Metaxylem
+AT5G64667	IDL2	Root	Elongation_Metaxylem
+AT5G37950	AT5G37950	Root	Elongation_Metaxylem
+AT3G08490	AT3G08490	Root	Elongation_Metaxylem
+AT5G08370	AGAL2	Root	Elongation_Metaxylem
+AT2G45450	ZPR1	Root	Elongation_Metaxylem
+AT3G17640	AT3G17640	Root	Elongation_Metaxylem
+AT1G12663	AT1G12663	Root	Elongation_Metaxylem
+AT3G54340	AP3	Root	Elongation_Metaxylem
+AT2G28490	AT2G28490	Root	Elongation_Metaxylem
+AT2G34710	ATHB-14	Root	Elongation_Metaxylem
+AT3G54260	TBL36	Root	Elongation_Metaxylem
+AT2G31070	TCP10	Root	Elongation_Metaxylem
+AT5G01890	PXC2	Root	Elongation_Metaxylem
+AT1G16400	CYP79F2	Root	Elongation_Metaxylem
+AT3G51030	TRX1	Root	Elongation_Metaxylem
+AT1G54200	AT1G54200	Root	Elongation_Metaxylem
+AT1G01380	ETC1	Root	Elongation_Metaxylem
+AT4G15802	HSBP	Root	Elongation_Metaxylem
+AT4G09890	AT4G09890	Root	Elongation_Metaxylem
+AT2G18060	NAC037	Root	Elongation_Metaxylem
+AT3G57210	AT3G57210	Root	Elongation_Metaxylem
+AT2G24230	AT2G24230	Root	Elongation_Metaxylem
+AT4G10310	HKT1	Root	Elongation_Phloem Pole Pericycle
+AT5G67160	EPS1	Root	Elongation_Phloem Pole Pericycle
+AT5G37660	CRRSP60	Root	Elongation_Phloem Pole Pericycle
+AT2G31083	CLE5	Root	Elongation_Phloem Pole Pericycle
+AT1G26450	AT1G26450	Root	Elongation_Phloem Pole Pericycle
+AT5G65020	ANN2	Root	Elongation_Phloem Pole Pericycle
+AT5G23760	AT5G23760	Root	Elongation_Phloem Pole Pericycle
+AT1G07770	RPS15AF	Root	Elongation_Phloem Pole Pericycle
+AT1G48600	NMT2	Root	Elongation_Phloem Pole Pericycle
+AT1G71692	AGL12	Root	Elongation_Phloem Pole Pericycle
+AT5G62820	AT5G62820	Root	Elongation_Phloem Pole Pericycle
+AT2G43050	PME16	Root	Elongation_Phloem Pole Pericycle
+AT1G78090	TPPB	Root	Elongation_Phloem Pole Pericycle
+AT1G27130	GSTU13	Root	Elongation_Phloem Pole Pericycle
+AT3G15680	AT3G15680	Root	Elongation_Phloem Pole Pericycle
+AT1G18270	AT1G18270	Root	Elongation_Phloem Pole Pericycle
+AT2G16385	CIF1	Root	Elongation_Phloem Pole Pericycle
+AT1G35910	TPPD	Root	Elongation_Phloem Pole Pericycle
+AT5G14340	AtMYB40	Root	Elongation_Phloem Pole Pericycle
+AT4G15960	AT4G15960	Root	Elongation_Phloem Pole Pericycle
+AT3G14570	CALS8	Root	Elongation_Phloem Pole Pericycle
+AT1G68110	AT1G68110	Root	Elongation_Phloem Pole Pericycle
+AT5G65030	AT5G65030	Root	Elongation_Phloem Pole Pericycle
+AT5G23050	AAE17	Root	Elongation_Phloem Pole Pericycle
+AT4G29100	BHLH68	Root	Elongation_Phloem Pole Pericycle
+AT1G70670	PXG4	Root	Elongation_Phloem Pole Pericycle
+AT1G47960	C/VIF1	Root	Elongation_Phloem Pole Pericycle
+AT1G70985	AT1G70985	Root	Elongation_Phloem Pole Pericycle
+AT5G23370	AT5G23370	Root	Elongation_Phloem Pole Pericycle
+AT4G23410	TET5	Root	Elongation_Phloem Pole Pericycle
+AT1G43650	AT1G43650	Root	Elongation_Phloem Pole Pericycle
+AT5G59090	SBT4.12	Root	Elongation_Phloem Pole Pericycle
+AT4G18340	AT4G18340	Root	Elongation_Phloem Pole Pericycle
+AT1G23820	SPDSYN1	Root	Elongation_Phloem Pole Pericycle
+AT3G59100	CALS6	Root	Elongation_Phloem Pole Pericycle
+AT3G51950	AT3G51950	Root	Elongation_Phloem Pole Pericycle
+AT2G34670	AT2G34670	Root	Elongation_Phloem Pole Pericycle
+AT5G23380	AT5G23380	Root	Elongation_Phloem Pole Pericycle
+AT3G02770	AT3G02770	Root	Elongation_Phloem Pole Pericycle
+AT3G27030	AT3G27030	Root	Elongation_Phloem Pole Pericycle
+AT2G44160	MTHFR2	Root	Elongation_Phloem Pole Pericycle
+AT1G20530	AT1G20530	Root	Elongation_Phloem Pole Pericycle
+AT3G61820	AT3G61820	Root	Elongation_Phloem Pole Pericycle
+AT3G47540	AT3G47540	Root	Elongation_Phloem Pole Pericycle
+AT4G26130	AT4G26130	Root	Elongation_Phloem Pole Pericycle
+AT1G71960	ABCG25	Root	Elongation_Phloem Pole Pericycle
+AT5G47920	AT5G47920	Root	Elongation_Phloem Pole Pericycle
+AT1G73850	AT1G73850	Root	Elongation_Phloem Pole Pericycle
+AT5G41670	PGD3	Root	Elongation_Phloem Pole Pericycle
+AT3G14990	DJ1A	Root	Elongation_Phloem Pole Pericycle
+AT4G34870	CYP18-4	Root	Elongation_Procambium
+AT4G14650	AT4G14650	Root	Elongation_Procambium
+AT5G17920	MS1	Root	Elongation_Procambium
+AT4G17770	TPS5	Root	Elongation_Procambium
+AT2G40480	AT2G40480	Root	Elongation_Procambium
+AT1G25530	AT1G25530	Root	Elongation_Procambium
+AT2G30520	RPT2	Root	Elongation_Procambium
+AT2G46890	AT2G46890	Root	Elongation_Procambium
+AT5G53250	AGP22	Root	Elongation_Procambium
+AT2G30490	CYP73A5	Root	Elongation_Procambium
+AT3G48970	HIPP31	Root	Elongation_Procambium
+AT1G12440	SAP1	Root	Elongation_Procambium
+AT4G13940	SAHH1	Root	Elongation_Procambium
+AT5G21105	AT5G21105	Root	Elongation_Procambium
+AT3G06370	NHX4	Root	Elongation_Procambium
+AT1G52190	NPF1.2	Root	Elongation_Procambium
+AT1G72150	PATL1	Root	Elongation_Procambium
+AT5G25890	IAA28	Root	Elongation_Procambium
+AT1G60390	PGL2	Root	Elongation_Procambium
+AT3G48185	AT3G48185	Root	Elongation_Procambium
+AT4G09160	PATL5	Root	Elongation_Procambium
+AT5G27000	KIN14G	Root	Elongation_Procambium
+AT2G45290	TKL-2	Root	Elongation_Procambium
+AT2G25070	PPC4-2	Root	Elongation_Procambium
+AT3G28860	ABCB19	Root	Elongation_Procambium
+AT4G32780	AT4G32780	Root	Elongation_Procambium
+AT3G16900	AT3G16900	Root	Elongation_Procambium
+AT1G72230	AT1G72230	Root	Elongation_Procambium
+AT3G55420	AT3G55420	Root	Elongation_Procambium
+AT1G25320	AT1G25320	Root	Elongation_Procambium
+AT3G54030	BSK6	Root	Elongation_Procambium
+AT3G47620	TCP14	Root	Elongation_Procambium
+AT1G77690	LAX3	Root	Elongation_Procambium
+AT2G30150	AT2G30150	Root	Elongation_Procambium
+AT4G32330	WDL5	Root	Elongation_Procambium
+AT5G57770	AT5G57770	Root	Elongation_Procambium
+AT2G40820	AT2G40820	Root	Elongation_Procambium
+AT4G34860	INVB	Root	Elongation_Procambium
+AT1G19968	AT1G19968	Root	Elongation_Procambium
+AT5G19820	emb2734	Root	Elongation_Procambium
+AT5G06560	MYOB7	Root	Elongation_Procambium
+AT1G04550	IAA12	Root	Elongation_Procambium
+AT5G54160	OMT1	Root	Elongation_Procambium
+AT1G76460	AT1G76460	Root	Elongation_Procambium
+AT4G21960	PER42	Root	Elongation_Procambium
+AT1G74740	CPK30	Root	Elongation_Procambium
+AT5G17910	AT5G17910	Root	Elongation_Procambium
+AT1G28440	HSL1	Root	Elongation_Procambium
+AT5G38450	CYP735A1	Root	Elongation_Procambium
+AT3G57410	VLN3	Root	Elongation_Procambium
+AT2G27030	CAM5	Root	Elongation_Protophloem
+AT5G62940	DOF5.6	Root	Elongation_Protophloem
+AT3G17730	anac057	Root	Elongation_Protophloem
+AT1G08160	AT1G08160	Root	Elongation_Protophloem
+AT2G18380	GATA20	Root	Elongation_Protophloem
+AT1G11915	AT1G11915	Root	Elongation_Protophloem
+AT2G37925	COPT4	Root	Elongation_Protophloem
+AT5G25490	AT5G25490	Root	Elongation_Protophloem
+AT1G60030	NAT7	Root	Elongation_Protophloem
+AT5G67460	AT5G67460	Root	Elongation_Protophloem
+AT5G48060	AT5G48060	Root	Elongation_Protophloem
+AT5G24300	SS1	Root	Elongation_Protophloem
+AT2G16600	CYP19-1	Root	Elongation_Protophloem
+AT4G13600	AT4G13600	Root	Elongation_Protophloem
+AT1G54330	ANAC020	Root	Elongation_Protophloem
+AT1G19835	FPP4	Root	Elongation_Protophloem
+AT2G16850	PIP2-8	Root	Elongation_Protophloem
+AT5G14890	AT5G14890	Root	Elongation_Protophloem
+AT1G06490	CALS7	Root	Elongation_Protophloem
+AT2G44830	AT2G44830	Root	Elongation_Protophloem
+AT3G01940	AT3G01940	Root	Elongation_Protophloem
+AT5G65040	IRM1	Root	Elongation_Protophloem
+AT2G41300	SSL1	Root	Elongation_Protophloem
+AT2G45900	AT2G45900	Root	Elongation_Protophloem
+AT3G05327	AT3G05327	Root	Elongation_Protophloem
+AT4G29920	AT4G29920	Root	Elongation_Protophloem
+AT1G05780	AT1G05780	Root	Elongation_Protophloem
+AT5G11100	SYTD	Root	Elongation_Protophloem
+AT5G57110	ACA8	Root	Elongation_Protophloem
+AT2G27020	PAG1	Root	Elongation_Protophloem
+AT3G45610	DOF3.2	Root	Elongation_Protophloem
+AT3G28455	CLE25	Root	Elongation_Protophloem
+AT3G49360	PGL2	Root	Elongation_Protophloem
+AT2G37590	DOF2.4	Root	Elongation_Protophloem
+AT5G02460	DOF5.1	Root	Elongation_Protophloem
+AT3G56580	RZF1	Root	Elongation_Protophloem
+AT2G35635	RUB2	Root	Elongation_Protophloem
+AT4G14740	AT4G14740	Root	Elongation_Protophloem
+AT5G57130	SMXL5	Root	Elongation_Protophloem
+AT4G28330	AT4G28330	Root	Elongation_Protophloem
+AT1G53850	PAE1	Root	Elongation_Protophloem
+AT3G49390	CID10	Root	Elongation_Protophloem
+AT1G16022	AT1G16022	Root	Elongation_Protophloem
+AT1G69580	AT1G69580	Root	Elongation_Protophloem
+AT3G50360	CML20	Root	Elongation_Protophloem
+AT2G41330	AT2G41330	Root	Elongation_Protophloem
+AT2G37610	SMR12	Root	Elongation_Protophloem
+AT1G33475	PHYL1.2	Root	Elongation_Protophloem
+AT5G23100	AT5G23100	Root	Elongation_Protophloem
+AT1G16340	ATKDSA2	Root	Elongation_Protophloem
+AT1G66810	AT1G66810	Root	Elongation_Protoxylem
+AT3G29360	UGD2	Root	Elongation_Protoxylem
+AT2G46710	ROPGAP3	Root	Elongation_Protoxylem
+AT1G68200	AT1G68200	Root	Elongation_Protoxylem
+AT1G01900	SBTI1.1	Root	Elongation_Protoxylem
+AT1G50010	TUBA4	Root	Elongation_Protoxylem
+AT5G02010	ROPGEF7	Root	Elongation_Protoxylem
+AT1G08767	AT1G08767	Root	Elongation_Protoxylem
+AT3G08500	MYB83	Root	Elongation_Protoxylem
+AT5G15500	AT5G15500	Root	Elongation_Protoxylem
+AT5G46115	AT5G46115	Root	Elongation_Protoxylem
+AT5G62880	ARAC10	Root	Elongation_Protoxylem
+AT5G64030	AT5G64030	Root	Elongation_Protoxylem
+AT5G26330	AT5G26330	Root	Elongation_Protoxylem
+AT4G07950	AT4G07950	Root	Elongation_Protoxylem
+AT5G62380	NAC101	Root	Elongation_Protoxylem
+AT5G35960	AT5G35960	Root	Elongation_Protoxylem
+AT3G11490	ROPGAP4	Root	Elongation_Protoxylem
+AT5G48740	AT5G48740	Root	Elongation_Protoxylem
+AT5G35160	TMN11	Root	Elongation_Protoxylem
+AT5G12250	TUBB6	Root	Elongation_Protoxylem
+AT1G02640	BXL2	Root	Elongation_Protoxylem
+AT5G57670	AT5G57670	Root	Elongation_Protoxylem
+AT3G06035	AT3G06035	Root	Elongation_Protoxylem
+AT1G75020	LPAT4	Root	Elongation_Protoxylem
+AT2G21300	KIN7E	Root	Elongation_Protoxylem
+AT5G60650	AT5G60650	Root	Elongation_Protoxylem
+AT1G20030	AT1G20030	Root	Elongation_Protoxylem
+AT3G27070	TOM20-1	Root	Elongation_Protoxylem
+AT1G14440	ZHD4	Root	Elongation_Protoxylem
+AT4G14200	AT4G14200	Root	Elongation_Protoxylem
+AT4G39320	AT4G39320	Root	Elongation_Protoxylem
+AT3G19260	LAG2	Root	Elongation_Protoxylem
+AT1G75410	BLH3	Root	Elongation_Protoxylem
+AT5G18410	PIR	Root	Elongation_Protoxylem
+AT2G46300	AT2G46300	Root	Elongation_Protoxylem
+AT2G46760	GULLO6	Root	Elongation_Protoxylem
+AT5G62865	AT5G62865	Root	Elongation_Protoxylem
+AT1G62981	AT1G62981	Root	Elongation_Protoxylem
+AT5G45970	ARAC2	Root	Elongation_Protoxylem
+AT5G59290	UXS3	Root	Elongation_Protoxylem
+AT4G30020	SBT2.6	Root	Elongation_Protoxylem
+AT1G75840	ARAC5	Root	Elongation_Protoxylem
+AT1G79620	AT1G79620	Root	Elongation_Protoxylem
+AT5G19390	ROPGAP7	Root	Elongation_Protoxylem
+AT3G08490	AT3G08490	Root	Elongation_Protoxylem
+AT2G35110	NAP1	Root	Elongation_Protoxylem
+AT5G01360	TBL3	Root	Elongation_Protoxylem
+AT2G28315	UXT1	Root	Elongation_Protoxylem
+AT3G09980	AT3G09980	Root	Elongation_Protoxylem
+AT5G11440	CID5	Root	Elongation_Trichoblast
+AT1G53680	GSTU28	Root	Elongation_Trichoblast
+AT2G45750	AT2G45750	Root	Elongation_Trichoblast
+AT4G37640	ACA2	Root	Elongation_Trichoblast
+AT1G07795	AT1G07795	Root	Elongation_Trichoblast
+AT2G34940	VSR5	Root	Elongation_Trichoblast
+AT1G52660	AT1G52660	Root	Elongation_Trichoblast
+AT5G49270	COBL9	Root	Elongation_Trichoblast
+AT4G09500	UGT79B7	Root	Elongation_Trichoblast
+AT2G47540	AT2G47540	Root	Elongation_Trichoblast
+AT3G05155	AT3G05155	Root	Elongation_Trichoblast
+AT1G33090	DTX22	Root	Elongation_Trichoblast
+AT5G39320	UGD4	Root	Elongation_Trichoblast
+AT3G46490	AT3G46490	Root	Elongation_Trichoblast
+AT3G43960	RDL3	Root	Elongation_Trichoblast
+AT4G26830	AT4G26830	Root	Elongation_Trichoblast
+AT5G02795	AT5G02795	Root	Elongation_Trichoblast
+AT5G13500	HPAT3	Root	Elongation_Trichoblast
+AT2G17720	P4H5	Root	Elongation_Trichoblast
+AT5G12050	AT5G12050	Root	Elongation_Trichoblast
+AT4G26770	CDS3	Root	Elongation_Trichoblast
+AT3G27300	G6PD5	Root	Elongation_Trichoblast
+AT5G16910	CSLD2	Root	Elongation_Trichoblast
+AT1G24620	CML25	Root	Elongation_Trichoblast
+AT2G35070	AT2G35070	Root	Elongation_Trichoblast
+AT4G09100	ATL39	Root	Elongation_Trichoblast
+AT1G08990	GUX5	Root	Elongation_Trichoblast
+AT5G27150	NHX1	Root	Elongation_Trichoblast
+AT1G22500	ATL15	Root	Elongation_Trichoblast
+AT3G18060	AIP1-2	Root	Elongation_Trichoblast
+AT1G65610	KOR2	Root	Elongation_Trichoblast
+AT5G62310	IRE	Root	Elongation_Trichoblast
+AT3G61560	RTNLB6	Root	Elongation_Trichoblast
+AT4G02830	AT4G02830	Root	Elongation_Trichoblast
+AT2G28960	AT2G28960	Root	Elongation_Trichoblast
+AT3G21180	ACA9	Root	Elongation_Trichoblast
+AT3G46270	AT3G46270	Root	Elongation_Trichoblast
+AT4G13440	AT4G13440	Root	Elongation_Trichoblast
+AT3G20410	CPK9	Root	Elongation_Trichoblast
+AT4G07960	CSLC12	Root	Elongation_Trichoblast
+AT3G51160	MUR1	Root	Elongation_Trichoblast
+AT1G10385	EXO84A	Root	Elongation_Trichoblast
+AT2G44450	BGLU15	Root	Elongation_Trichoblast
+AT2G28440	AT2G28440	Root	Elongation_Trichoblast
+AT1G27740	BHLH54	Root	Elongation_Trichoblast
+AT5G15890	TBL21	Root	Elongation_Trichoblast
+AT1G69240	MES15	Root	Elongation_Trichoblast
+AT3G23190	AT3G23190	Root	Elongation_Trichoblast
+AT5G13990	ATEXO70C2	Root	Elongation_Trichoblast
+AT1G05320	AT1G05320	Root	Elongation_Trichoblast
+AT3G26610	AT3G26610	Root	Elongation_Xylem Pole Pericycle
+AT3G11630	BAS1	Root	Elongation_Xylem Pole Pericycle
+AT3G45700	NPF2.4	Root	Elongation_Xylem Pole Pericycle
+AT1G16350	AT1G16350	Root	Elongation_Xylem Pole Pericycle
+AT5G56500	CPN60B3	Root	Elongation_Xylem Pole Pericycle
+AT3G61490	AT3G61490	Root	Elongation_Xylem Pole Pericycle
+AT4G20210	TPS08	Root	Elongation_Xylem Pole Pericycle
+AT2G18800	XTH21	Root	Elongation_Xylem Pole Pericycle
+AT1G23760	PGL1	Root	Elongation_Xylem Pole Pericycle
+AT3G29680	AT3G29680	Root	Elongation_Xylem Pole Pericycle
+AT5G17870	PSRP6	Root	Elongation_Xylem Pole Pericycle
+AT5G16570	GLN1-4	Root	Elongation_Xylem Pole Pericycle
+AT1G31670	AT1G31670	Root	Elongation_Xylem Pole Pericycle
+AT4G34620	RPS16-1	Root	Elongation_Xylem Pole Pericycle
+AT5G19730	PME53	Root	Elongation_Xylem Pole Pericycle
+AT4G28410	AT4G28410	Root	Elongation_Xylem Pole Pericycle
+AT4G35050	MSI3	Root	Elongation_Xylem Pole Pericycle
+AT4G18510	CLE2	Root	Elongation_Xylem Pole Pericycle
+AT3G49860	ARL8D	Root	Elongation_Xylem Pole Pericycle
+AT5G44530	AT5G44530	Root	Elongation_Xylem Pole Pericycle
+AT2G26040	PYL2	Root	Elongation_Xylem Pole Pericycle
+AT1G30760	AT1G30760	Root	Elongation_Xylem Pole Pericycle
+AT3G04790	RPI3	Root	Elongation_Xylem Pole Pericycle
+AT2G37440	IP5P8	Root	Elongation_Xylem Pole Pericycle
+AT5G26930	GATA23	Root	Elongation_Xylem Pole Pericycle
+AT5G62630	HIPL2	Root	Elongation_Xylem Pole Pericycle
+AT1G02460	AT1G02460	Root	Elongation_Xylem Pole Pericycle
+AT5G57810	TET15	Root	Elongation_Xylem Pole Pericycle
+AT4G23500	AT4G23500	Root	Elongation_Xylem Pole Pericycle
+AT2G44300	AT2G44300	Root	Elongation_Xylem Pole Pericycle
+AT2G22250	PAT	Root	Elongation_Xylem Pole Pericycle
+AT4G22160	AT4G22160	Root	Elongation_Xylem Pole Pericycle
+AT3G17185	TASIR-ARF	Root	Elongation_Xylem Pole Pericycle
+AT5G16040	AT5G16040	Root	Elongation_Xylem Pole Pericycle
+AT5G52780	AT5G52780	Root	Elongation_Xylem Pole Pericycle
+AT5G66816	CEP6	Root	Elongation_Xylem Pole Pericycle
+AT4G24770	CP31A	Root	Elongation_Xylem Pole Pericycle
+AT2G39670	AT2G39670	Root	Elongation_Xylem Pole Pericycle
+AT4G32400	BT1	Root	Elongation_Xylem Pole Pericycle
+AT5G20720	CPN20	Root	Elongation_Xylem Pole Pericycle
+AT3G13810	AtIDD11	Root	Elongation_Xylem Pole Pericycle
+AT2G15790	CYP40	Root	Elongation_Xylem Pole Pericycle
+AT1G52300	RPL37B	Root	Elongation_Xylem Pole Pericycle
+AT3G62030	ROC4	Root	Elongation_Xylem Pole Pericycle
+AT1G02500	SAM1	Root	Elongation_Xylem Pole Pericycle
+AT3G61510	ACS1	Root	Elongation_Xylem Pole Pericycle
+AT1G20816	OEP21A	Root	Elongation_Xylem Pole Pericycle
+AT2G05830	AT2G05830	Root	Elongation_Xylem Pole Pericycle
+AT3G47560	AT3G47560	Root	Elongation_Xylem Pole Pericycle
+AT2G40970	MYBC1	Root	Elongation_Xylem Pole Pericycle
+AT5G42980	TRX3	Root	Maturation_Metaphloem & Companion Cell
+AT2G32150	AT2G32150	Root	Maturation_Metaphloem & Companion Cell
+AT1G59730	TRX7	Root	Maturation_Metaphloem & Companion Cell
+AT1G10900	PIP5K7	Root	Maturation_Metaphloem & Companion Cell
+AT1G69410	ELF5A-3	Root	Maturation_Metaphloem & Companion Cell
+AT1G12140	FMOGS-OX5	Root	Maturation_Metaphloem & Companion Cell
+AT1G76130	AMY2	Root	Maturation_Metaphloem & Companion Cell
+AT5G48960	AT5G48960	Root	Maturation_Metaphloem & Companion Cell
+AT5G27690	HIPP36	Root	Maturation_Metaphloem & Companion Cell
+AT5G57190	PSD2	Root	Maturation_Metaphloem & Companion Cell
+AT3G04300	AT3G04300	Root	Maturation_Metaphloem & Companion Cell
+AT5G14500	AT5G14500	Root	Maturation_Metaphloem & Companion Cell
+AT4G27960	UBC9	Root	Maturation_Metaphloem & Companion Cell
+AT2G23150	NRAMP3	Root	Maturation_Metaphloem & Companion Cell
+AT1G51340	DTX42	Root	Maturation_Metaphloem & Companion Cell
+AT3G08115	AT3G08115	Root	Maturation_Metaphloem & Companion Cell
+AT2G36330	AT2G36330	Root	Maturation_Metaphloem & Companion Cell
+AT5G64240	AMC3	Root	Maturation_Metaphloem & Companion Cell
+AT5G58690	PLC5	Root	Maturation_Metaphloem & Companion Cell
+AT5G53850	AT5G53850	Root	Maturation_Metaphloem & Companion Cell
+AT1G12010	AT1G12010	Root	Maturation_Metaphloem & Companion Cell
+AT5G49320	AT5G49320	Root	Maturation_Metaphloem & Companion Cell
+AT5G65280	GCL1	Root	Maturation_Metaphloem & Companion Cell
+AT2G18196	HIPP30	Root	Maturation_Metaphloem & Companion Cell
+AT1G75820	CLV1	Root	Maturation_Metaphloem & Companion Cell
+AT3G15300	VQ19	Root	Maturation_Metaphloem & Companion Cell
+AT3G58720	AT3G58720	Root	Maturation_Metaphloem & Companion Cell
+AT1G71040	LPR2	Root	Maturation_Metaphloem & Companion Cell
+AT1G54575	AT1G54575	Root	Maturation_Metaphloem & Companion Cell
+AT4G19450	AT4G19450	Root	Maturation_Metaphloem & Companion Cell
+AT4G33660	AT4G33660	Root	Maturation_Metaphloem & Companion Cell
+AT5G26620	AT5G26620	Root	Maturation_Metaphloem & Companion Cell
+AT5G12140	CYS1	Root	Maturation_Metaphloem & Companion Cell
+AT1G31812	ACBP6	Root	Maturation_Metaphloem & Companion Cell
+AT4G22340	CDS2	Root	Maturation_Metaphloem & Companion Cell
+AT1G10140	AT1G10140	Root	Maturation_Metaphloem & Companion Cell
+AT4G37180	HHO5	Root	Maturation_Metaphloem & Companion Cell
+AT5G54130	AT5G54130	Root	Maturation_Metaphloem & Companion Cell
+AT5G20830	SUS1	Root	Maturation_Metaphloem & Companion Cell
+AT5G66440	AT5G66440	Root	Maturation_Metaphloem & Companion Cell
+AT5G53120	SPDS3	Root	Maturation_Metaphloem & Companion Cell
+AT5G05365	AT5G05365	Root	Maturation_Metaphloem & Companion Cell
+AT3G22961	AT3G22961	Root	Maturation_Metaphloem & Companion Cell
+AT3G21600	AT3G21600	Root	Maturation_Metaphloem & Companion Cell
+AT5G52120	PP2A14	Root	Maturation_Metaphloem & Companion Cell
+AT2G27150	AAO3	Root	Maturation_Metaphloem & Companion Cell
+AT2G38640	AT2G38640	Root	Maturation_Metaphloem & Companion Cell
+AT3G21510	AHP1	Root	Maturation_Metaphloem & Companion Cell
+AT1G13440	GAPC2	Root	Maturation_Metaphloem & Companion Cell
+AT2G36650	AT2G36650	Root	Maturation_Metaphloem & Companion Cell
+AT5G64700	AT5G64700	Root	Maturation_Phloem Pole Pericycle
+AT5G23810	AAP7	Root	Maturation_Phloem Pole Pericycle
+AT1G12200	AT1G12200	Root	Maturation_Phloem Pole Pericycle
+AT4G35190	LOG5	Root	Maturation_Phloem Pole Pericycle
+AT5G35110	AT5G35110	Root	Maturation_Phloem Pole Pericycle
+AT3G11280	AT3G11280	Root	Maturation_Phloem Pole Pericycle
+AT2G41410	CML35	Root	Maturation_Phloem Pole Pericycle
+AT5G55530	AT5G55530	Root	Maturation_Phloem Pole Pericycle
+AT3G06020	FAF4	Root	Maturation_Phloem Pole Pericycle
+AT4G23410	TET5	Root	Maturation_Phloem Pole Pericycle
+AT3G47540	AT3G47540	Root	Maturation_Phloem Pole Pericycle
+AT3G04070	NAC047	Root	Maturation_Phloem Pole Pericycle
+AT5G13740	ZIF1	Root	Maturation_Phloem Pole Pericycle
+AT1G47960	C/VIF1	Root	Maturation_Phloem Pole Pericycle
+AT2G38310	PYL4	Root	Maturation_Phloem Pole Pericycle
+AT2G35300	LEA18	Root	Maturation_Phloem Pole Pericycle
+AT3G56620	AT3G56620	Root	Maturation_Phloem Pole Pericycle
+AT1G07200	SMXL6	Root	Maturation_Phloem Pole Pericycle
+AT4G28270	RMA2	Root	Maturation_Phloem Pole Pericycle
+AT3G27030	AT3G27030	Root	Maturation_Phloem Pole Pericycle
+AT3G16340	ABCG29	Root	Maturation_Phloem Pole Pericycle
+AT2G47160	BOR1	Root	Maturation_Phloem Pole Pericycle
+AT4G17788	MIR160B	Root	Maturation_Phloem Pole Pericycle
+AT2G03240	PHO1-H5	Root	Maturation_Phloem Pole Pericycle
+AT2G24260	BHLH66	Root	Maturation_Phloem Pole Pericycle
+AT1G62710	bVPE	Root	Maturation_Phloem Pole Pericycle
+AT2G34190	NAT2	Root	Maturation_Phloem Pole Pericycle
+AT4G22770	AHL2	Root	Maturation_Phloem Pole Pericycle
+AT5G05440	PYL5	Root	Maturation_Phloem Pole Pericycle
+AT5G51850	AT5G51850	Root	Maturation_Phloem Pole Pericycle
+AT1G29160	DOF1.5	Root	Maturation_Phloem Pole Pericycle
+AT2G30080	ZIP6	Root	Maturation_Phloem Pole Pericycle
+AT5G07590	AT5G07590	Root	Maturation_Phloem Pole Pericycle
+AT5G07580	ERF106	Root	Maturation_Phloem Pole Pericycle
+AT4G18340	AT4G18340	Root	Maturation_Phloem Pole Pericycle
+AT1G73850	AT1G73850	Root	Maturation_Phloem Pole Pericycle
+AT2G34140	CDF4	Root	Maturation_Phloem Pole Pericycle
+AT5G07322	AT5G07322	Root	Maturation_Phloem Pole Pericycle
+AT3G62990	AT3G62990	Root	Maturation_Phloem Pole Pericycle
+AT4G23420	AT4G23420	Root	Maturation_Phloem Pole Pericycle
+AT4G15340	PEN1	Root	Maturation_Phloem Pole Pericycle
+AT3G11420	AT3G11420	Root	Maturation_Phloem Pole Pericycle
+AT1G09932	AT1G09932	Root	Maturation_Phloem Pole Pericycle
+AT2G18550	ATHB-21	Root	Maturation_Phloem Pole Pericycle
+AT4G25170	AT4G25170	Root	Maturation_Phloem Pole Pericycle
+AT5G59080	AT5G59080	Root	Maturation_Phloem Pole Pericycle
+AT4G34560	AT4G34560	Root	Maturation_Phloem Pole Pericycle
+AT2G24360	STY13	Root	Maturation_Phloem Pole Pericycle
+AT1G73390	AT1G73390	Root	Maturation_Phloem Pole Pericycle
+AT4G39190	AT4G39190	Root	Maturation_Phloem Pole Pericycle
+AT1G59740	NPF4.3	Root	Maturation_Procambium
+AT1G61660	BHLH112	Root	Maturation_Procambium
+AT2G22800	HAT9	Root	Maturation_Procambium
+AT2G37760	AKR4C8	Root	Maturation_Procambium
+AT1G66600	WRKY63	Root	Maturation_Procambium
+AT5G65660	AT5G65660	Root	Maturation_Procambium
+AT2G32240	AT2G32240	Root	Maturation_Procambium
+AT4G32860	AT4G32860	Root	Maturation_Procambium
+AT5G51850	AT5G51850	Root	Maturation_Procambium
+AT4G12080	AHL1	Root	Maturation_Procambium
+AT2G29650	ANTR1	Root	Maturation_Procambium
+AT3G13730	CYP90D1	Root	Maturation_Procambium
+AT3G04570	AHL19	Root	Maturation_Procambium
+AT5G17300	RVE1	Root	Maturation_Procambium
+AT1G70800	CAR6	Root	Maturation_Procambium
+AT2G37770	AKR4C9	Root	Maturation_Procambium
+AT4G37260	MYB73	Root	Maturation_Procambium
+AT1G35210	AT1G35210	Root	Maturation_Procambium
+AT4G13345	MEE55	Root	Maturation_Procambium
+AT4G28930	AT4G28930	Root	Maturation_Procambium
+AT1G60940	SRK2B	Root	Maturation_Procambium
+AT5G48070	XTH20	Root	Maturation_Procambium
+AT1G33700	AT1G33700	Root	Maturation_Procambium
+AT2G28660	AT2G28660	Root	Maturation_Procambium
+AT1G64720	CP5	Root	Maturation_Procambium
+AT1G14480	AT1G14480	Root	Maturation_Procambium
+AT5G50450	AT5G50450	Root	Maturation_Procambium
+AT2G18500	OFP7	Root	Maturation_Procambium
+AT1G01010	NAC001	Root	Maturation_Procambium
+AT3G25620	ABCG21	Root	Maturation_Procambium
+AT3G54140	NPF8.1	Root	Maturation_Procambium
+AT4G15450	AT4G15450	Root	Maturation_Procambium
+AT5G65870	PSK5	Root	Maturation_Procambium
+AT3G49940	LBD38	Root	Maturation_Procambium
+AT1G68290	ENDO2	Root	Maturation_Procambium
+AT1G66720	AT1G66720	Root	Maturation_Procambium
+AT4G31110	WAKL18	Root	Maturation_Procambium
+AT2G17120	LYM2	Root	Maturation_Procambium
+AT1G15415	AT1G15415	Root	Maturation_Procambium
+AT2G22680	WAVH1	Root	Maturation_Procambium
+AT2G27830	AT2G27830	Root	Maturation_Procambium
+AT5G13330	ERF113	Root	Maturation_Procambium
+AT5G67090	SBT1.9	Root	Maturation_Procambium
+AT1G66880	AT1G66880	Root	Maturation_Procambium
+AT1G70920	ATHB-X	Root	Maturation_Procambium
+AT3G26830	CYP71B15	Root	Maturation_Procambium
+AT5G10210	AT5G10210	Root	Maturation_Procambium
+AT1G66725	MIR163	Root	Maturation_Procambium
+AT4G34230	CAD5	Root	Maturation_Procambium
+AT2G03240	PHO1-H5	Root	Maturation_Procambium
+AT3G63000	NPL41	Root	Maturation_Protophloem
+AT1G76900	TULP1	Root	Maturation_Protophloem
+AT5G56010	HSP90-3	Root	Maturation_Protophloem
+AT5G17260	NAC086	Root	Maturation_Protophloem
+AT1G68000	PIS1	Root	Maturation_Protophloem
+AT1G05780	AT1G05780	Root	Maturation_Protophloem
+AT1G27170	AT1G27170	Root	Maturation_Protophloem
+AT1G11915	AT1G11915	Root	Maturation_Protophloem
+AT1G06490	CALS7	Root	Maturation_Protophloem
+AT4G11910	SGR2	Root	Maturation_Protophloem
+AT5G48060	AT5G48060	Root	Maturation_Protophloem
+AT4G35860	RABB1B	Root	Maturation_Protophloem
+AT5G18650	MIEL1	Root	Maturation_Protophloem
+AT1G31880	NLM9	Root	Maturation_Protophloem
+AT1G63310	AT1G63310	Root	Maturation_Protophloem
+AT1G33475	PHYL1.2	Root	Maturation_Protophloem
+AT2G45900	AT2G45900	Root	Maturation_Protophloem
+AT3G03240	AT3G03240	Root	Maturation_Protophloem
+AT5G14110	AT5G14110	Root	Maturation_Protophloem
+AT1G13050	AT1G13050	Root	Maturation_Protophloem
+AT4G28330	AT4G28330	Root	Maturation_Protophloem
+AT3G01940	AT3G01940	Root	Maturation_Protophloem
+AT1G54330	ANAC020	Root	Maturation_Protophloem
+AT5G25490	AT5G25490	Root	Maturation_Protophloem
+AT1G60030	NAT7	Root	Maturation_Protophloem
+AT1G70505	AT1G70505	Root	Maturation_Protophloem
+AT5G16450	AT5G16450	Root	Maturation_Protophloem
+AT5G14890	AT5G14890	Root	Maturation_Protophloem
+AT4G27960	UBC9	Root	Maturation_Protophloem
+AT2G27030	CAM5	Root	Maturation_Protophloem
+AT1G29380	AT1G29380	Root	Maturation_Protophloem
+AT5G19990	RPT6A	Root	Maturation_Protophloem
+AT3G49360	PGL2	Root	Maturation_Protophloem
+AT3G02677	AT3G02677	Root	Maturation_Protophloem
+AT5G56030	HSP81-2	Root	Maturation_Protophloem
+AT3G57800	BHLH60	Root	Maturation_Protophloem
+AT1G16022	AT1G16022	Root	Maturation_Protophloem
+AT3G63050	AT3G63050	Root	Maturation_Protophloem
+AT3G21420	AT3G21420	Root	Maturation_Protophloem
+AT3G13750	BGAL1	Root	Maturation_Protophloem
+AT3G05327	AT3G05327	Root	Maturation_Protophloem
+AT2G28510	DOF2.1	Root	Maturation_Protophloem
+AT1G67360	AT1G67360	Root	Maturation_Protophloem
+AT5G40720	AT5G40720	Root	Maturation_Protophloem
+AT2G18380	GATA20	Root	Maturation_Protophloem
+AT5G11990	AT5G11990	Root	Maturation_Protophloem
+AT3G17730	anac057	Root	Maturation_Protophloem
+AT2G37590	DOF2.4	Root	Maturation_Protophloem
+AT2G37925	COPT4	Root	Maturation_Protophloem
+AT5G24300	SS1	Root	Maturation_Protophloem
+AT4G00210	LBD31	Root	Maturation_Protoxylem
+AT4G22680	MYB85	Root	Maturation_Protoxylem
+AT1G09890	AT1G09890	Root	Maturation_Protoxylem
+AT4G19110	AT4G19110	Root	Maturation_Protoxylem
+AT1G02335	GL22	Root	Maturation_Protoxylem
+AT4G00230	SBT4.14	Root	Maturation_Protoxylem
+AT1G75170	AT1G75170	Root	Maturation_Protoxylem
+AT5G48920	TED7	Root	Maturation_Protoxylem
+AT1G12450	AT1G12450	Root	Maturation_Protoxylem
+AT2G34360	DTX15	Root	Maturation_Protoxylem
+AT5G42050	AT5G42050	Root	Maturation_Protoxylem
+AT1G24030	PBL28	Root	Maturation_Protoxylem
+AT1G43790	TED6	Root	Maturation_Protoxylem
+AT5G01930	MAN6	Root	Maturation_Protoxylem
+AT3G24535	AT3G24535	Root	Maturation_Protoxylem
+AT1G76020	AT1G76020	Root	Maturation_Protoxylem
+AT2G24550	AT2G24550	Root	Maturation_Protoxylem
+AT4G08160	XYN3	Root	Maturation_Protoxylem
+AT2G26800	HMGCL	Root	Maturation_Protoxylem
+AT2G18630	AT2G18630	Root	Maturation_Protoxylem
+AT1G55180	PLDALPHA4	Root	Maturation_Protoxylem
+AT1G57670	AT1G57670	Root	Maturation_Protoxylem
+AT3G45870	AT3G45870	Root	Maturation_Protoxylem
+AT5G40020	AT5G40020	Root	Maturation_Protoxylem
+AT3G10410	SCPL49	Root	Maturation_Protoxylem
+AT2G17940	AT2G17940	Root	Maturation_Protoxylem
+AT3G58600	AT3G58600	Root	Maturation_Protoxylem
+AT1G58370	RXF12	Root	Maturation_Protoxylem
+AT1G01240	AT1G01240	Root	Maturation_Protoxylem
+AT5G60020	LAC17	Root	Maturation_Protoxylem
+AT5G59840	AT5G59840	Root	Maturation_Protoxylem
+AT3G22415	AT3G22415	Root	Maturation_Protoxylem
+AT5G07080	AT5G07080	Root	Maturation_Protoxylem
+AT5G03260	LAC11	Root	Maturation_Protoxylem
+AT1G10670	ACLA-1	Root	Maturation_Protoxylem
+AT3G45280	SYP72	Root	Maturation_Protoxylem
+AT1G17950	MYB52	Root	Maturation_Protoxylem
+AT2G35860	FLA16	Root	Maturation_Protoxylem
+AT1G47410	AT1G47410	Root	Maturation_Protoxylem
+AT1G48280	AT1G48280	Root	Maturation_Protoxylem
+AT3G51190	RPL8B	Root	Maturation_Protoxylem
+AT1G09440	AT1G09440	Root	Maturation_Protoxylem
+AT1G19300	GATL1	Root	Maturation_Protoxylem
+AT3G50220	IRX15	Root	Maturation_Protoxylem
+AT1G27440	IRX10	Root	Maturation_Protoxylem
+AT1G29890	AT1G29890	Root	Maturation_Protoxylem
+AT2G20650	FLY2	Root	Maturation_Protoxylem
+AT5G59845	GASA10	Root	Maturation_Protoxylem
+AT3G13520	AGP12	Root	Maturation_Protoxylem
+AT1G27920	MAP65-8	Root	Maturation_Protoxylem
+AT1G06923	AT1G06923	Root	Maturation_Trichoblast
+AT2G22290	RABH1D	Root	Maturation_Trichoblast
+AT5G55400	FIM3	Root	Maturation_Trichoblast
+AT5G06640	AT5G06640	Root	Maturation_Trichoblast
+AT4G08400	AT4G08400	Root	Maturation_Trichoblast
+AT4G25820	XTH14	Root	Maturation_Trichoblast
+AT4G08410	AT4G08410	Root	Maturation_Trichoblast
+AT4G22080	RHS14	Root	Maturation_Trichoblast
+AT2G25240	AT2G25240	Root	Maturation_Trichoblast
+AT4G02270	RHS13	Root	Maturation_Trichoblast
+AT4G34580	SFH1	Root	Maturation_Trichoblast
+AT3G60330	AHA7	Root	Maturation_Trichoblast
+AT5G57625	AT5G57625	Root	Maturation_Trichoblast
+AT5G06630	AT5G06630	Root	Maturation_Trichoblast
+AT2G31350	GLX2-5	Root	Maturation_Trichoblast
+AT5G18910	AT5G18910	Root	Maturation_Trichoblast
+AT4G13390	AT4G13390	Root	Maturation_Trichoblast
+AT2G24980	AT2G24980	Root	Maturation_Trichoblast
+AT5G67400	PER73	Root	Maturation_Trichoblast
+AT1G55640	PRA1G1	Root	Maturation_Trichoblast
+AT4G25220	RHS15	Root	Maturation_Trichoblast
+AT4G25790	AT4G25790	Root	Maturation_Trichoblast
+AT4G33020	ZIP9	Root	Maturation_Trichoblast
+AT1G34760	GRF11	Root	Maturation_Trichoblast
+AT5G43230	AT5G43230	Root	Maturation_Trichoblast
+AT5G04960	PME46	Root	Maturation_Trichoblast
+AT4G33880	BHLH85	Root	Maturation_Trichoblast
+AT5G58010	BHLH82	Root	Maturation_Trichoblast
+AT3G10710	PME24	Root	Maturation_Trichoblast
+AT2G47530	AT2G47530	Root	Maturation_Trichoblast
+AT1G51880	RHS6	Root	Maturation_Trichoblast
+AT3G05490	RALFL22	Root	Maturation_Trichoblast
+AT5G26080	AT5G26080	Root	Maturation_Trichoblast
+AT2G26410	Iqd4	Root	Maturation_Trichoblast
+AT1G62980	EXPA18	Root	Maturation_Trichoblast
+AT3G47740	ABCA3	Root	Maturation_Trichoblast
+AT4G00680	ADF8	Root	Maturation_Trichoblast
+AT4G08620	SULTR1;1	Root	Maturation_Trichoblast
+AT1G01453	AT1G01453	Root	Maturation_Trichoblast
+AT4G28850	XTH26	Root	Maturation_Trichoblast
+AT3G54590	EXT2	Root	Maturation_Trichoblast
+AT3G07880	GDI1	Root	Maturation_Trichoblast
+AT1G30990	AT1G30990	Root	Maturation_Trichoblast
+AT2G33460	RIC1	Root	Maturation_Trichoblast
+AT1G56220	AT1G56220	Root	Maturation_Trichoblast
+AT4G24026	AT4G24026	Root	Maturation_Trichoblast
+AT3G12540	AT3G12540	Root	Maturation_Trichoblast
+AT4G25190	QWRF7	Root	Maturation_Trichoblast
+AT1G31885	NIP3-1	Root	Maturation_Trichoblast
+AT5G40860	AT5G40860	Root	Maturation_Trichoblast
+AT5G43180	AT5G43180	Root	Maturation_Xylem Pole Pericycle
+AT2G38600	AT2G38600	Root	Maturation_Xylem Pole Pericycle
+AT4G17030	EXLB1	Root	Maturation_Xylem Pole Pericycle
+AT1G08440	ALMT2	Root	Maturation_Xylem Pole Pericycle
+AT2G32560	AT2G32560	Root	Maturation_Xylem Pole Pericycle
+AT3G47510	AT3G47510	Root	Maturation_Xylem Pole Pericycle
+AT1G11330	AT1G11330	Root	Maturation_Xylem Pole Pericycle
+AT4G25434	ATNUDT10	Root	Maturation_Xylem Pole Pericycle
+AT1G01070	AT1G01070	Root	Maturation_Xylem Pole Pericycle
+AT1G02460	AT1G02460	Root	Maturation_Xylem Pole Pericycle
+AT2G04795	AT2G04795	Root	Maturation_Xylem Pole Pericycle
+AT1G30760	AT1G30760	Root	Maturation_Xylem Pole Pericycle
+AT2G23030	SRK2J	Root	Maturation_Xylem Pole Pericycle
+AT4G20970	BHLH162	Root	Maturation_Xylem Pole Pericycle
+AT4G37295	AT4G37295	Root	Maturation_Xylem Pole Pericycle
+AT4G30460	AT4G30460	Root	Maturation_Xylem Pole Pericycle
+AT3G26760	AT3G26760	Root	Maturation_Xylem Pole Pericycle
+AT5G28080	WNK9	Root	Maturation_Xylem Pole Pericycle
+AT2G04790	AT2G04790	Root	Maturation_Xylem Pole Pericycle
+AT4G39675	AT4G39675	Root	Maturation_Xylem Pole Pericycle
+AT4G33550	AT4G33550	Root	Maturation_Xylem Pole Pericycle
+AT1G55580	SCL18	Root	Maturation_Xylem Pole Pericycle
+AT3G53450	LOG4	Root	Maturation_Xylem Pole Pericycle
+AT1G16310	MTP10	Root	Maturation_Xylem Pole Pericycle
+AT1G44800	AT1G44800	Root	Maturation_Xylem Pole Pericycle
+AT4G24400	CIPK8	Root	Maturation_Xylem Pole Pericycle
+AT2G42430	LBD16	Root	Maturation_Xylem Pole Pericycle
+AT5G19730	PME53	Root	Maturation_Xylem Pole Pericycle
+AT2G30080	ZIP6	Root	Maturation_Xylem Pole Pericycle
+AT1G49310	AT1G49310	Root	Maturation_Xylem Pole Pericycle
+AT5G07322	AT5G07322	Root	Maturation_Xylem Pole Pericycle
+AT4G27260	GH3.5	Root	Maturation_Xylem Pole Pericycle
+AT1G59620	CW9	Root	Maturation_Xylem Pole Pericycle
+AT2G38530	LTP2	Root	Maturation_Xylem Pole Pericycle
+AT3G11150	AT3G11150	Root	Maturation_Xylem Pole Pericycle
+AT5G46730	AT5G46730	Root	Maturation_Xylem Pole Pericycle
+AT5G24310	ABIL3	Root	Maturation_Xylem Pole Pericycle
+AT3G26830	CYP71B15	Root	Maturation_Xylem Pole Pericycle
+AT3G30580	AT3G30580	Root	Maturation_Xylem Pole Pericycle
+AT4G33770	ITPK2	Root	Maturation_Xylem Pole Pericycle
+AT3G58190	LBD29	Root	Maturation_Xylem Pole Pericycle
+AT1G21050	AT1G21050	Root	Maturation_Xylem Pole Pericycle
+AT1G60989	SCRL7	Root	Maturation_Xylem Pole Pericycle
+AT1G12200	AT1G12200	Root	Maturation_Xylem Pole Pericycle
+AT1G67080	ABA4	Root	Maturation_Xylem Pole Pericycle
+AT3G60450	AT3G60450	Root	Maturation_Xylem Pole Pericycle
+AT3G28590	AT3G28590	Root	Maturation_Xylem Pole Pericycle
+AT4G34600	CIF2	Root	Maturation_Xylem Pole Pericycle
+AT5G47720	AT5G47720	Root	Maturation_Xylem Pole Pericycle
+AT1G60010	AT1G60010	Root	Maturation_Xylem Pole Pericycle
+AT1G53130	GRI	Root	Meristem_Atrichoblast
+AT1G27950	LTPG1	Root	Meristem_Atrichoblast
+AT1G54890	AT1G54890	Root	Meristem_Atrichoblast
+AT5G51500	PME60	Root	Meristem_Atrichoblast
+AT4G22230	AT4G22230	Root	Meristem_Atrichoblast
+AT1G57590	PAE2	Root	Meristem_Atrichoblast
+AT5G51490	PME59	Root	Meristem_Atrichoblast
+AT3G20360	AT3G20360	Root	Meristem_Atrichoblast
+AT5G44585	AT5G44585	Root	Meristem_Atrichoblast
+AT1G68470	GT17	Root	Meristem_Atrichoblast
+AT5G01330	PDC3	Root	Meristem_Atrichoblast
+AT5G06270	AT5G06270	Root	Meristem_Atrichoblast
+AT1G41830	SKS6	Root	Meristem_Atrichoblast
+AT5G40330	MYB23	Root	Meristem_Atrichoblast
+AT5G66590	AT5G66590	Root	Meristem_Atrichoblast
+AT5G53200	TRY	Root	Meristem_Atrichoblast
+AT5G63800	BGAL6	Root	Meristem_Atrichoblast
+AT5G42630	KAN4	Root	Meristem_Atrichoblast
+AT3G63470	SCPL40	Root	Meristem_Atrichoblast
+AT2G45050	GATA2	Root	Meristem_Atrichoblast
+AT3G48290	CYP71A24	Root	Meristem_Atrichoblast
+AT1G79840	GL2	Root	Meristem_Atrichoblast
+AT1G18193	AT1G18193	Root	Meristem_Atrichoblast
+AT4G33220	PME44	Root	Meristem_Atrichoblast
+AT1G05660	AT1G05660	Root	Meristem_Atrichoblast
+AT3G49110	PER33	Root	Meristem_Atrichoblast
+AT3G46613	RTFL4	Root	Meristem_Atrichoblast
+AT5G62330	AT5G62330	Root	Meristem_Atrichoblast
+AT3G16370	APG	Root	Meristem_Atrichoblast
+AT2G33790	AGP30	Root	Meristem_Atrichoblast
+AT3G60530	GATA4	Root	Meristem_Atrichoblast
+AT3G16780	RPL19B	Root	Meristem_Atrichoblast
+AT1G68150	WRKY9	Root	Meristem_Atrichoblast
+AT5G02580	AT5G02580	Root	Meristem_Atrichoblast
+AT2G41810	AT2G41810	Root	Meristem_Atrichoblast
+AT5G14750	WER	Root	Meristem_Atrichoblast
+AT2G37260	WRKY44	Root	Meristem_Atrichoblast
+AT4G27860	AT4G27860	Root	Meristem_Atrichoblast
+AT5G67510	RPL26B	Root	Meristem_Atrichoblast
+AT3G58700	RPL11C	Root	Meristem_Atrichoblast
+AT5G15520	RPS19B	Root	Meristem_Atrichoblast
+AT1G50430	DWF5	Root	Meristem_Atrichoblast
+AT3G62280	AT3G62280	Root	Meristem_Atrichoblast
+AT3G55280	RPL23AB	Root	Meristem_Atrichoblast
+AT3G44590	RPP2D	Root	Meristem_Atrichoblast
+AT2G40590	RPS26A	Root	Meristem_Atrichoblast
+AT4G25740	RPS10A	Root	Meristem_Atrichoblast
+AT2G20450	RPL14A	Root	Meristem_Atrichoblast
+AT2G20800	NDB4	Root	Meristem_Atrichoblast
+AT1G57860	RPL21E	Root	Meristem_Atrichoblast
+AT1G10640	AT1G10640	Root	Meristem_Cortex
+AT2G48020	AT2G48020	Root	Meristem_Cortex
+AT1G20010	TUBB5	Root	Meristem_Cortex
+AT1G78570	RHM1	Root	Meristem_Cortex
+AT4G32460	AT4G32460	Root	Meristem_Cortex
+AT1G12845	AT1G12845	Root	Meristem_Cortex
+AT3G61660	AT3G61660	Root	Meristem_Cortex
+AT4G30420	AT4G30420	Root	Meristem_Cortex
+AT5G02000	AT5G02000	Root	Meristem_Cortex
+AT5G11420	AT5G11420	Root	Meristem_Cortex
+AT4G35680	AT4G35680	Root	Meristem_Cortex
+AT3G19820	DIM	Root	Meristem_Cortex
+AT5G17050	UGT78D2	Root	Meristem_Cortex
+AT3G54770	ARP1	Root	Meristem_Cortex
+AT1G64920	UGT79B11	Root	Meristem_Cortex
+AT1G63330	AT1G63330	Root	Meristem_Cortex
+AT5G18840	AT5G18840	Root	Meristem_Cortex
+AT1G20840	MSSP1	Root	Meristem_Cortex
+AT5G19340	AT5G19340	Root	Meristem_Cortex
+AT3G23930	AT3G23930	Root	Meristem_Cortex
+AT1G09750	AED3	Root	Meristem_Cortex
+AT1G15550	GA3OX1	Root	Meristem_Cortex
+AT5G62210	AT5G62210	Root	Meristem_Cortex
+AT2G46930	PAE3	Root	Meristem_Cortex
+AT3G06650	ACLB-1	Root	Meristem_Cortex
+AT3G05150	AT3G05150	Root	Meristem_Cortex
+AT1G55360	AT1G55360	Root	Meristem_Cortex
+AT4G05780	AT4G05780	Root	Meristem_Cortex
+AT1G76100	PETE1	Root	Meristem_Cortex
+AT1G29470	AT1G29470	Root	Meristem_Cortex
+AT3G23470	AT3G23470	Root	Meristem_Cortex
+AT3G09300	ORP3B	Root	Meristem_Cortex
+AT1G14500	AT1G14500	Root	Meristem_Cortex
+AT5G07990	CYP75B1	Root	Meristem_Cortex
+AT5G02270	ATNAP9	Root	Meristem_Cortex
+AT2G05790	AT2G05790	Root	Meristem_Cortex
+AT3G59140	ABCC10	Root	Meristem_Cortex
+AT1G76670	URGT1	Root	Meristem_Cortex
+AT5G56040	AT5G56040	Root	Meristem_Cortex
+AT1G70280	AT1G70280	Root	Meristem_Cortex
+AT1G12240	BFRUCT4	Root	Meristem_Cortex
+AT3G24750	AT3G24750	Root	Meristem_Cortex
+AT1G62580	AT1G62580	Root	Meristem_Cortex
+AT5G22300	NIT4	Root	Meristem_Cortex
+AT1G60630	AT1G60630	Root	Meristem_Cortex
+AT5G13140	AT5G13140	Root	Meristem_Cortex
+AT1G64640	ENODL8	Root	Meristem_Cortex
+AT3G12610	DRT100	Root	Meristem_Cortex
+AT2G38170	CAX1	Root	Meristem_Cortex
+AT1G11545	XTH8	Root	Meristem_Cortex
+AT1G54580	ACP2	Root	Meristem_Endodermis
+AT5G15530	BCCP2	Root	Meristem_Endodermis
+AT5G28640	GIF1	Root	Meristem_Endodermis
+AT4G17970	ALMT12	Root	Meristem_Endodermis
+AT2G05990	MOD1	Root	Meristem_Endodermis
+AT3G56220	AT3G56220	Root	Meristem_Endodermis
+AT5G10160	AT5G10160	Root	Meristem_Endodermis
+AT3G50870	GATA18	Root	Meristem_Endodermis
+AT1G65900	AT1G65900	Root	Meristem_Endodermis
+AT3G54220	SCR	Root	Meristem_Endodermis
+AT5G45200	AT5G45200	Root	Meristem_Endodermis
+AT3G05020	ACP1	Root	Meristem_Endodermis
+AT3G23730	XTH16	Root	Meristem_Endodermis
+AT1G46264	HSFB4	Root	Meristem_Endodermis
+AT3G05190	AT3G05190	Root	Meristem_Endodermis
+AT1G30120	PDH-E1 BETA	Root	Meristem_Endodermis
+AT2G33530	SCPL46	Root	Meristem_Endodermis
+AT4G39900	AT4G39900	Root	Meristem_Endodermis
+AT1G01090	PDH-E1 ALPHA	Root	Meristem_Endodermis
+AT4G28100	AT4G28100	Root	Meristem_Endodermis
+AT5G63660	PDF2.5	Root	Meristem_Endodermis
+AT3G25860	LTA2	Root	Meristem_Endodermis
+AT5G39240	AT5G39240	Root	Meristem_Endodermis
+AT1G52670	AT1G52670	Root	Meristem_Endodermis
+AT5G62440	EMB514	Root	Meristem_Endodermis
+AT2G30200	AT2G30200	Root	Meristem_Endodermis
+AT3G62250	RPS27AC	Root	Meristem_Endodermis
+AT1G80750	RPL7A	Root	Meristem_Endodermis
+AT2G29125	RTFL2	Root	Meristem_Endodermis
+AT1G69620	RPL34B	Root	Meristem_Endodermis
+AT5G52920	PKP2	Root	Meristem_Endodermis
+AT1G24360	AT1G24360	Root	Meristem_Endodermis
+AT3G62760	GSTF13	Root	Meristem_Endodermis
+AT3G49670	BAM2	Root	Meristem_Endodermis
+AT1G43170	ARP1	Root	Meristem_Endodermis
+AT2G16580	AT2G16580	Root	Meristem_Endodermis
+AT4G00390	AT4G00390	Root	Meristem_Endodermis
+AT1G20220	AT1G20220	Root	Meristem_Endodermis
+AT3G60770	RPS13A	Root	Meristem_Endodermis
+AT5G52650	RPS10C	Root	Meristem_Endodermis
+AT4G35080	AT4G35080	Root	Meristem_Endodermis
+AT4G10480	AT4G10480	Root	Meristem_Endodermis
+AT3G10610	RPS17C	Root	Meristem_Endodermis
+AT5G45210	AT5G45210	Root	Meristem_Endodermis
+AT2G43360	BIO2	Root	Meristem_Endodermis
+AT4G30180	BHLH146	Root	Meristem_Endodermis
+AT5G60400	AT5G60400	Root	Meristem_Endodermis
+AT2G44860	AT2G44860	Root	Meristem_Endodermis
+AT2G11910	AT2G11910	Root	Meristem_Endodermis
+AT5G61130	PDCB1	Root	Meristem_Endodermis
+AT1G49560	HHO6	Root	Meristem_Metaphloem & Companion Cell
+AT2G19580	TET2	Root	Meristem_Metaphloem & Companion Cell
+AT2G02000	GAD3	Root	Meristem_Metaphloem & Companion Cell
+AT2G39830	DAR2	Root	Meristem_Metaphloem & Companion Cell
+AT2G32280	AT2G32280	Root	Meristem_Metaphloem & Companion Cell
+AT4G21310	AT4G21310	Root	Meristem_Metaphloem & Companion Cell
+AT2G41250	AT2G41250	Root	Meristem_Metaphloem & Companion Cell
+AT2G32275	AT2G32275	Root	Meristem_Metaphloem & Companion Cell
+AT4G37180	HHO5	Root	Meristem_Metaphloem & Companion Cell
+AT1G02705	AT1G02705	Root	Meristem_Metaphloem & Companion Cell
+AT2G03500	EFM	Root	Meristem_Metaphloem & Companion Cell
+AT5G62960	AT5G62960	Root	Meristem_Metaphloem & Companion Cell
+AT4G11140	CRF1	Root	Meristem_Metaphloem & Companion Cell
+AT5G66440	AT5G66440	Root	Meristem_Metaphloem & Companion Cell
+AT2G28150	AT2G28150	Root	Meristem_Metaphloem & Companion Cell
+AT4G21300	PCMP-E36	Root	Meristem_Metaphloem & Companion Cell
+AT1G04680	AT1G04680	Root	Meristem_Metaphloem & Companion Cell
+AT3G06435	AT3G06435	Root	Meristem_Metaphloem & Companion Cell
+AT1G70510	KNAT2	Root	Meristem_Metaphloem & Companion Cell
+AT3G12730	PHL12	Root	Meristem_Metaphloem & Companion Cell
+AT1G09460	AT1G09460	Root	Meristem_Metaphloem & Companion Cell
+AT5G48480	AT5G48480	Root	Meristem_Metaphloem & Companion Cell
+AT5G63990	SAL3	Root	Meristem_Metaphloem & Companion Cell
+AT2G15310	ATARFB1A	Root	Meristem_Metaphloem & Companion Cell
+AT5G47920	AT5G47920	Root	Meristem_Metaphloem & Companion Cell
+AT5G06850	FTIP1	Root	Meristem_Metaphloem & Companion Cell
+AT3G44220	AT3G44220	Root	Meristem_Metaphloem & Companion Cell
+AT2G05760	NAT1	Root	Meristem_Metaphloem & Companion Cell
+AT2G32990	AtGH9B8	Root	Meristem_Metaphloem & Companion Cell
+AT1G79430	APL	Root	Meristem_Metaphloem & Companion Cell
+AT2G45340	AT2G45340	Root	Meristem_Metaphloem & Companion Cell
+AT1G14350	MYB124	Root	Meristem_Metaphloem & Companion Cell
+AT5G11100	SYTD	Root	Meristem_Metaphloem & Companion Cell
+AT4G02130	GATL6	Root	Meristem_Metaphloem & Companion Cell
+AT1G78520	AT1G78520	Root	Meristem_Metaphloem & Companion Cell
+AT2G36650	AT2G36650	Root	Meristem_Metaphloem & Companion Cell
+AT5G02600	NAKR1	Root	Meristem_Metaphloem & Companion Cell
+AT5G02750	SGR9	Root	Meristem_Metaphloem & Companion Cell
+AT1G74510	AT1G74510	Root	Meristem_Metaphloem & Companion Cell
+AT3G47500	CDF3	Root	Meristem_Metaphloem & Companion Cell
+AT3G03495	AT3G03495	Root	Meristem_Metaphloem & Companion Cell
+AT5G42146	AT5G42146	Root	Meristem_Metaphloem & Companion Cell
+AT4G34590	BZIP11	Root	Meristem_Metaphloem & Companion Cell
+AT1G69970	CLE26	Root	Meristem_Metaphloem & Companion Cell
+AT2G22730	AT2G22730	Root	Meristem_Metaphloem & Companion Cell
+AT4G36740	HB-5	Root	Meristem_Metaphloem & Companion Cell
+AT3G55360	ECR	Root	Meristem_Metaphloem & Companion Cell
+AT1G68020	TPS6	Root	Meristem_Metaphloem & Companion Cell
+AT5G37485	AT5G37485	Root	Meristem_Metaphloem & Companion Cell
+AT4G27450	AT4G27450	Root	Meristem_Metaphloem & Companion Cell
+AT1G70270	AT1G70270	Root	Meristem_Metaxylem
+AT1G12663	AT1G12663	Root	Meristem_Metaxylem
+AT2G28490	AT2G28490	Root	Meristem_Metaxylem
+AT3G54260	TBL36	Root	Meristem_Metaxylem
+AT4G15802	HSBP	Root	Meristem_Metaxylem
+AT1G16400	CYP79F2	Root	Meristem_Metaxylem
+AT2G34060	PER19	Root	Meristem_Metaxylem
+AT2G46572	AT2G46572	Root	Meristem_Metaxylem
+AT5G47640	NFYB2	Root	Meristem_Metaxylem
+AT3G54340	AP3	Root	Meristem_Metaxylem
+AT4G16140	AT4G16140	Root	Meristem_Metaxylem
+AT5G64667	IDL2	Root	Meristem_Metaxylem
+AT3G42800	AT3G42800	Root	Meristem_Metaxylem
+AT3G11640	AT3G11640	Root	Meristem_Metaxylem
+AT3G57210	AT3G57210	Root	Meristem_Metaxylem
+AT2G31070	TCP10	Root	Meristem_Metaxylem
+AT1G29950	BHLH144	Root	Meristem_Metaxylem
+AT2G40530	CEP15	Root	Meristem_Metaxylem
+AT5G53710	AT5G53710	Root	Meristem_Metaxylem
+AT1G14750	SDS	Root	Meristem_Metaxylem
+AT5G37950	AT5G37950	Root	Meristem_Metaxylem
+AT3G47290	ATPLC8	Root	Meristem_Metaxylem
+AT5G01890	PXC2	Root	Meristem_Metaxylem
+AT3G49750	AtRLP44	Root	Meristem_Metaxylem
+AT5G06710	HAT14	Root	Meristem_Metaxylem
+AT2G46770	NAC043	Root	Meristem_Metaxylem
+AT3G59680	AT3G59680	Root	Meristem_Metaxylem
+AT5G01740	AT5G01740	Root	Meristem_Metaxylem
+AT3G17600	IAA31	Root	Meristem_Metaxylem
+AT2G28410	AT2G28410	Root	Meristem_Metaxylem
+AT1G23340	AT1G23340	Root	Meristem_Metaxylem
+AT4G11950	AT4G11950	Root	Meristem_Metaxylem
+AT4G22990	AT4G22990	Root	Meristem_Metaxylem
+AT1G01380	ETC1	Root	Meristem_Metaxylem
+AT1G28450	AGL58	Root	Meristem_Metaxylem
+AT5G51210	OL3	Root	Meristem_Metaxylem
+AT5G22580	AT5G22580	Root	Meristem_Metaxylem
+AT1G04680	AT1G04680	Root	Meristem_Metaxylem
+AT2G39870	AT2G39870	Root	Meristem_Metaxylem
+AT2G03090	EXPA15	Root	Meristem_Metaxylem
+AT5G66300	NAC105	Root	Meristem_Metaxylem
+AT5G37590	AT5G37590	Root	Meristem_Metaxylem
+AT1G53163	AT1G53163	Root	Meristem_Metaxylem
+AT5G56970	CKX3	Root	Meristem_Metaxylem
+AT3G23630	IPT7	Root	Meristem_Metaxylem
+AT5G53830	VQ33	Root	Meristem_Metaxylem
+AT5G01300	AT5G01300	Root	Meristem_Metaxylem
+AT5G06380	AT5G06380	Root	Meristem_Metaxylem
+AT1G29785	AT1G29785	Root	Meristem_Metaxylem
+AT4G27460	CBSX5	Root	Meristem_Metaxylem
+AT5G50610	AT5G50610	Root	Meristem_Phloem Pole Pericycle
+AT1G26790	AT1G26790	Root	Meristem_Phloem Pole Pericycle
+AT4G28250	EXPB3	Root	Meristem_Phloem Pole Pericycle
+AT1G59530	BZIP4	Root	Meristem_Phloem Pole Pericycle
+AT3G13560	AT3G13560	Root	Meristem_Phloem Pole Pericycle
+AT3G62690	ATL5	Root	Meristem_Phloem Pole Pericycle
+AT3G01220	ATHB-20	Root	Meristem_Phloem Pole Pericycle
+AT5G52882	AT5G52882	Root	Meristem_Phloem Pole Pericycle
+AT3G14570	CALS8	Root	Meristem_Phloem Pole Pericycle
+AT4G27590	AT4G27590	Root	Meristem_Phloem Pole Pericycle
+AT1G56210	HIPP35	Root	Meristem_Phloem Pole Pericycle
+AT3G04530	PPCK2	Root	Meristem_Phloem Pole Pericycle
+AT5G41905	MIR166E	Root	Meristem_Phloem Pole Pericycle
+AT3G06360	AGP27	Root	Meristem_Phloem Pole Pericycle
+AT5G19260	FAF3	Root	Meristem_Phloem Pole Pericycle
+AT1G47570	AT1G47570	Root	Meristem_Phloem Pole Pericycle
+AT4G29140	DTX51	Root	Meristem_Phloem Pole Pericycle
+AT1G68130	IDD14	Root	Meristem_Phloem Pole Pericycle
+AT5G44160	NUC	Root	Meristem_Phloem Pole Pericycle
+AT5G47920	AT5G47920	Root	Meristem_Phloem Pole Pericycle
+AT2G30070	POT1	Root	Meristem_Phloem Pole Pericycle
+AT3G60490	ERF035	Root	Meristem_Phloem Pole Pericycle
+AT1G56020	AT1G56020	Root	Meristem_Phloem Pole Pericycle
+AT1G43910	AT1G43910	Root	Meristem_Phloem Pole Pericycle
+AT1G09460	AT1G09460	Root	Meristem_Phloem Pole Pericycle
+AT5G65030	AT5G65030	Root	Meristem_Phloem Pole Pericycle
+AT2G31085	CLE6	Root	Meristem_Phloem Pole Pericycle
+AT5G18690	AGP25	Root	Meristem_Phloem Pole Pericycle
+AT3G49760	AtbZIP5	Root	Meristem_Phloem Pole Pericycle
+AT1G31850	AT1G31850	Root	Meristem_Phloem Pole Pericycle
+AT1G70940	PIN3	Root	Meristem_Phloem Pole Pericycle
+AT2G40150	TBL28	Root	Meristem_Phloem Pole Pericycle
+AT3G61820	AT3G61820	Root	Meristem_Phloem Pole Pericycle
+AT4G24180	TLP1	Root	Meristem_Phloem Pole Pericycle
+AT3G15680	AT3G15680	Root	Meristem_Phloem Pole Pericycle
+AT5G62670	AHA11	Root	Meristem_Phloem Pole Pericycle
+AT1G70990	AT1G70990	Root	Meristem_Phloem Pole Pericycle
+AT5G19875	AT5G19875	Root	Meristem_Phloem Pole Pericycle
+AT2G28810	DOF2.2	Root	Meristem_Phloem Pole Pericycle
+AT5G37660	CRRSP60	Root	Meristem_Phloem Pole Pericycle
+AT1G32240	KAN2	Root	Meristem_Phloem Pole Pericycle
+AT3G06070	AT3G06070	Root	Meristem_Phloem Pole Pericycle
+AT1G30080	AT1G30080	Root	Meristem_Phloem Pole Pericycle
+AT5G67160	EPS1	Root	Meristem_Phloem Pole Pericycle
+AT2G01680	AT2G01680	Root	Meristem_Phloem Pole Pericycle
+AT1G71692	AGL12	Root	Meristem_Phloem Pole Pericycle
+AT5G35670	iqd33	Root	Meristem_Phloem Pole Pericycle
+AT3G15530	AT3G15530	Root	Meristem_Phloem Pole Pericycle
+AT1G05835	AT1G05835	Root	Meristem_Phloem Pole Pericycle
+AT5G24580	HIPP09	Root	Meristem_Phloem Pole Pericycle
+AT4G17460	HAT1	Root	Meristem_Procambium
+AT4G22900	AT4G22900	Root	Meristem_Procambium
+AT1G25500	AT1G25500	Root	Meristem_Procambium
+AT3G48550	AT3G48550	Root	Meristem_Procambium
+AT5G19190	AT5G19190	Root	Meristem_Procambium
+AT1G51170	UNC	Root	Meristem_Procambium
+AT4G39640	GGT1	Root	Meristem_Procambium
+AT3G49750	AtRLP44	Root	Meristem_Procambium
+AT5G67390	AT5G67390	Root	Meristem_Procambium
+AT4G30410	IBL1	Root	Meristem_Procambium
+AT1G76190	AT1G76190	Root	Meristem_Procambium
+AT2G34060	PER19	Root	Meristem_Procambium
+AT1G68825	DVL5	Root	Meristem_Procambium
+AT2G37380	MAKR3	Root	Meristem_Procambium
+AT3G06750	AT3G06750	Root	Meristem_Procambium
+AT1G73780	AT1G73780	Root	Meristem_Procambium
+AT4G03415	AT4G03415	Root	Meristem_Procambium
+AT5G44680	AT5G44680	Root	Meristem_Procambium
+AT5G22930	AT5G22930	Root	Meristem_Procambium
+AT4G39800	IPS1	Root	Meristem_Procambium
+AT5G57770	AT5G57770	Root	Meristem_Procambium
+AT3G29370	AT3G29370	Root	Meristem_Procambium
+AT2G01940	SGR5	Root	Meristem_Procambium
+AT5G08260	SCPL35	Root	Meristem_Procambium
+AT3G16180	NPF1.1	Root	Meristem_Procambium
+AT5G60142	AT5G60142	Root	Meristem_Procambium
+AT1G69690	TCP15	Root	Meristem_Procambium
+AT5G20885	AT5G20885	Root	Meristem_Procambium
+AT4G04025	AT4G04025	Root	Meristem_Procambium
+AT3G06070	AT3G06070	Root	Meristem_Procambium
+AT3G42800	AT3G42800	Root	Meristem_Procambium
+AT3G61640	AGP20	Root	Meristem_Procambium
+AT3G59680	AT3G59680	Root	Meristem_Procambium
+AT1G52190	NPF1.2	Root	Meristem_Procambium
+AT2G03090	EXPA15	Root	Meristem_Procambium
+AT3G07425	AT3G07425	Root	Meristem_Procambium
+AT1G52540	AT1G52540	Root	Meristem_Procambium
+AT4G11950	AT4G11950	Root	Meristem_Procambium
+AT4G05525	AT4G05525	Root	Meristem_Procambium
+AT5G51210	OL3	Root	Meristem_Procambium
+AT5G39865	AT5G39865	Root	Meristem_Procambium
+AT3G19300	AT3G19300	Root	Meristem_Procambium
+AT1G79760	DTA4	Root	Meristem_Procambium
+AT5G09805	IDL3	Root	Meristem_Procambium
+AT1G19968	AT1G19968	Root	Meristem_Procambium
+AT5G03960	IQD12	Root	Meristem_Procambium
+AT3G54120	RTNLB12	Root	Meristem_Procambium
+AT3G45780	PHOT1	Root	Meristem_Procambium
+AT5G05690	CYP90A1	Root	Meristem_Procambium
+AT4G16140	AT4G16140	Root	Meristem_Procambium
+AT4G13600	AT4G13600	Root	Meristem_Protophloem
+AT3G12710	AT3G12710	Root	Meristem_Protophloem
+AT1G54330	ANAC020	Root	Meristem_Protophloem
+AT3G17010	AT3G17010	Root	Meristem_Protophloem
+AT2G16850	PIP2-8	Root	Meristem_Protophloem
+AT2G18380	GATA20	Root	Meristem_Protophloem
+AT5G02460	DOF5.1	Root	Meristem_Protophloem
+AT2G44830	AT2G44830	Root	Meristem_Protophloem
+AT3G19540	AT3G19540	Root	Meristem_Protophloem
+AT2G37610	SMR12	Root	Meristem_Protophloem
+AT1G11915	AT1G11915	Root	Meristem_Protophloem
+AT3G28455	CLE25	Root	Meristem_Protophloem
+AT2G41330	AT2G41330	Root	Meristem_Protophloem
+AT3G54000	AT3G54000	Root	Meristem_Protophloem
+AT5G67460	AT5G67460	Root	Meristem_Protophloem
+AT4G29920	AT4G29920	Root	Meristem_Protophloem
+AT5G40150	PER63	Root	Meristem_Protophloem
+AT2G21060	CSP4	Root	Meristem_Protophloem
+AT5G24920	GDU5	Root	Meristem_Protophloem
+AT5G62940	DOF5.6	Root	Meristem_Protophloem
+AT4G28330	AT4G28330	Root	Meristem_Protophloem
+AT1G04680	AT1G04680	Root	Meristem_Protophloem
+AT2G37590	DOF2.4	Root	Meristem_Protophloem
+AT2G36410	AT2G36410	Root	Meristem_Protophloem
+AT2G30060	RANBP1B	Root	Meristem_Protophloem
+AT3G15530	AT3G15530	Root	Meristem_Protophloem
+AT1G69970	CLE26	Root	Meristem_Protophloem
+AT1G69580	AT1G69580	Root	Meristem_Protophloem
+AT3G50780	AT3G50780	Root	Meristem_Protophloem
+AT3G22440	FRL4A	Root	Meristem_Protophloem
+AT3G54290	AT3G54290	Root	Meristem_Protophloem
+AT1G60030	NAT7	Root	Meristem_Protophloem
+AT4G14740	AT4G14740	Root	Meristem_Protophloem
+AT2G44940	ERF034	Root	Meristem_Protophloem
+AT5G15350	ENODL17	Root	Meristem_Protophloem
+AT3G61640	AGP20	Root	Meristem_Protophloem
+AT1G31940	AT1G31940	Root	Meristem_Protophloem
+AT3G12830	SAUR72	Root	Meristem_Protophloem
+AT5G40830	AT5G40830	Root	Meristem_Protophloem
+AT2G37630	AS1	Root	Meristem_Protophloem
+AT5G11100	SYTD	Root	Meristem_Protophloem
+AT5G57130	SMXL5	Root	Meristem_Protophloem
+AT4G37080	AT4G37080	Root	Meristem_Protophloem
+AT3G45610	DOF3.2	Root	Meristem_Protophloem
+AT5G48060	AT5G48060	Root	Meristem_Protophloem
+AT1G19835	FPP4	Root	Meristem_Protophloem
+AT1G08160	AT1G08160	Root	Meristem_Protophloem
+AT5G14890	AT5G14890	Root	Meristem_Protophloem
+AT2G39870	AT2G39870	Root	Meristem_Protophloem
+AT5G13880	AT5G13880	Root	Meristem_Protophloem
+AT5G49280	AT5G49280	Root	Meristem_Protoxylem
+AT1G68490	AT1G68490	Root	Meristem_Protoxylem
+AT1G14440	ZHD4	Root	Meristem_Protoxylem
+AT1G09210	CRT2	Root	Meristem_Protoxylem
+AT3G05180	AT3G05180	Root	Meristem_Protoxylem
+AT5G57270	AT5G57270	Root	Meristem_Protoxylem
+AT3G16490	IQD26	Root	Meristem_Protoxylem
+AT2G39870	AT2G39870	Root	Meristem_Protoxylem
+AT3G29770	MES11	Root	Meristem_Protoxylem
+AT1G12420	ACR8	Root	Meristem_Protoxylem
+AT4G13560	UNE15	Root	Meristem_Protoxylem
+AT4G00440	AT4G00440	Root	Meristem_Protoxylem
+AT1G03820	AT1G03820	Root	Meristem_Protoxylem
+AT3G20820	AT3G20820	Root	Meristem_Protoxylem
+AT3G17580	AT3G17580	Root	Meristem_Protoxylem
+AT3G56660	BZIP49	Root	Meristem_Protoxylem
+AT2G27130	XYP11	Root	Meristem_Protoxylem
+AT1G52830	IAA6	Root	Meristem_Protoxylem
+AT1G67510	AT1G67510	Root	Meristem_Protoxylem
+AT5G60650	AT5G60650	Root	Meristem_Protoxylem
+AT2G28420	AT2G28420	Root	Meristem_Protoxylem
+AT3G42800	AT3G42800	Root	Meristem_Protoxylem
+AT4G34420	AT4G34420	Root	Meristem_Protoxylem
+AT4G34950	AT4G34950	Root	Meristem_Protoxylem
+AT2G22670	IAA8	Root	Meristem_Protoxylem
+AT4G16610	AT4G16610	Root	Meristem_Protoxylem
+AT3G25710	BHLH32	Root	Meristem_Protoxylem
+AT5G62770	AT5G62770	Root	Meristem_Protoxylem
+AT1G78020	FLZ6	Root	Meristem_Protoxylem
+AT3G17660	AGD15	Root	Meristem_Protoxylem
+AT2G18060	NAC037	Root	Meristem_Protoxylem
+AT5G25830	GATA12	Root	Meristem_Protoxylem
+AT1G63520	AT1G63520	Root	Meristem_Protoxylem
+AT3G54000	AT3G54000	Root	Meristem_Protoxylem
+AT3G19260	LAG2	Root	Meristem_Protoxylem
+AT5G35960	AT5G35960	Root	Meristem_Protoxylem
+AT4G13620	ERF062	Root	Meristem_Protoxylem
+AT3G53010	AT3G53010	Root	Meristem_Protoxylem
+AT5G48500	AT5G48500	Root	Meristem_Protoxylem
+AT2G44680	CKB4	Root	Meristem_Protoxylem
+AT5G02010	ROPGEF7	Root	Meristem_Protoxylem
+AT1G75550	AT1G75550	Root	Meristem_Protoxylem
+AT2G25190	AT2G25190	Root	Meristem_Protoxylem
+AT2G35470	AT2G35470	Root	Meristem_Protoxylem
+AT4G38650	AT4G38650	Root	Meristem_Protoxylem
+AT5G62320	MYB99	Root	Meristem_Protoxylem
+AT3G55690	AT3G55690	Root	Meristem_Protoxylem
+AT5G64530	NAC104	Root	Meristem_Protoxylem
+AT2G28200	ZAT5	Root	Meristem_Protoxylem
+AT2G35110	NAP1	Root	Meristem_Protoxylem
+AT3G26120	TEL1	Root	Meristem_Quiescent Center
+AT1G47270	TULP6	Root	Meristem_Quiescent Center
+AT3G55550	LECRKS4	Root	Meristem_Quiescent Center
+AT1G70480	AT1G70480	Root	Meristem_Quiescent Center
+AT3G60650	AT3G60650	Root	Meristem_Quiescent Center
+AT3G57670	WIP2	Root	Meristem_Quiescent Center
+AT1G09570	PHYA	Root	Meristem_Quiescent Center
+AT1G18250	ATLP-1	Root	Meristem_Quiescent Center
+AT2G25130	AT2G25130	Root	Meristem_Quiescent Center
+AT5G26910	AT5G26910	Root	Meristem_Quiescent Center
+AT1G17400	AT1G17400	Root	Meristem_Quiescent Center
+AT1G75580	AT1G75580	Root	Meristem_Quiescent Center
+AT3G51750	AT3G51750	Root	Meristem_Quiescent Center
+AT2G21050	LAX2	Root	Meristem_Quiescent Center
+AT3G25130	AT3G25130	Root	Meristem_Quiescent Center
+AT3G19500	BHLH113	Root	Meristem_Quiescent Center
+AT5G08565	AT5G08565	Root	Meristem_Quiescent Center
+AT3G01310	AT3G01310	Root	Meristem_Quiescent Center
+AT2G33510	AT2G33510	Root	Meristem_Quiescent Center
+AT1G16020	CCZ1A	Root	Meristem_Quiescent Center
+AT5G57420	IAA33	Root	Meristem_Quiescent Center
+AT5G09960	AT5G09960	Root	Meristem_Quiescent Center
+AT2G03830	RGF8	Root	Meristem_Quiescent Center
+AT5G67200	AT5G67200	Root	Meristem_Quiescent Center
+AT3G20840	PLT1	Root	Meristem_Quiescent Center
+AT1G49390	AT1G49390	Root	Meristem_Quiescent Center
+AT3G48770	AT3G48770	Root	Meristem_Quiescent Center
+AT1G29980	AT1G29980	Root	Meristem_Quiescent Center
+AT5G65700	BAM1	Root	Meristem_Quiescent Center
+AT3G07760	AT3G07760	Root	Meristem_Quiescent Center
+AT3G23570	AT3G23570	Root	Meristem_Quiescent Center
+AT3G30350	RGF4	Root	Meristem_Quiescent Center
+AT1G18265	AT1G18265	Root	Meristem_Quiescent Center
+AT2G46990	IAA20	Root	Meristem_Quiescent Center
+AT3G02210	COBL1	Root	Meristem_Quiescent Center
+AT1G54385	SINE1	Root	Meristem_Quiescent Center
+AT5G09300	AT5G09300	Root	Meristem_Quiescent Center
+AT2G45660	SOC1	Root	Meristem_Quiescent Center
+AT1G49475	AT1G49475	Root	Meristem_Quiescent Center
+AT3G48670	IDN2	Root	Meristem_Quiescent Center
+AT2G28790	AT2G28790	Root	Meristem_Quiescent Center
+AT2G45340	AT2G45340	Root	Meristem_Quiescent Center
+AT5G51550	EXL3	Root	Meristem_Quiescent Center
+AT1G35230	AGP5	Root	Meristem_Quiescent Center
+AT3G10780	AT3G10780	Root	Meristem_Quiescent Center
+AT4G14270	CID2	Root	Meristem_Quiescent Center
+AT1G13620	RGF2	Root	Meristem_Quiescent Center
+AT4G35720	AT4G35720	Root	Meristem_Quiescent Center
+AT3G63240	IP5P4	Root	Meristem_Quiescent Center
+AT5G59790	AT5G59790	Root	Meristem_Quiescent Center
+AT3G53370	S1FA1	Root	Meristem_Trichoblast
+AT1G27140	GSTU14	Root	Meristem_Trichoblast
+AT3G54960	PDIL1-3	Root	Meristem_Trichoblast
+AT5G44820	AT5G44820	Root	Meristem_Trichoblast
+AT2G32380	AT2G32380	Root	Meristem_Trichoblast
+AT1G21750	PDIL1-1	Root	Meristem_Trichoblast
+AT5G42020	BIP	Root	Meristem_Trichoblast
+AT5G37800	BHLH86	Root	Meristem_Trichoblast
+AT1G74210	GDPD5	Root	Meristem_Trichoblast
+AT2G43460	RPL38A	Root	Meristem_Trichoblast
+AT5G14150	AT5G14150	Root	Meristem_Trichoblast
+AT5G48580	FKBP15-2	Root	Meristem_Trichoblast
+AT2G35610	XEG113	Root	Meristem_Trichoblast
+AT4G31985	RPL39A	Root	Meristem_Trichoblast
+AT1G67430	RPL17B	Root	Meristem_Trichoblast
+AT3G02230	RGP1	Root	Meristem_Trichoblast
+AT5G28540	MED37A	Root	Meristem_Trichoblast
+AT3G61270	AT3G61270	Root	Meristem_Trichoblast
+AT2G33840	AT2G33840	Root	Meristem_Trichoblast
+AT1G32210	DAD1	Root	Meristem_Trichoblast
+AT3G52760	AT3G52760	Root	Meristem_Trichoblast
+AT4G00480	ATMYC1	Root	Meristem_Trichoblast
+AT2G14100	CYP705A13	Root	Meristem_Trichoblast
+AT1G05210	AT1G05210	Root	Meristem_Trichoblast
+AT3G06300	P4H2	Root	Meristem_Trichoblast
+AT3G20370	AT3G20370	Root	Meristem_Trichoblast
+AT3G62600	ERDJ3B	Root	Meristem_Trichoblast
+AT1G26945	PRE6	Root	Meristem_Trichoblast
+AT1G67760	AT1G67760	Root	Meristem_Trichoblast
+AT5G27700	RPS21C	Root	Meristem_Trichoblast
+AT1G56340	CRT1	Root	Meristem_Trichoblast
+AT4G27480	AT4G27480	Root	Meristem_Trichoblast
+AT3G18740	RPL30C	Root	Meristem_Trichoblast
+AT5G14030	AT5G14030	Root	Meristem_Trichoblast
+AT4G16660	AT4G16660	Root	Meristem_Trichoblast
+AT3G62120	AT3G62120	Root	Meristem_Trichoblast
+AT2G19730	RPL28A	Root	Meristem_Trichoblast
+AT4G00810	RPP1B	Root	Meristem_Trichoblast
+AT1G13510	AT1G13510	Root	Meristem_Trichoblast
+AT1G15930	RPS12A	Root	Meristem_Trichoblast
+AT3G60440	AT3G60440	Root	Meristem_Trichoblast
+AT5G27850	RPL18C	Root	Meristem_Trichoblast
+AT3G59540	RPL38A	Root	Meristem_Trichoblast
+AT1G79075	AT1G79075	Root	Meristem_Trichoblast
+AT1G52600	AT1G52600	Root	Meristem_Trichoblast
+AT3G06700	RPL29A	Root	Meristem_Trichoblast
+AT3G09330	AVT1G	Root	Meristem_Trichoblast
+AT2G27530	RPL10AB	Root	Meristem_Trichoblast
+AT1G62810	AT1G62810	Root	Meristem_Trichoblast
+AT3G18760	AT3G18760	Root	Meristem_Trichoblast
+AT2G26700	PID2	Root	Meristem_Xylem Pole Pericycle
+AT5G47500	PME68	Root	Meristem_Xylem Pole Pericycle
+AT3G21330	BHLH87	Root	Meristem_Xylem Pole Pericycle
+AT2G26040	PYL2	Root	Meristem_Xylem Pole Pericycle
+AT5G07030	AT5G07030	Root	Meristem_Xylem Pole Pericycle
+AT2G31310	LBD14	Root	Meristem_Xylem Pole Pericycle
+AT2G07680	ATMRP11	Root	Meristem_Xylem Pole Pericycle
+AT5G09760	AT5G09760	Root	Meristem_Xylem Pole Pericycle
+AT4G20230	AT4G20230	Root	Meristem_Xylem Pole Pericycle
+AT4G20210	TPS08	Root	Meristem_Xylem Pole Pericycle
+AT2G18800	XTH21	Root	Meristem_Xylem Pole Pericycle
+AT4G09320	NDK1	Root	Meristem_Xylem Pole Pericycle
+AT5G08320	AT5G08320	Root	Meristem_Xylem Pole Pericycle
+AT4G37650	SHR	Root	Meristem_Xylem Pole Pericycle
+AT4G37235	AT4G37235	Root	Meristem_Xylem Pole Pericycle
+AT1G14980	CPN10	Root	Meristem_Xylem Pole Pericycle
+AT1G14320	RPL10A	Root	Meristem_Xylem Pole Pericycle
+AT1G18080	RACK1A	Root	Meristem_Xylem Pole Pericycle
+AT5G35770	SAP	Root	Meristem_Xylem Pole Pericycle
+AT4G13850	RBG2	Root	Meristem_Xylem Pole Pericycle
+AT5G16570	GLN1-4	Root	Meristem_Xylem Pole Pericycle
+AT3G29370	AT3G29370	Root	Meristem_Xylem Pole Pericycle
+AT3G62530	AT3G62530	Root	Meristem_Xylem Pole Pericycle
+AT3G61490	AT3G61490	Root	Meristem_Xylem Pole Pericycle
+AT5G65340	AT5G65340	Root	Meristem_Xylem Pole Pericycle
+AT5G08330	TCP21	Root	Meristem_Xylem Pole Pericycle
+AT5G41520	RPS10B	Root	Meristem_Xylem Pole Pericycle
+AT4G24770	CP31A	Root	Meristem_Xylem Pole Pericycle
+AT4G30220	RUXF	Root	Meristem_Xylem Pole Pericycle
+AT5G44530	AT5G44530	Root	Meristem_Xylem Pole Pericycle
+AT1G64220	TOM7-2	Root	Meristem_Xylem Pole Pericycle
+AT3G12390	AT3G12390	Root	Meristem_Xylem Pole Pericycle
+AT1G28080	AT1G28080	Root	Meristem_Xylem Pole Pericycle
+AT3G11510	RPS14B	Root	Meristem_Xylem Pole Pericycle
+AT2G33210	HSP60-2	Root	Meristem_Xylem Pole Pericycle
+AT1G06113	AT1G06113	Root	Meristem_Xylem Pole Pericycle
+AT4G31700	RPS6A	Root	Meristem_Xylem Pole Pericycle
+AT2G23530	AT2G23530	Root	Meristem_Xylem Pole Pericycle
+AT3G24830	RPL13AB	Root	Meristem_Xylem Pole Pericycle
+AT1G52300	RPL37B	Root	Meristem_Xylem Pole Pericycle
+AT5G60390	A1	Root	Meristem_Xylem Pole Pericycle
+AT2G37880	AT2G37880	Root	Meristem_Xylem Pole Pericycle
+AT4G31360	AT4G31360	Root	Meristem_Xylem Pole Pericycle
+AT5G26360	CCT3	Root	Meristem_Xylem Pole Pericycle
+AT5G02450	RPL36C	Root	Meristem_Xylem Pole Pericycle
+AT2G05220	RPS17B	Root	Meristem_Xylem Pole Pericycle
+AT3G11940	RPS5B	Root	Meristem_Xylem Pole Pericycle
+AT5G35530	RPS3C	Root	Meristem_Xylem Pole Pericycle
+AT5G41905	MIR166E	Root	Meristem_Xylem Pole Pericycle
+AT5G07090	RPS4B	Root	Meristem_Xylem Pole Pericycle
+AT5G09960	AT5G09960	Root	Proximal Columella
+AT1G13620	RGF2	Root	Proximal Columella
+AT4G37940	AGL21	Root	Proximal Columella
+AT3G60650	AT3G60650	Root	Proximal Columella
+AT1G18265	AT1G18265	Root	Proximal Columella
+AT1G17400	AT1G17400	Root	Proximal Columella
+AT1G09570	PHYA	Root	Proximal Columella
+AT1G26680	AT1G26680	Root	Proximal Columella
+AT5G07550	GRP19	Root	Proximal Columella
+AT1G08350	TMN5	Root	Proximal Columella
+AT3G55550	LECRKS4	Root	Proximal Columella
+AT3G18230	AT3G18230	Root	Proximal Columella
+AT1G13530	AT1G13530	Root	Proximal Columella
+AT1G04610	YUC3	Root	Proximal Columella
+AT3G01690	AT3G01690	Root	Proximal Columella
+AT4G34970	ADF9	Root	Proximal Columella
+AT2G04025	RGF3	Root	Proximal Columella
+AT4G00490	BAM2	Root	Proximal Columella
+AT3G55880	SUE4	Root	Proximal Columella
+AT5G59790	AT5G59790	Root	Proximal Columella
+AT2G46850	AT2G46850	Root	Proximal Columella
+AT3G05200	ATL6	Root	Proximal Columella
+AT3G20840	PLT1	Root	Proximal Columella
+AT4G39400	BRI1	Root	Proximal Columella
+AT5G10820	AT5G10820	Root	Proximal Columella
+AT1G35230	AGP5	Root	Proximal Columella
+AT2G01420	PIN4	Root	Proximal Columella
+AT3G60670	AT3G60670	Root	Proximal Columella
+AT3G03620	DTX24	Root	Proximal Columella
+AT2G23360	FPP7	Root	Proximal Columella
+AT4G35720	AT4G35720	Root	Proximal Columella
+AT4G27520	ENODL2	Root	Proximal Columella
+AT5G58580	ATL63	Root	Proximal Columella
+AT1G14720	XTH28	Root	Proximal Columella
+AT1G53070	AT1G53070	Root	Proximal Columella
+AT1G10760	GWD1	Root	Proximal Columella
+AT1G56680	AT1G56680	Root	Proximal Columella
+AT5G48130	AT5G48130	Root	Proximal Columella
+AT4G25240	SKS1	Root	Proximal Columella
+AT2G34020	AT2G34020	Root	Proximal Columella
+AT3G02210	COBL1	Root	Proximal Columella
+AT3G23280	XBAT35	Root	Proximal Columella
+AT1G01570	AT1G01570	Root	Proximal Columella
+AT4G24710	AT4G24710	Root	Proximal Columella
+AT5G65700	BAM1	Root	Proximal Columella
+AT4G09020	ISA3	Root	Proximal Columella
+AT3G42670	CHR38	Root	Proximal Columella
+AT5G01670	AT5G01670	Root	Proximal Columella
+AT3G48670	IDN2	Root	Proximal Columella
+AT1G49475	AT1G49475	Root	Proximal Columella
+AT5G60520	AT5G60520	Root	Proximal Lateral Root Cap
+AT1G54030	MVP1	Root	Proximal Lateral Root Cap
+AT5G44440	AT5G44440	Root	Proximal Lateral Root Cap
+AT4G37160	sks15	Root	Proximal Lateral Root Cap
+AT1G54010	GLL23	Root	Proximal Lateral Root Cap
+AT1G44760	AT1G44760	Root	Proximal Lateral Root Cap
+AT5G10980	HTR8	Root	Proximal Lateral Root Cap
+AT5G63650	SRK2H	Root	Proximal Lateral Root Cap
+AT2G25980	JAL20	Root	Proximal Lateral Root Cap
+AT5G07040	ATL69	Root	Proximal Lateral Root Cap
+AT4G30080	ARF16	Root	Proximal Lateral Root Cap
+AT2G23010	SCPL9	Root	Proximal Lateral Root Cap
+AT3G14530	GGPPS9	Root	Proximal Lateral Root Cap
+AT3G14510	AT3G14510	Root	Proximal Lateral Root Cap
+AT5G62340	AT5G62340	Root	Proximal Lateral Root Cap
+AT4G11780	AT4G11780	Root	Proximal Lateral Root Cap
+AT1G33750	TPS22	Root	Proximal Lateral Root Cap
+AT5G66460	MAN7	Root	Proximal Lateral Root Cap
+AT1G33540	SCPL18	Root	Proximal Lateral Root Cap
+AT3G16410	NSP4	Root	Proximal Lateral Root Cap
+AT3G07320	AT3G07320	Root	Proximal Lateral Root Cap
+AT5G48940	RCH1	Root	Proximal Lateral Root Cap
+AT1G52680	AT1G52680	Root	Proximal Lateral Root Cap
+AT1G74490	AT1G74490	Root	Proximal Lateral Root Cap
+AT1G75710	AT1G75710	Root	Proximal Lateral Root Cap
+AT4G11610	AT4G11610	Root	Proximal Lateral Root Cap
+AT1G80370	CYCA2-4	Root	Proximal Lateral Root Cap
+AT5G66690	UGT72E2	Root	Proximal Lateral Root Cap
+AT5G26230	MAKR1	Root	Proximal Lateral Root Cap
+AT5G49170	AT5G49170	Root	Proximal Lateral Root Cap
+AT3G02590	HDF7	Root	Proximal Lateral Root Cap
+AT1G77200	ERF037	Root	Proximal Lateral Root Cap
+AT1G44180	AT1G44180	Root	Proximal Lateral Root Cap
+AT1G15330	PV42A	Root	Proximal Lateral Root Cap
+AT2G43535	ATTI4	Root	Proximal Lateral Root Cap
+AT2G22770	NAI1	Root	Proximal Lateral Root Cap
+AT3G20590	AT3G20590	Root	Proximal Lateral Root Cap
+AT5G05080	UBC22	Root	Proximal Lateral Root Cap
+AT5G66800	AT5G66800	Root	Proximal Lateral Root Cap
+AT5G50300	AZG2	Root	Proximal Lateral Root Cap
+AT5G53290	CRF3	Root	Proximal Lateral Root Cap
+AT4G30610	SCPL24	Root	Proximal Lateral Root Cap
+AT1G66280	BGLU22	Root	Proximal Lateral Root Cap
+AT3G23670	KIN12B	Root	Proximal Lateral Root Cap
+AT2G41800	AT2G41800	Root	Proximal Lateral Root Cap
+AT1G68400	AT1G68400	Root	Proximal Lateral Root Cap
+AT3G23890	TOP2	Root	Proximal Lateral Root Cap
+AT4G28220	NDB1	Root	Proximal Lateral Root Cap
+AT5G13870	XTH5	Root	Proximal Lateral Root Cap
+AT1G07290	GONST2	Root	Proximal Lateral Root Cap
+AT1G07640	OBP2	Root	Phloem
+AT1G07710	AT1G07710	Root	Phloem
+AT1G16390	Oct3	Root	Differentiating endodermis
+AT1G71930	VND7	Root	Xylem
+AT1G79840	GL2	Root	Atrichoblast
+AT2G31310	LBD14	Root	Pericycle Initials
+AT2G34140	AT2G34140	Root	stele procambium
+AT2G40260	AT2G40260	Root	Cortex
+AT2G46570	LAC6	Root	Xylem
+AT3G20840	PLT1	Root	Stem Cell Niche
+AT3G55550	LECRKS4	Root	Quiescent Center + Columella
+AT4G28100	AT4G28100	Root	Endodermis
+AT4G29100	BHLH68	Root	Pericycle
+AT4G30080	AT4G30080	Root	Root cap
+AT5G37800	RSL1	Root	Trichoblast
+AT5G53730	NHL26	Root	Xylem
+AT5G04080	AT5G04080	Root	Phloem
+AT3G54220	SCR	Root	Endodermis
+AT3G54220	SCR	Root	Endodermis
+AT1G79430	APL	Root	Phloem
+AT5G49270	COBL9	Root	Trichoblast
+AT5G49270	COBL9	Root	Trichoblast
+AT4G37940	AGL21	Root	Procambium, Columella
+AT5G19530	ACL5	Root	Metaxylem
+AT3G26120	TEL1	Root	Quiescent Center
+AT3G26120	TEL1	Root	Quiescent Center
+AT4G13390	EXT12	Root	Trichoblast
+AT4G13390	EXT12	Root	Trichoblast
+AT1G62510	AT1G62510	Root	Cortex
+AT1G62510	AT1G62510	Root	Cortex
+AT1G62500	CO2	Root	Cortex
+AT1G62500	CO2	Root	Cortex
+AT5G57620	MYB36	Root	Endodermis
+AT5G57620	MYB36	Root	Endodermis
+AT1G33280	BRN1	Root	Columella (1st Outer Layer) + LRC (1st +2nd Outer Layer)
+AT1G33280	BRN1	Root	Columella (1st Outer Layer) + LRC (1st +2nd Outer Layer)
+AT4G10350	BRN2	Root	Columella (1st Outer Layer) + LRC (1st Outer Layer)
+AT4G10350	BRN2	Root	Columella (1st Outer Layer) + LRC (1st Outer Layer)
+AT1G79580	SMB	Root	Columella + LRC
+AT1G79580	SMB	Root	Columella + LRC
+AT1G71930	VND7	Root	Protoxylem
+AT1G79840	GL2	Root	Atrichoblast
+AT5G14750	WER	Root	LRC, Atrichoblast
+AT5G14750	WER	Root	LRC, Atrichoblast
+AT5G43040	AT5G43040	Root	Columella (1st Outer Layer) + LRC (1st Outer Layer) + Epidermis
+AT2G28810	AT2G28810	Root	Phloem
+AT2G22850	bZIP6	Root	Phloem; Phloem Pole Pericycle
+AT2G22850	bZIP6	Root	Phloem;Phloem Pole Pericycle
+AT3G20880	AT3G20880	Root	Quiescent Center
+AT3G20880	AT3G20880	Root	Quiescent Center
+AT5G17800	MTB56	Root	Quiescent Center
+AT5G58010	LRL3	Root	Trichoblast
+AT5G58010	LRL3	Root	Trichoblast
+AT4G36160	VND2	Root	Xylem
+AT5G12870	MYB46	Root	Xylem
+AT2G18380	GATA20	Root	Phloem Sieve Element
+AT3G25710	TMO5	Root	Protoxylem
+AT2G04025	RGF3	Root	Proximal Columella
+AT5G60810	RGF1	Root	Quiescent Center
+AT5G60810	RGF1	Root	Quiescent Center
+AT1G66470	RHD6	Root	Trichoblast
+AT1G66470	RHD6	Root	Trichoblast
+AT5G37800	RSL1	Root	Trichoblast
+AT5G62940	PEAR1/DOF2.4	Root	Phloem Sieve Element
+AT4G30450	XPP	Root	Xylem Pole Pericycle
+AT3G61930	AT3G61930	Root	Distal Columella
+AT1G17400	DRO3/LZY2	Root	Columella (1-5th Outer Layer)
+AT1G17400	DRO3/LZY2	Root	Columella (1-5th Outer Layer)
+AT3G52490	SMXL3	Root	Procambium and Phloem
+AT5G57130	SMXL5	Root	Procambium and Phloem
+AT3G28540	AT3G28540	Root	Columella (1-3th Outer Layer)
+AT3G28540	AT3G28540	Root	Columella (1-3th Outer Layer)
+AT5G48130	AT5G48130	Root	Columella (1-4th Outer Layer) + LRC (3 Vertical Layers from Columella)
+AT5G48130	AT5G48130	Root	Columella (1-4th Outer Layer) + LRC (3 Vertical Layers from Columella)
+AT2G40260	AT2G40260	Root	Cortex
+AT2G29330	TRI	Root	Cortex and Endodermis
+AT3G56220	AT3G56220	Root	Cortex and Endodermis
+AT2G29330	AT2G29330	Root	Cortex and Endodermis
+AT3G56220	AT3G56220	Root	Cortex and Endodermis
+AT1G16390	AT1G16390	Root	Endodermis
+AT1G30750	AT1G30750	Root	Endodermis
+AT4G16270	PER40	Root	Endodermis
+AT5G46600	ALMT13	Root	Endodermis
+AT1G16390	AT1G16390	Root	Endodermis
+AT1G30750	AT1G30750	Root	Endodermis
+AT4G16270	PER40	Root	Endodermis
+AT5G46600	ALMT13	Root	Endodermis
+AT2G31310	LBD14	Root	Pericycle
+AT5G09760	AT5G09760	Root	Pericycle
+AT4G36410	UBC17	Root	Phloem
+AT4G36410	UBC17	Root	Phloem
+AT5G04080	AT5G04080	Root	Phloem
+AT1G04240	SHY2	Root	Procambium and Xylem
+AT1G71050	HIPP20	Root	Procambium and Xylem
+AT1G04240	SHY2	Root	Procambium and Xylem
+AT1G71050	HIPP20	Root	Procambium and Xylem
+AT4G18780	CESA8	Root	Protoxylem
+AT3G60650	AT3G60650	Root	Quiescent Center + Columella
+AT3G55550	LECRKS4	Root	Quiescent Center + Columella
+AT3G60650	AT3G60650	Root	Quiescent Center + Columella
+AT2G36120	DOT1	Root	Xylem Pole Pericycle
+AT2G36100	CASP1	Root	Casparian strip, Endodermis
+AT3G11550	CASP2	Root	Casparian strip, Endodermis
+AT2G27370	CASP3	Root	Casparian strip, Endodermis
+AT5G06200	CASP4	Root	Casparian strip, Endodermis
+AT5G15290	CASP5	Root	Casparian strip, Endodermis
+AT2G28670	ESB1	Root	Casparian strip, Endodermis
+AT1G68640	PAN	Root	QC
+AT2G03830	RGF8	Root	QC
+AT3G26120	TEL1	Root	QC
+AT5G17430	BBM	Root	QC
+AT5G23780	DUF9	Root	QC
+AT5G62165	AGL2	Root	QC
+AT5G14750	AtWER	Root	Epidermis
+AT1G09750	AtPEP	Root	Cortex
+AT2G18380	AtS32	Root	Phloem
+AT5G12870	AtS18	Root	Xylem
+AT3G59420	ACR4	Root	Meristematic zone, Epidermis, Columella
+AT1G70940	PIN3	Root	Meristematic zone, Pericycle, Xylem, Phloem
+AT1G19850	MP	Root	Meristematic zone, Xylem, QC
+AT4G39400	BRI1	Root	Meristematic zone, Cortex, Epidermis
+AT5G10510	PLT3	Root	Meristematic zone, Cortex, Epidermis
+AT3G20840	PLT1	Root	Meristematic zone, QC
+AT5G03150	JKD	Root	Cortex, Procambium
+AT2G01420	PIN4	Root	Cortex, Columella, Pericycle, Xylem
+AT1G73590	PIN1	Root	Meristematic cortex, Pericycle, Phloem, Xylem
+AT3G54220	SCR	Root	Endodermis
+AT3G11260	WOX5	Root	QC
+AT4G37650	SHR	Root	Stele
+AT1G04550	BDL	Root	Stele
+AT5G19040	IPT5	Root	Phloem, Pericycle
+AT4G32880	ATHB8	Root	Vasculature
+AT1G79430	APL	Root	Phloem
+AT5G16530	PIN5	Root	Phloem, Companion cells
+AT5G13290	CRN	Root	Phloem, Meristematic zone
+AT2G01830	WOL	Root	Xylem Pole Pericycle, Cortex
+AT5G60690	REV	Root	Xylem, Pericycle
+AT1G30490	PHV	Root	Xylem, Procambium
+AT2G34710	PHB	Root	Vasculature
+AT1G51190	PLT2	Root	Meristematic zone, QC
+AT5G55930	OPT1	Seed	embryonic cotyledons
+AT4G16370	OPT3	Seed	embryonic cotyledons
+AT5G64410	OPT4	Seed	embryonic cotyledons
+AT4G27730	OPT6	Seed	embryonic cotyledons
+AT4G10770  	OPT7	Seed	embryonic cotyledons
+AT5G55930	OPT1	Seed	embryonic cotyledons
+AT1G15550	GA 3-OX1	Seed/ling	Hypocotyl
+AT4G30290	XTH19	Seed/ling	Embryo radicle
+AT4G30290	XTH19	Seed/ling	Hypocotyl
+AT5G13930	ATCHS,CHS,CHALCONE SYNTHASE		Adaxial Epidermis
+AT5G62210	Embryo-specific protein 3, (ATS3)		Adaxial Epidermis
+AT5G62210	Embryo-specific protein 3, (ATS3)		Adaxial Epidermis
+AT2G42840	PROTODERMAL FACTOR 1		Protoderm
+AT2G42840	PROTODERMAL FACTOR 1		Trichomes
