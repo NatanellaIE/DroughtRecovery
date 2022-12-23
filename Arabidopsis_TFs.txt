@@ -1,0 +1,1622 @@
+Arabidopsis TFS	
+AT5G58850	"ATMYB119, MYB119, myb domain protein 119"
+AT5G65640	"bHLH093, beta HLH protein 93"
+AT5G57720	AP2/B3-like transcriptional factor family protein
+AT1G77950	"AGL67, AGAMOUS-like 67"
+AT1G28310	Dof-type zinc finger DNA-binding family protein
+AT5G38860	"BIM3, BES1-interacting Myc-like protein 3"
+AT2G18300	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G44940	Integrase-type DNA-binding superfamily protein
+AT4G21340	"B70, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT5G14340	"AtMYB40, MYB40, myb domain protein 40"
+AT3G49690	"ATMYB84, MYB84, RAX3, myb domain protein 84"
+AT1G27360	"SPL11, squamosa promoter-like 11"
+AT4G30980	"LRL2, LJRHL1-like 2"
+AT1G18330	"EPR1, RVE7, Homeodomain-like superfamily protein"
+AT4G28790	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G74660	"MIF1, mini zinc finger 1"
+AT5G65590	Dof-type zinc finger DNA-binding family protein
+AT5G62940	"DOF5.6, HCA2, Dof-type zinc finger DNA-binding family protein"
+AT4G35580	"NTL9, NAC transcription factor-like 9"
+AT1G60350	"anac024, NAC024, NAC domain containing protein 24"
+AT1G26680	transcriptional factor B3 family protein
+AT3G04410	NAC (No Apical Meristem) domain transcriptional regulator superfamily protein
+AT1G30970	"SUF4, zinc finger (C2H2 type) family protein"
+AT1G51120	AP2/B3 transcription factor family protein
+AT3G20640	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G50420	"SCL-3, SCL3, scarecrow-like 3"
+AT1G31630	"AGL86, AGAMOUS-like 86"
+AT5G40430	"AtMYB22, MYB22, myb domain protein 22"
+AT3G04850	Tesmin/TSO1-like CXC domain-containing protein
+AT3G18550	"ATTCP18, BRC1, TCP18, TCP family transcription factor "
+AT1G03840	"MGP, C2H2 and C2HC zinc fingers superfamily protein"
+AT5G67300	"ATMYB44, ATMYBR1, MYB44, MYBR1, myb domain protein r1"
+AT5G20510	"AL5, alfin-like 5"
+AT5G43250	"NF-YC13, nuclear factor Y, subunit C13"
+AT4G36570	"ATRL3, RL3, RAD-like 3"
+AT3G58630	sequence-specific DNA binding transcription factors
+AT3G54390	sequence-specific DNA binding transcription factors
+AT5G12850	CCCH-type zinc finger protein with ARM repeat domain
+AT2G02060	Homeodomain-like superfamily protein
+AT4G28110	"AtMYB41, MYB41, myb domain protein 41"
+AT3G18100	"AtMYB4R1, MYB4R1, myb domain protein 4r1"
+AT3G04450	Homeodomain-like superfamily protein
+AT3G56220	transcription regulators
+AT3G15030	"MEE35, TCP4, TCP family transcription factor 4"
+AT5G65410	"ATHB25, HB25, ZFHD2, homeobox protein 25"
+AT5G25470	AP2/B3-like transcriptional factor family protein
+AT5G39690	"ANAC093, NAC093, NAC domain containing protein 93"
+AT4G39250	"ATRL1, RL1, RSM2, RAD-like 1"
+AT2G03710	"AGL3, SEP4, K-box region and MADS-box transcription factor family protein "
+AT2G42280	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G39820	"anac094, NAC094, NAC domain containing protein 94"
+AT4G35590	RWP-RK domain-containing protein
+AT1G22985	Integrase-type DNA-binding superfamily protein
+AT4G31630	Transcriptional factor B3 family protein
+AT1G07530	"ATGRAS2, GRAS2, SCL14, SCARECROW-like 14"
+AT5G23650	Homeodomain-like transcriptional regulator
+AT2G41630	"TFIIB, transcription factor IIB"
+AT5G26630	MADS-box transcription factor family protein
+AT3G29340	zinc finger (C2H2 type) family protein
+AT3G57600	Integrase-type DNA-binding superfamily protein
+AT4G26930	"AtMYB97, MYB97, myb domain protein 97"
+AT1G68840	"EDF2, RAP2.8, RAV2, TEM2, related to ABI3/VP1 2"
+AT1G05230	"HDG2, homeodomain GLABROUS 2"
+AT2G18000	"TAF14, TBP-associated factor 14"
+AT1G60040	"AGL49, AGAMOUS-like 49"
+AT1G19210	Integrase-type DNA-binding superfamily protein
+AT2G44910	"ATHB-4, ATHB4, HB4, homeobox-leucine zipper protein 4"
+AT2G37520	Acyl-CoA N-acyltransferase with RING/FYVE/PHD-type zinc finger domain
+AT3G09210	"PTAC13, plastid transcriptionally active 13"
+AT5G18000	"VDD, VERDANDI"
+AT3G23230	Integrase-type DNA-binding superfamily protein
+AT1G53230	"TCP3, TEOSINTE BRANCHED 1, cycloidea and PCF transcription factor 3"
+AT2G44840	"ATERF13, EREBP, ERF13, ethylene-responsive element binding factor 13"
+AT4G18130	"PHYE, phytochrome E"
+AT5G65510	"AIL7, AINTEGUMENTA-like 7"
+AT1G53320	"AtTLP7, TLP7, tubby like protein 7"
+AT4G31800	"ATWRKY18, WRKY18, WRKY DNA-binding protein 18"
+AT1G35560	TCP family transcription factor 
+AT5G43270	"SPL2, squamosa promoter binding protein-like 2"
+AT3G23250	"ATMYB15, ATY19, MYB15, myb domain protein 15"
+AT2G31215	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT3G24520	"AT-HSFC1, HSFC1, heat shock transcription factor  C1"
+AT4G15900	"PRL1, pleiotropic regulatory locus 1"
+AT4G22680	"AtMYB85, MYB85, myb domain protein 85"
+AT2G47585	"MIR164, MIR164A, MIR164/MIR164A; miRNA"
+AT5G40120	"AGL76, AGAMOUS-like 76"
+AT3G57230	"AGL16, AGAMOUS-like 16"
+AT2G46680	"ATHB-7, ATHB7, HB-7, homeobox 7"
+AT5G18560	"PUCHI, Integrase-type DNA-binding superfamily protein"
+AT4G31690	Transcriptional factor B3 family protein
+AT1G68120	"ATBPC3, BPC3, basic pentacysteine 3"
+AT5G46310	WRKY family transcription factor
+AT1G70060	"SNL4, SIN3-like 4"
+AT3G24010	"ATING1, ING1, RING/FYVE/PHD zinc finger superfamily protein"
+AT4G21050	Dof-type zinc finger domain-containing protein
+AT4G36620	"GATA19, GATA transcription factor 19"
+AT1G70000	myb-like transcription factor family protein
+AT1G49560	Homeodomain-like superfamily protein
+AT1G19485	Transducin/WD40 repeat-like superfamily protein
+AT1G05930	Domain of unknown function (DUF313) 
+AT4G11880	"AGL14, AGAMOUS-like 14"
+AT5G61590	Integrase-type DNA-binding superfamily protein
+AT2G20180	"PIF1, PIL5, phytochrome interacting factor 3-like 5"
+AT1G08000	"GATA10, GATA transcription factor 10"
+AT2G01430	"ATHB-17, ATHB17, HB17, homeobox-leucine zipper protein 17"
+AT5G49300	"GATA16, GATA transcription factor 16"
+AT1G35520	"ARF15, auxin response factor 15"
+AT5G38500	Domain of unknown function (DUF313) 
+AT4G16780	"ATHB-2, ATHB2, HAT4, HB-2, homeobox protein 2"
+AT4G16265	"NRPB9B, NRPD9B, NRPE9B, RNA polymerases M/15 Kd subunit"
+AT5G11190	"SHN3, Integrase-type DNA-binding superfamily protein"
+AT4G01520	"anac067, NAC067, NAC domain containing protein 67"
+AT1G59750	"ARF1, auxin response factor 1"
+AT1G35890	NAC (No Apical Meristem) domain transcriptional regulator superfamily protein
+AT4G35610	zinc finger (C2H2 type) family protein
+AT3G21890	B-box type zinc finger family protein
+AT5G01900	"ATWRKY62, WRKY62, WRKY DNA-binding protein 62"
+AT4G10940	RING/U-box protein
+AT1G18790	RWP-RK domain-containing protein
+AT1G54360	"TAF6B, TAF6B1, TAF6B2, TAF6B4, TBP-ASSOCIATED FACTOR 6B"
+AT5G51910	TCP family transcription factor 
+AT1G17460	"TRFL3, TRF-like 3"
+AT3G18650	"AGL103, AGAMOUS-like 103"
+AT1G56650	"ATMYB75, MYB75, PAP1, SIAA1, production of anthocyanin pigment 1"
+AT5G49470	PAS domain-containing protein tyrosine kinase family protein
+AT2G18160	"ATBZIP2, bZIP2, GBF5, basic leucine-zipper 2"
+AT1G05920	Domain of unknown function (DUF313) 
+AT2G23290	"AtMYB70, MYB70, myb domain protein 70"
+AT1G14900	"HMGA, high mobility group A"
+AT3G23240	"ATERF1, ERF1, ethylene response factor 1"
+AT3G53600	C2H2-type zinc finger family protein
+AT3G19860	"bHLH121, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT1G01030	"NGA3, AP2/B3-like transcriptional factor family protein"
+AT3G26744	"ATICE1, ICE1, SCRM, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT2G32370	"HDG3, homeodomain GLABROUS 3"
+AT3G27810	"ATMYB21, ATMYB3, MYB21, myb domain protein 21"
+AT5G46690	"bHLH071, beta HLH protein 71"
+AT1G49130	B-box type zinc finger protein with CCT domain
+AT3G03200	"anac045, NAC045, NAC domain containing protein 45"
+AT1G61040	"VIP5, plus-3 domain-containing protein"
+AT2G47890	B-box type zinc finger protein with CCT domain
+AT4G27950	"CRF4, cytokinin response factor 4"
+AT1G53170	"ATERF-8, ATERF8, ERF8, ethylene response factor 8"
+AT3G30530	"ATBZIP42, bZIP42, basic leucine-zipper 42"
+AT2G35550	"ATBPC7, BBR, BPC7, basic pentacysteine 7"
+AT5G62380	"ANAC101, NAC101, VND6, NAC-domain protein 101"
+AT1G60880	"AGL56, AGAMOUS-like-56"
+AT5G12400	DNA binding;zinc ion binding;DNA binding
+AT3G60490	Integrase-type DNA-binding superfamily protein
+AT3G20910	"NF-YA9, nuclear factor Y, subunit A9"
+AT5G62320	"ATMYB99, ATMYBCU15, MYB99, myb domain protein 99"
+AT5G47640	"NF-YB2, nuclear factor Y, subunit B2"
+AT1G26590	C2H2-like zinc finger protein
+AT1G03490	"ANAC006, NAC006, NAC domain containing protein 6"
+AT1G22190	Integrase-type DNA-binding superfamily protein
+AT5G04400	"anac077, NAC077, NAC domain containing protein 77"
+AT3G22830	"AT-HSFA6B, HSFA6B, heat shock transcription factor  A6B"
+AT5G59710	"AtVIP2, VIP2, VIRE2 interacting protein 2"
+AT5G26210	"AL4, alfin-like 4"
+AT1G68210	"APRR6, PRR6, pseudo-response regulator 6"
+AT1G30810	Transcription factor jumonji (jmj) family protein / zinc finger (C5HC2 type) family protein
+AT1G33420	RING/FYVE/PHD zinc finger superfamily protein
+AT1G14600	Homeodomain-like superfamily protein
+AT1G05830	"ATX2, SDG30, trithorax-like protein 2"
+AT2G03500	Homeodomain-like superfamily protein
+AT1G25280	"AtTLP10, TLP10, tubby like protein 10"
+AT2G34720	"NF-YA4, nuclear factor Y, subunit A4"
+AT3G07650	"COL9, CONSTANS-like 9"
+AT2G37630	"AS1, ATMYB91, ATPHAN, MYB91, myb-like HTH transcriptional regulator family protein"
+AT5G26950	"AGL93, AGAMOUS-like 93"
+AT4G20400	"JMJ14, PKDM7B, JUMONJI 14"
+AT2G02470	"AL6, alfin-like 6"
+AT5G03510	C2H2-type zinc finger family protein
+AT2G46810	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT4G16150	calmodulin binding;transcription regulators
+AT1G25550	myb-like transcription factor family protein
+AT5G59780	"ATMYB59, ATMYB59-1, ATMYB59-2, ATMYB59-3, MYB59, myb domain protein 59"
+AT1G14350	"AtMYB124, FLP, MYB124, Duplicated homeodomain-like superfamily protein"
+AT2G02820	"AtMYB88, MYB88, myb domain protein 88"
+AT3G19500	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G27944	MADS-box transcription factor family protein
+AT5G62610	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G71200	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G60470	C2H2 and C2HC zinc fingers superfamily protein
+AT5G50820	"anac097, NAC097, NAC domain containing protein 97"
+AT5G60450	"ARF4, auxin response factor 4"
+AT2G24500	"FZF, Zinc finger protein 622"
+AT2G38340	Integrase-type DNA-binding superfamily protein
+AT1G68320	"AtMYB62, BW62B, BW62C, MYB62, myb domain protein 62"
+AT1G24220	paired amphipathic helix repeat-containing protein
+AT1G16710	"HAC12, histone acetyltransferase of the CBP family 12"
+AT2G25820	Integrase-type DNA-binding superfamily protein
+AT1G08320	"bZIP21, TGA9, bZIP transcription factor family protein"
+AT3G11280	Duplicated homeodomain-like superfamily protein
+AT5G40360	"AtMYB115, MYB115, myb domain protein 115"
+AT1G25330	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G46760	Basic helix-loop-helix (bHLH) DNA-binding family protein
+AT2G24570	"ATWRKY17, WRKY17, WRKY DNA-binding protein 17"
+AT5G41910	"MED10A, Mediator complex, subunit Med10"
+AT4G16141	GATA type zinc finger transcription factor family protein
+AT1G08620	"PKDM7D, Transcription factor jumonji (jmj) family protein / zinc finger (C5HC2 type) family protein"
+AT1G33760	Integrase-type DNA-binding superfamily protein
+AT1G26665	"Mediator complex, subunit Med10"
+AT5G28770	"AtbZIP63, BZO2H3, bZIP transcription factor family protein"
+AT4G00950	"MEE47, Protein of unknown function (DUF688)"
+AT2G37590	"ATDOF2.4, DOF2.4, DNA binding with one finger 2.4"
+AT1G17040	"ATSHA, SHA, STATLA, SH2 domain protein A"
+AT5G27130	"AGL39, AGAMOUS-like 39"
+AT3G49930	C2H2 and C2HC zinc fingers superfamily protein
+AT1G30950	"UFO, F-box family protein"
+AT1G68810	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT4G01460	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G20100	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT3G50260	"ATERF#011, CEJ1, DEAR1, cooperatively regulated by ethylene and jasmonate 1"
+AT5G66320	"GATA5, GATA transcription factor 5"
+AT1G12630	Integrase-type DNA-binding superfamily protein
+AT5G57150	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G33480	"ANAC041, NAC041, NAC domain containing protein 41"
+AT5G22380	"anac090, NAC090, NAC domain containing protein 90"
+AT1G47655	Dof-type zinc finger DNA-binding family protein
+AT3G12720	"ATMYB67, ATY53, MYB67, MYB67, myb domain protein 67"
+AT2G42660	Homeodomain-like superfamily protein
+AT3G24850	Domain of unknown function (DUF313) 
+AT2G36270	"ABI5, GIA1, Basic-leucine zipper (bZIP) transcription factor family protein"
+AT3G45610	Dof-type zinc finger DNA-binding family protein
+AT2G26950	"AtMYB104, MYB104, myb domain protein 104"
+AT4G17500	"ATERF-1, ERF-1, ethylene responsive element binding factor 1"
+AT1G67890	PAS domain-containing protein tyrosine kinase family protein
+AT5G45980	"STPL, WOX8, WUSCHEL related homeobox 8"
+AT5G44160	"NUC, C2H2-like zinc finger protein"
+AT5G11050	"AtMYB64, MYB64, myb domain protein 64"
+AT2G41710	Integrase-type DNA-binding superfamily protein
+AT4G04580	Homeodomain-like superfamily protein
+AT4G14540	"NF-YB3, nuclear factor Y, subunit B3"
+AT2G27100	"SE, C2H2 zinc-finger protein SERRATE (SE)"
+AT5G67010	Integrase-type DNA-binding superfamily protein
+AT5G65320	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G35430	Zinc finger C-x8-C-x5-C-x3-H type family protein
+AT1G16430	Surfeit locus protein 5 subunit 22 of Mediator complex
+AT5G64810	"ATWRKY51, WRKY51, WRKY DNA-binding protein 51"
+AT1G50600	"SCL5, scarecrow-like 5"
+AT1G27000	Protein of unknown function (DUF1664)
+AT5G27090	"AGL54, AGAMOUS-like 54"
+AT2G47210	myb-like transcription factor family protein
+AT1G71520	Integrase-type DNA-binding superfamily protein
+AT4G30180	sequence-specific DNA binding transcription factors;transcription regulators
+AT5G66940	Dof-type zinc finger DNA-binding family protein
+AT1G26780	"AtMYB117, LOF1, MYB117, myb domain protein 117"
+AT5G65060	"AGL70, FCL3, MAF3, K-box region and MADS-box transcription factor family protein "
+AT2G24650	DNA binding;DNA binding;sequence-specific DNA binding transcription factors
+AT1G21910	Integrase-type DNA-binding superfamily protein
+AT2G24430	"ANAC038, ANAC039, NAC038, NAC domain containing protein 38"
+AT5G41200	"AGL75, AGAMOUS-like 75"
+AT5G39660	"CDF2, cycling DOF factor 2"
+AT5G08190	"NF-YB12, nuclear factor Y, subunit B12"
+AT5G52170	"HDG7, homeodomain GLABROUS 7"
+AT2G02070	"AtIDD5, IDD5, indeterminate(ID)-domain 5"
+AT5G50480	"NF-YC6, nuclear factor Y, subunit C6"
+AT3G10000	"EDA31, Homeodomain-like superfamily protein"
+AT1G05290	CCT motif family protein
+AT5G13730	"SIG4, SIGD, sigma factor 4"
+AT2G42380	"ATBZIP34, BZIP34, Basic-leucine zipper (bZIP) transcription factor family protein"
+AT5G15380	"DRM1, domains rearranged methylase 1"
+AT2G33860	"ARF3, ETT, Transcriptional factor B3 family protein / auxin-responsive factor AUX/IAA-related"
+AT5G63670	"SPT42, SPT4 homolog 2"
+AT3G54610	"BGT, GCN5, HAC3, HAG01, HAG1, HAT1, histone acetyltransferase of the GNAT family 1"
+AT2G25900	"ATCTH, ATTZF1, Zinc finger C-x8-C-x5-C-x3-H type family protein"
+AT1G68670	myb-like transcription factor family protein
+AT3G63350	"AT-HSFA7B, HSFA7B, winged-helix DNA-binding transcription factor family protein"
+AT1G51140	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G24800	"ATBZIP9, BZIP9, BZO2H2, basic leucine zipper 9"
+AT5G07680	"ANAC079, ANAC080, ATNAC4, NAC080, NAC domain containing protein 80"
+AT2G39810	"HOS1, ubiquitin-protein ligases"
+AT4G36740	"ATHB40, HB-5, HB40, homeobox protein 40"
+AT2G28700	"AGL46, AGAMOUS-like 46"
+AT1G22770	"FB, GI, gigantea protein (GI)"
+AT5G05410	"DREB2, DREB2A, DRE-binding protein 2A"
+AT3G46130	"ATMYB48, ATMYB48-1, ATMYB48-2, ATMYB48-3, MYB48, myb domain protein 48"
+AT3G04430	"anac049, NAC049, NAC domain containing protein 49"
+AT2G22200	Integrase-type DNA-binding superfamily protein
+AT4G05100	"AtMYB74, MYB74, myb domain protein 74"
+AT5G27810	MADS-box transcription factor family protein
+AT1G69810	"ATWRKY36, WRKY36, WRKY DNA-binding protein 36"
+AT3G01600	"anac044, NAC044, NAC domain containing protein 44"
+AT3G44350	"anac061, NAC061, NAC domain containing protein 61"
+AT4G17695	"KAN3, Homeodomain-like superfamily protein"
+AT5G06500	"AGL96, AGAMOUS-like 96"
+AT2G28230	TATA-binding related factor (TRF) of subunit 20 of Mediator complex
+AT1G69770	"CMT3, chromomethylase 3"
+AT1G69170	Squamosa promoter-binding protein-like (SBP domain) transcription factor family protein
+AT2G47810	"NF-YB5, nuclear factor Y, subunit B5"
+AT5G03530	"ATRAB, ATRAB ALPHA, ATRAB18B, ATRABC2A, RABC2A, RAB GTPase homolog C2A"
+AT4G37780	"ATMYB87, MYB87, myb domain protein 87"
+AT1G64860	"RPOD1, SIG1, SIG2, SIGA, SIGB, sigma factor A"
+AT4G22950	"AGL19, GL19, AGAMOUS-like 19"
+AT1G02220	"ANAC003, NAC003, NAC domain containing protein 3"
+AT1G01380	"ETC1, Homeodomain-like superfamily protein"
+AT1G17590	"NF-YA8, nuclear factor Y, subunit A8"
+AT1G46408	"AGL97, AGAMOUS-like 97"
+AT4G34610	"BLH6, BEL1-like homeodomain 6"
+AT5G58080	"ARR18, RR18, response regulator 18"
+AT2G01060	myb-like HTH transcriptional regulator family protein
+AT3G02940	"AtMYB107, MYB107, myb domain protein 107"
+AT3G02060	"DEAD/DEAH box helicase, putative"
+AT3G55980	"ATSZF1, SZF1, salt-inducible zinc finger 1"
+AT4G34400	AP2/B3-like transcriptional factor family protein
+AT1G19510	"ATRL5, RL5, RSM4, RAD-like 5"
+AT2G22750	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G12980	"DRN, ESR1, Integrase-type DNA-binding superfamily protein"
+AT2G27040	"AGO4, OCP11, Argonaute family protein"
+AT2G41130	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G55690	MADS-box transcription factor family protein
+AT1G03040	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G39750	"AGL81, EMB3008, AGAMOUS-like 81"
+AT5G14070	"ROXY2, Thioredoxin superfamily protein"
+AT3G62420	"ATBZIP53, BZIP53, basic region/leucine zipper motif 53"
+AT5G61620	myb-like transcription factor family protein
+AT4G05170	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT4G16250	"PHYD, phytochrome D"
+AT1G06070	Basic-leucine zipper (bZIP) transcription factor family protein
+AT1G75490	Integrase-type DNA-binding superfamily protein
+AT2G25170	"CHD3, CHR6, GYM, PKL, SSL2, chromatin remodeling factor CHD3 (PICKLE)"
+AT3G50870	"GATA18, HAN, MNP, GATA type zinc finger transcription factor family protein"
+AT3G04070	"anac047, NAC047, NAC domain containing protein 47"
+AT5G05610	"AL1, alfin-like 1"
+AT3G07340	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G30670	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G27470	"NF-YB11, nuclear factor Y, subunit B11"
+AT3G14980	Acyl-CoA N-acyltransferase with RING/FYVE/PHD-type zinc finger protein
+AT2G33720	AP2/B3-like transcriptional factor family protein
+AT1G16070	"AtTLP8, TLP8, tubby like protein 8"
+AT5G07210	"ARR21, RR21, response regulator 21"
+AT5G58620	zinc finger (CCCH-type) family protein
+AT1G09030	"NF-YB4, nuclear factor Y, subunit B4"
+AT1G10170	"ATNFXL1, NFXL1, NF-X-like 1"
+AT1G66390	"ATMYB90, MYB90, PAP2, myb domain protein 90"
+AT4G00870	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G50080	"ERF110, ethylene response  factor 110"
+AT3G06740	"GATA15, GATA transcription factor 15"
+AT1G36060	Integrase-type DNA-binding superfamily protein
+AT5G66300	"ANAC105, NAC105, VND3, NAC domain containing protein 105"
+AT3G28470	"ATMYB35, TDF1, Duplicated homeodomain-like superfamily protein"
+AT3G09600	Homeodomain-like superfamily protein
+AT4G22070	"ATWRKY31, WRKY31, WRKY DNA-binding protein 31"
+AT3G09230	"AtMYB1, MYB1, myb domain protein 1"
+AT1G34650	"HDG10, homeodomain GLABROUS 10"
+AT5G02030	"BLH9, BLR, HB-6, LSN, PNY, RPL, VAN, POX (plant homeobox) family protein"
+AT1G18710	"AtMYB47, MYB47, myb domain protein 47"
+AT1G32770	"ANAC012, NAC012, NST3, SND1, NAC domain containing protein 12"
+AT1G05710	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT3G47610	transcription regulators;zinc ion binding
+AT3G56530	"anac064, NAC064, NAC domain containing protein 64"
+AT2G18350	"AtHB24, HB24, homeobox protein 24"
+AT2G01940	"ATIDD15, SGR5, C2H2-like zinc finger protein"
+AT2G35160	"SGD9, SUVH5, SU(VAR)3-9 homolog 5"
+AT5G17800	"AtMYB56, MYB56, myb domain protein 56"
+AT5G54070	"AT-HSFA9, HSFA9, heat shock transcription factor  A9"
+AT4G39070	B-box zinc finger family protein
+AT1G18960	myb-like HTH transcriptional regulator family protein
+AT2G22540	"AGL22, SVP, K-box region and MADS-box transcription factor family protein "
+AT5G47660	Homeodomain-like superfamily protein
+AT1G06160	"ORA59, octadecanoid-responsive Arabidopsis AP2/ERF 59"
+AT4G21030	"ATDOF4.2, ATDOF4;2, Dof-type zinc finger domain-containing protein"
+AT4G00180	"YAB3, Plant-specific transcription factor YABBY family protein"
+AT3G21350	"MED6, RNA polymerase transcriptional regulation mediator-related"
+AT3G23980	"BLI, KOS1, BLISTER"
+AT5G58010	"LRL3, LJRHL1-like 3"
+AT5G61760	"ATIPK2BETA, IPK2B, IPK2BETA, inositol polyphosphate kinase 2 beta"
+AT3G61950	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT3G13000	"Protein of unknown function, DUF547"
+AT5G15480	C2H2-type zinc finger family protein
+AT1G30650	"AR411, ATWRKY14, WRKY14, WRKY DNA-binding protein 14"
+AT2G18380	"GATA20, GATA transcription factor 20"
+AT4G34990	"AtMYB32, MYB32, myb domain protein 32"
+AT1G29950	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT3G57390	"AGL18, AGAMOUS-like 18"
+AT5G11510	"AtMYB3R4, MYB3R-4, myb domain protein 3r-4"
+AT1G49190	"ARR19, RR19, response regulator 19"
+AT5G38800	"AtbZIP43, bZIP43, basic leucine-zipper 43"
+AT5G44180	Homeodomain-like transcriptional regulator
+AT4G28815	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G01260	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G31050	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G24110	"ATWRKY30, WRKY30, WRKY DNA-binding protein 30"
+AT3G53680	Acyl-CoA N-acyltransferase with RING/FYVE/PHD-type zinc finger domain
+AT3G09735	S1FA-like DNA-binding protein
+AT1G69580	Homeodomain-like superfamily protein
+AT5G62260	AT hook motif DNA-binding family protein
+AT4G23750	"CRF2, TMO3, cytokinin response factor 2"
+AT1G78600	"DBB3, LZF1, STH3, light-regulated zinc finger protein 1"
+AT3G58680	"ATMBF1B, MBF1B, multiprotein bridging factor 1B"
+AT4G31680	Transcriptional factor B3 family protein
+AT5G43630	"TZP, zinc knuckle (CCHC-type) family protein"
+AT1G66560	"ATWRKY64, WRKY64, WRKY DNA-binding protein 64"
+AT3G02150	"PTF1, TCP13, TFPD, plastid transcription factor 1"
+AT5G19910	"MED31, SOH1 family protein"
+AT3G28857	basic helix-loop-helix (bHLH) DNA-binding family protein
+AT3G01435	Expressed protein
+AT5G39810	"AGL98, AGAMOUS-like 98"
+AT4G19550	zinc ion binding;transcription regulators
+AT2G04038	"AtbZIP48, bZIP48, basic leucine-zipper 48"
+AT5G08330	TCP family transcription factor 
+AT5G44280	"ATRING1A, RING1A, RING 1A"
+AT4G38910	"ATBPC5, BBR/BPC5, BPC5, basic pentacysteine 5"
+AT1G20600	AP2/B3-like transcriptional factor family protein
+AT3G42790	"AL3, alfin-like 3"
+AT3G14230	"RAP2.2, related to AP2 2"
+AT5G10970	C2H2 and C2HC zinc fingers superfamily protein
+AT2G06020	Homeodomain-like superfamily protein
+AT1G75390	"AtbZIP44, bZIP44, basic leucine-zipper 44"
+AT5G03720	"AT-HSFA3, HSFA3, heat shock transcription factor A3"
+AT1G27045	Homeobox-leucine zipper protein family
+AT4G34590	"ATB2, AtbZIP11, BZIP11, GBF6, G-box binding factor 6"
+AT4G39410	"ATWRKY13, WRKY13, WRKY DNA-binding protein 13"
+AT1G21200	sequence-specific DNA binding transcription factors
+AT1G26610	C2H2-like zinc finger protein
+AT5G60850	"OBP4, OBF binding protein 4"
+AT5G44210	"ATERF-9, ATERF9, ERF9, erf domain protein 9"
+AT4G40060	"ATHB-16, ATHB16, HB16, homeobox protein 16"
+AT1G27260	Paired amphipathic helix (PAH2) superfamily protein
+AT1G02230	"ANAC004, NAC004, NAC domain containing protein 4"
+AT1G32240	"KAN2, Homeodomain-like superfamily protein"
+AT1G08010	"GATA11, GATA transcription factor 11"
+AT3G61150	"HD-GL2-1, HDG1, homeodomain GLABROUS 1"
+AT5G26594	"ARR24, RR24, response regulator 24"
+AT4G17570	"GATA26, GATA transcription factor 26"
+AT2G36010	"ATE2FA, E2F3, E2F transcription factor 3"
+AT1G30490	"ATHB9, PHV, Homeobox-leucine zipper family protein / lipid-binding START domain-containing protein"
+AT1G43860	sequence-specific DNA binding transcription factors
+AT2G37260	"ATWRKY44, DSL1, TTG2, WRKY44, WRKY family transcription factor family protein"
+AT5G22890	C2H2 and C2HC zinc fingers superfamily protein
+AT4G19630	winged-helix DNA-binding transcription factor family protein
+AT1G62700	"ANAC026, VND5, Arabidopsis NAC domain containing protein 26"
+AT2G04890	"SCL21, SCARECROW-like 21"
+AT2G28340	"GATA13, GATA transcription factor 13"
+AT3G12730	Homeodomain-like superfamily protein
+AT5G24050	Domain of unknown function (DUF313) 
+AT3G24093	Paired amphipathic helix (PAH2) superfamily protein
+AT5G25190	Integrase-type DNA-binding superfamily protein
+AT3G54620	"ATBZIP25, BZIP25, BZO2H4, basic leucine zipper 25"
+AT5G66700	"ATHB53, HB-8, HB53, homeobox 53"
+AT3G06640	PAS domain-containing protein tyrosine kinase family protein
+AT2G35700	"ATERF38, ERF38, ERF family protein 38"
+AT1G79840	"GL2, HD-ZIP IV family of homeobox-leucine zipper protein with lipid-binding START domain"
+AT2G38950	Transcription factor jumonji (jmj) family protein / zinc finger (C5HC2 type) family protein
+AT4G31620	Transcriptional factor B3 family protein
+AT2G47460	"ATMYB12, MYB12, PFG1, myb domain protein 12"
+AT4G08350	"GTA02, GTA2, global transcription factor group A2"
+AT4G03090	sequence-specific DNA binding;sequence-specific DNA binding transcription factors
+AT2G24690	Transcriptional factor B3 family protein
+AT1G43950	"ARF23, auxin response factor 23"
+AT4G34410	"RRTF1, redox responsive transcription factor 1"
+AT1G01150	Homeodomain-like protein with RING/FYVE/PHD-type zinc finger domain
+AT3G61910	"ANAC066, NAC066, NST2, NAC domain protein 66"
+AT5G50570	Squamosa promoter-binding protein-like (SBP domain) transcription factor family protein
+AT5G26580	"AGL34, AGAMOUS-like-34"
+AT2G26320	"AGL33, AGAMOUS-like 33"
+AT5G14010	"KNU, C2H2 and C2HC zinc fingers superfamily protein"
+AT5G59570	Homeodomain-like superfamily protein
+AT5G56270	"ATWRKY2, WRKY2, WRKY DNA-binding protein 2"
+AT4G00260	"MEE45, Transcriptional factor B3 family protein"
+AT1G66600	"ABO3, ATWRKY63, WRKY63, ABA overly sensitive mutant 3"
+AT1G79700	Integrase-type DNA-binding superfamily protein
+AT5G65130	Integrase-type DNA-binding superfamily protein
+AT3G46080	C2H2-type zinc finger family protein
+AT1G20710	"WOX10, WUSCHEL related homeobox 10"
+AT4G01250	"AtWRKY22, WRKY22, WRKY family transcription factor"
+AT2G20350	Integrase-type DNA-binding superfamily protein
+AT5G09240	ssDNA-binding transcriptional regulator
+AT1G60380	NAC (No Apical Meristem) domain transcriptional regulator superfamily protein
+AT2G28160	"ATBHLH029, ATBHLH29, ATFIT1, BHLH029, FIT1, FRU, FER-like regulator of iron uptake"
+AT3G19290	"ABF4, AREB2, ABRE binding factor 4"
+AT5G23000	"ATMYB37, MYB37, RAX1, myb domain protein 37"
+AT2G28710	C2H2-type zinc finger family protein
+AT5G07160	Basic-leucine zipper (bZIP) transcription factor family protein
+AT5G66730	C2H2-like zinc finger protein
+AT1G74480	RWP-RK domain-containing protein
+AT5G09230	"AtSRT2, SRT2, sirtuin 2"
+AT5G14490	"anac085, NAC085, NAC domain containing protein 85"
+AT1G14687	"AtHB32, HB32, homeobox protein 32"
+AT2G24340	sequence-specific DNA binding transcription factors
+AT3G30260	"AGL79, AGAMOUS-like 79"
+AT1G68550	Integrase-type DNA-binding superfamily protein
+AT5G27580	"AGL89, AGAMOUS-like 89"
+AT2G32700	"LUH, LEUNIG_homolog"
+AT1G54830	"NF-YC3, nuclear factor Y, subunit C3"
+AT4G13480	"AtMYB79, MYB79, myb domain protein 79"
+AT5G62430	"CDF1, cycling DOF factor 1"
+AT1G05805	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G42300	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT4G02590	"UNE12, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT5G44800	"CHR4, PKR1, chromatin remodeling 4"
+AT4G29940	"PRHA, pathogenesis related homeodomain protein  A"
+AT4G18450	Integrase-type DNA-binding superfamily protein
+AT2G41460	"ARP, apurinic endonuclease-redox protein"
+AT5G63980	"ALX8, ATSAL1, FRY1, HOS2, RON1, SAL1, Inositol monophosphatase family protein"
+AT2G47520	"HRE2, Integrase-type DNA-binding superfamily protein"
+AT5G35210	metalloendopeptidases;zinc ion binding;DNA binding
+AT1G07640	"OBP2, Dof-type zinc finger DNA-binding family protein"
+AT2G47270	sequence-specific DNA binding transcription factors;transcription regulators
+AT3G10470	C2H2-type zinc finger family protein
+AT5G43540	C2H2 and C2HC zinc fingers superfamily protein
+AT5G15020	"SNL2, SIN3-like 2"
+AT1G56160	"ATMYB72, MYB72, myb domain protein 72"
+AT3G01470	"ATHB-1, ATHB1, HAT5, HB-1, HD-ZIP-1, homeobox 1"
+AT2G18090	PHD finger family protein / SWIB complex BAF60b domain-containing protein / GYF domain-containing protein
+AT4G37850	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G54330	"ANAC020, NAC020, NAC domain containing protein 20"
+AT4G21440	"ATM4, ATMYB102, MYB102, MYB102, MYB-like 102"
+AT1G08970	"HAP5C, NF-YC9, nuclear factor Y, subunit C9"
+AT4G36590	MADS-box transcription factor family protein
+AT5G54230	"AtMYB49, MYB49, myb domain protein 49"
+AT1G73410	"ATMYB54, MYB54, myb domain protein 54"
+AT1G60240	NAC (No Apical Meristem) domain transcriptional regulator superfamily protein
+AT4G23980	"ARF9, auxin response factor 9"
+AT3G13180	NOL1/NOP2/sun family protein / antitermination NusB domain-containing protein
+AT1G06850	"AtbZIP52, bZIP52, basic leucine-zipper 52"
+AT4G14410	"bHLH104, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT4G13040	Integrase-type DNA-binding superfamily protein
+AT4G02235	"AGL51, AGAMOUS-like 51"
+AT3G13840	GRAS family transcription factor
+AT4G12350	"AtMYB42, MYB42, myb domain protein 42"
+AT4G21670	"ATCPL1, CPL1, FRY2, C-terminal domain phosphatase-like 1"
+AT3G32090	WRKY family transcription factor
+AT5G27070	"AGL53, AGAMOUS-like 53"
+AT4G10680	transcription factor IIB (TFIIB) family protein
+AT1G13960	"WRKY4, WRKY DNA-binding protein 4"
+AT2G28200	C2H2-type zinc finger family protein
+AT1G76580	Squamosa promoter-binding protein-like (SBP domain) transcription factor family protein
+AT3G61250	"AtMYB17, MYB17, myb domain protein 17"
+AT5G61270	"PIF7, phytochrome-interacting factor7"
+AT2G15660	"AGL95, AGAMOUS-like 95"
+AT5G23090	"NF-YB13, nuclear factor Y, subunit B13"
+AT1G13300	"HRS1, myb-like transcription factor family protein"
+AT1G58100	TCP family transcription factor 
+AT2G34210	Transcription elongation factor Spt5
+AT5G39230	TFIIB zinc-binding protein
+AT2G40350	Integrase-type DNA-binding superfamily protein
+AT5G47370	"HAT2, Homeobox-leucine zipper protein 4 (HB-4) / HD-ZIP protein"
+AT4G31660	AP2/B3-like transcriptional factor family protein
+AT5G47670	"L1L, NF-YB6, nuclear factor Y, subunit B6"
+AT4G35280	C2H2-like zinc finger protein
+AT5G20240	"PI, K-box region and MADS-box transcription factor family protein "
+AT5G27960	"AGL90, AGAMOUS-like 90"
+AT5G10280	"ATMYB64, ATMYB92, MYB92, myb domain protein 92"
+AT4G09450	Duplicated homeodomain-like superfamily protein
+AT5G18090	AP2/B3-like transcriptional factor family protein
+AT3G13040	myb-like HTH transcriptional regulator family protein
+AT4G37730	"AtbZIP7, bZIP7, basic leucine-zipper 7"
+AT1G43330	Homeodomain-like superfamily protein
+AT5G42520	"ATBPC6, BBR/BPC6, BPC6, basic pentacysteine 6"
+AT1G20910	ARID/BRIGHT DNA-binding domain-containing protein
+AT5G13240	transcription regulators
+AT3G13445	"TBP1, TFIID-1, TATA binding protein 1"
+AT3G33520	"ARP6, ATARP6, ESD1, SUF3, actin-related protein 6"
+AT2G24681	AP2/B3-like transcriptional factor family protein
+AT2G36740	"ATSWC2, SWC2, sequence-specific DNA binding transcription factors;DNA binding;DNA binding"
+AT5G52600	"AtMYB82, MYB82, myb domain protein 82"
+AT2G45680	TCP family transcription factor 
+AT1G10450	"SNL6, SIN3-like 6"
+AT5G32460	Transcriptional factor B3 family protein
+AT5G18230	transcription regulator NOT2/NOT3/NOT5 family protein
+AT1G10586	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G23320	"WRKY15, WRKY DNA-binding protein 15"
+AT1G27740	"RSL4, root hair defective 6-like 4"
+AT5G06100	"ATMYB33, MYB33, myb domain protein 33"
+AT1G24200	Paired amphipathic helix (PAH2) superfamily protein
+AT1G22810	Integrase-type DNA-binding superfamily protein
+AT4G35540	zinc ion binding;transcription regulators
+AT2G27220	"BLH5, BEL1-like homeodomain 5"
+AT5G05120	C2H2 and C2HC zinc fingers superfamily protein
+AT4G17810	C2H2 and C2HC zinc fingers superfamily protein
+AT3G17460	PHD finger family protein
+AT5G07690	"ATMYB29, MYB29, PMG2, myb domain protein 29"
+AT1G66370	"AtMYB113, MYB113, myb domain protein 113"
+AT3G61740	"ATX3, SDG14, SET domain protein 14"
+AT5G05090	Homeodomain-like superfamily protein
+AT2G34640	"HMR, PTAC12, plastid transcriptionally active 12"
+AT3G17730	"anac057, NAC057, NAC domain containing protein 57"
+AT5G43290	"ATWRKY49, WRKY49, WRKY DNA-binding protein 49"
+AT1G18860	"ATWRKY61, WRKY61, WRKY DNA-binding protein 61"
+AT4G03190	"AFB1, ATGRH1, GRH1, GRR1-like protein 1"
+AT5G42700	AP2/B3-like transcriptional factor family protein
+AT5G07700	"AtMYB76, MYB76, myb domain protein 76"
+AT1G75430	"BLH11, BEL1-like homeodomain 11"
+AT4G01720	"AtWRKY47, WRKY47, WRKY family transcription factor"
+AT5G14750	"ATMYB66, MYB66, WER, WER1, myb domain protein 66"
+AT1G42990	"ATBZIP60, BZIP60, BZIP60, basic region/leucine zipper motif 60"
+AT5G12870	"ATMYB46, MYB46, myb domain protein 46"
+AT5G60830	"AtbZIP70, bZIP70, basic leucine-zipper 70"
+AT5G22570	"ATWRKY38, WRKY38, WRKY DNA-binding protein 38"
+AT1G44830	Integrase-type DNA-binding superfamily protein
+AT3G11200	"AL2, alfin-like 2"
+AT1G06180	"ATMYB13, ATMYBLFGN, MYB13, myb domain protein 13"
+AT2G30280	"DMS4, RDM4, RNA-directed DNA methylation 4"
+AT5G23405	HMG-box (high mobility group) DNA-binding family protein
+AT1G48150	MADS-box transcription factor family protein
+AT2G31220	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G16720	"ATMYB7, ATY49, MYB7, myb domain protein 7"
+AT5G49240	"APRR4, PRR4, pseudo-response regulator 4"
+AT3G49610	Domain of unknown function (DUF313) 
+AT3G57370	Cyclin family protein
+AT4G38130	"ATHD1, ATHDA19, HD1, HDA1, HDA19, RPD3A, histone deacetylase 1"
+AT3G52770	"ZPR3, protein binding"
+AT5G13330	"Rap2.6L, related to AP2 6l"
+AT1G68050	"ADO3, FKF1, flavin-binding, kelch repeat, f box 1"
+AT1G14685	"ATBPC2, BBR/BPC2, BPC2, basic pentacysteine 2"
+AT5G48560	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G37740	"ATZFP10, ZFP10, zinc-finger protein 10"
+AT3G14020	"NF-YA6, nuclear factor Y, subunit A6"
+AT5G06710	"HAT14, homeobox from Arabidopsis thaliana"
+AT5G57180	"CIA2, chloroplast import apparatus 2"
+AT1G08810	"AtMYB60, MYB60, myb domain protein 60"
+AT5G47390	myb-like transcription factor family protein
+AT1G13600	"AtbZIP58, bZIP58, basic leucine-zipper 58"
+AT2G22850	"AtbZIP6, bZIP6, basic leucine-zipper 6"
+AT2G26940	C2H2-type zinc finger family protein
+AT1G62300	"ATWRKY6, WRKY6, WRKY family transcription factor"
+AT2G21320	B-box zinc finger family protein
+AT2G44745	WRKY family transcription factor
+AT3G16350	Homeodomain-like superfamily protein
+AT5G01380	Homeodomain-like superfamily protein
+AT1G69570	Dof-type zinc finger DNA-binding family protein
+AT2G24700	Transcriptional factor B3 family protein
+AT5G51780	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT3G62610	"ATMYB11, MYB11, PFG2, myb domain protein 11"
+AT1G01060	"LHY, LHY1, Homeodomain-like superfamily protein"
+AT3G14180	sequence-specific DNA binding transcription factors
+AT3G16980	"NRPB9A, NRPD9A, NRPE9A, RNA polymerases M/15 Kd subunit"
+AT5G51990	"CBF4, DREB1D, C-repeat-binding factor 4"
+AT5G62000	"ARF1-BP, ARF2, HSS, ORE14, auxin response factor 2"
+AT5G14960	"DEL2, E2FD, E2L1, DP-E2F-like 2"
+AT3G11440	"ATMYB65, MYB65, myb domain protein 65"
+AT4G04890	"PDF2, protodermal factor 2"
+AT3G23130	"FLO10, FON1, SUP, C2H2 and C2HC zinc fingers superfamily protein"
+AT5G49520	"ATWRKY48, WRKY48, WRKY DNA-binding protein 48"
+AT1G45249	"ABF2, AREB1, ATAREB1, abscisic acid responsive elements-binding factor 2"
+AT5G46915	transcriptional factor B3 family protein
+AT5G64220	Calmodulin-binding transcription activator protein with CG-1 and Ankyrin domains
+AT5G01860	C2H2 and C2HC zinc fingers superfamily protein
+AT1G77450	"anac032, NAC032, NAC domain containing protein 32"
+AT2G40210	"AGL48, AGAMOUS-like 48"
+AT1G24250	Paired amphipathic helix (PAH2) superfamily protein
+AT5G22990	C2H2-like zinc finger protein
+AT5G15210	"ATHB30, HB30, ZFHD3, homeobox protein 30"
+AT3G57800	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G05660	"ATNFXL2, sequence-specific DNA binding transcription factors;zinc ion binding;sequence-specific DNA binding transcription factors"
+AT1G54160	"NF-YA5, NFYA5, nuclear factor Y, subunit A5"
+AT2G20570	"ATGLK1, GLK1, GPRI1, GBF's pro-rich region-interacting factor 1"
+AT1G74850	"PTAC2, plastid transcriptionally active 2"
+AT5G19790	"RAP2.11, related to AP2 11"
+AT2G13150	Basic-leucine zipper (bZIP) transcription factor family protein
+AT1G63910	"AtMYB103, MYB103, myb domain protein 103"
+AT4G24240	"ATWRKY7, WRKY7, WRKY DNA-binding protein 7"
+AT5G60120	"TOE2, target of early activation tagged (EAT) 2"
+AT1G71130	Integrase-type DNA-binding superfamily protein
+AT1G35515	"HOS10, MYB8, high response to osmotic stress 10"
+AT5G02460	Dof-type zinc finger DNA-binding family protein
+AT4G27240	zinc finger (C2H2 type) family protein
+AT2G36450	"HRD, Integrase-type DNA-binding superfamily protein"
+AT1G68520	B-box type zinc finger protein with CCT domain
+AT1G21970	"EMB 212, EMB212, LEC1, NF-YB9, Histone superfamily protein"
+AT3G06620	PAS domain-containing protein tyrosine kinase family protein
+AT1G09540	"ATMYB61, MYB61, myb domain protein 61"
+AT2G36990	"ATSIG6, SIG6, SIGF, SOLDAT8, RNApolymerase sigma-subunit F"
+AT3G06590	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G65790	"ATMYB68, MYB68, myb domain protein 68"
+AT3G24650	"ABI3, SIS10, AP2/B3-like transcriptional factor family protein"
+AT4G00480	"ATMYC1, myc1, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT5G58610	"PHD finger transcription factor, putative"
+AT1G10480	"ZFP5, zinc finger protein 5"
+AT1G10585	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G46400	"ATWRKY46, WRKY46, WRKY DNA-binding protein 46"
+AT5G13080	"ATWRKY75, WRKY75, WRKY DNA-binding protein 75"
+AT1G66550	"ATWRKY67, WRKY67, WRKY DNA-binding protein 67"
+AT4G26030	C2H2-like zinc finger protein
+AT3G23210	"bHLH34, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT2G01570	"RGA, RGA1, GRAS family transcription factor family protein"
+AT3G01220	"ATHB20, HB20, homeobox protein 20"
+AT5G03500	"Mediator complex, subunit Med7"
+AT5G39700	"AtMYB89, MYB89, myb domain protein 89"
+AT2G43000	"anac042, NAC042, NAC domain containing protein 42"
+AT5G66750	"ATDDM1, CHA1, CHR01, CHR1, DDM1, SOM1, SOM4, chromatin remodeling 1"
+AT1G09570	"FHY2, FRE1, HY8, PHYA, phytochrome A"
+AT1G07980	"NF-YC10, nuclear factor Y, subunit C10"
+AT4G10920	"KELP, transcriptional coactivator p15 (PC4) family protein (KELP)"
+AT5G56960	basic helix-loop-helix (bHLH) DNA-binding family protein
+AT4G13980	"AT-HSFA5, HSFA5, winged-helix DNA-binding transcription factor family protein"
+AT4G38000	"DOF4.7, DNA binding with one finger 4.7"
+AT5G17810	"WOX12, WUSCHEL related homeobox 12"
+AT4G36920	"AP2, FL1, FLO2, Integrase-type DNA-binding superfamily protein"
+AT1G59640	"BPE, BPEp, BPEub, ZCW32, BIG PETAL P"
+AT5G58900	Homeodomain-like transcriptional regulator
+AT2G16400	"BLH7, BEL1-like homeodomain 7"
+AT1G61110	"anac025, NAC025, NAC domain containing protein 25"
+AT1G29160	Dof-type zinc finger DNA-binding family protein
+AT1G63210	Transcription elongation factor Spt6
+AT3G26850	histone-lysine N-methyltransferases
+AT4G31550	"ATWRKY11, WRKY11, WRKY DNA-binding protein 11"
+AT3G11100	sequence-specific DNA binding transcription factors
+AT5G65100	Ethylene insensitive 3 family protein
+AT3G62670	"ARR20, MEE41, RR20, response regulator 20"
+AT4G02670	"AtIDD12, IDD12, indeterminate(ID)-domain 12"
+AT1G34190	"anac017, NAC017, NAC domain containing protein 17"
+AT4G12240	zinc finger (C2H2 type) family protein
+AT2G26580	"YAB5, plant-specific transcription factor YABBY family protein"
+AT5G11260	"HY5, TED 5, Basic-leucine zipper (bZIP) transcription factor family protein"
+AT2G44730	Alcohol dehydrogenase transcription factor Myb/SANT-like family protein
+AT3G46090	"ZAT7, C2H2 and C2HC zinc fingers superfamily protein"
+AT2G40260	Homeodomain-like superfamily protein
+AT1G27220	paired amphipathic helix repeat-containing protein
+AT5G23280	TCP family transcription factor 
+AT3G46640	"LUX, PCL1, Homeodomain-like superfamily protein"
+AT2G34710	"ATHB-14, ATHB14, PHB, PHB-1D, Homeobox-leucine zipper family protein / lipid-binding START domain-containing protein"
+AT3G21175	"GATA24, TIFY2B, ZML1, ZML1, ZIM-like 1"
+AT1G80840	"ATWRKY40, WRKY40, WRKY DNA-binding protein 40"
+AT1G56170	"ATHAP5B, HAP5B, NF-YC2, nuclear factor Y, subunit C2"
+AT1G08290	"WIP3, WIP domain protein 3"
+AT4G31060	Integrase-type DNA-binding superfamily protein
+AT1G77570	Winged helix-turn-helix transcription repressor DNA-binding
+AT5G06070	"RAB, RBE, C2H2 and C2HC zinc fingers superfamily protein"
+AT5G22010	"AtRFC1, RFC1, RFC1, replication factor C1"
+AT1G55110	"AtIDD7, IDD7, indeterminate(ID)-domain 7"
+AT1G35240	"ARF20, auxin response factor 20"
+AT3G03260	"HDG8, homeodomain GLABROUS 8"
+AT5G60480	"AtHB26, HB26, homeobox protein 26"
+AT4G21330	"DYT1, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT1G34410	"ARF21, auxin response factor 21"
+AT3G20880	"WIP4, WIP domain protein 4"
+AT2G38300	myb-like HTH transcriptional regulator family protein
+AT5G41030	TCP family transcription factor 
+AT4G28800	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G72010	TCP family transcription factor 
+AT1G28450	"AGL58, AGAMOUS-like 58"
+AT5G37415	"AGL105, AGAMOUS-like 105"
+AT4G25410	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G36670	RING/FYVE/PHD zinc finger superfamily protein
+AT3G57920	"SPL15, squamosa promoter binding protein-like 15"
+AT1G68190	B-box zinc finger family protein
+AT5G15030	Paired amphipathic helix (PAH2) superfamily protein
+AT1G76900	"AtTLP1, TLP1, tubby like protein 1"
+AT1G63020	"NRPD1, NRPD1A, POL IVA, SDE4, SMD2, nuclear RNA polymerase D1A"
+AT1G75250	"ATRL6, RL6, RSM3, RAD-like 6"
+AT3G45260	C2H2-like zinc finger protein
+AT1G59530	"ATBZIP4, bZIP4, basic leucine-zipper 4"
+AT1G49475	AP2/B3-like transcriptional factor family protein
+AT2G30250	"ATWRKY25, WRKY25, WRKY DNA-binding protein 25"
+AT5G66770	GRAS family transcription factor
+AT3G50330	"HEC2, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT5G16600	"AtMYB43, MYB43, myb domain protein 43"
+AT3G04420	"anac048, NAC048, NAC domain containing protein 48"
+AT5G49330	"ATMYB111, MYB111, PFG3, myb domain protein 111"
+AT3G10595	Duplicated homeodomain-like superfamily protein
+AT5G15830	"AtbZIP3, bZIP3, basic leucine-zipper 3"
+AT1G28370	"ATERF11, ERF11, ERF domain protein 11"
+AT5G57660	"ATCOL5, COL5, CONSTANS-like 5"
+AT3G05800	"AIF1, AtBS1(activation-tagged BRI1 suppressor 1)-interacting factor 1"
+AT5G64750	"ABR1, Integrase-type DNA-binding superfamily protein"
+AT2G28550	"RAP2.7, TOE1, related to AP2.7"
+AT1G08060	"MOM, MOM, MOM1, ATP-dependent helicase family protein"
+AT4G13940	"ATSAHH1, EMB1395, HOG1, MEE58, SAHH1, S-adenosyl-L-homocysteine hydrolase"
+AT5G51860	K-box region and MADS-box transcription factor family protein 
+AT1G55600	"ATWRKY10, MINI3, WRKY10, WRKY DNA-binding protein 10"
+AT3G47640	"PYE, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT5G01747	"MIR164, MIR164B, MIR164/MIR164B; miRNA"
+AT2G21230	Basic-leucine zipper (bZIP) transcription factor family protein
+AT1G15720	"TRFL5, TRF-like 5"
+AT1G33060	"ANAC014, NAC014, NAC 014"
+AT1G52880	"ANAC018, ATNAM, NAM, NARS2, NAC (No Apical Meristem) domain transcriptional regulator superfamily protein"
+AT5G61430	"ANAC100, ATNAC5, NAC100, NAC domain containing protein 100"
+AT1G67310	Calmodulin-binding transcription activator protein with CG-1 and Ankyrin domains
+AT1G64105	"ANAC027, NAC027, NAC domain containing protein 27"
+AT1G10610	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G29060	GRAS family transcription factor
+AT4G18170	"ATWRKY28, WRKY28, WRKY DNA-binding protein 28"
+AT5G29000	Homeodomain-like superfamily protein
+AT2G42830	"AGL5, SHP2, K-box region and MADS-box transcription factor family protein "
+AT4G37180	Homeodomain-like superfamily protein
+AT1G77980	"AGL66, AGAMOUS-like 66"
+AT2G34140	Dof-type zinc finger DNA-binding family protein
+AT5G45600	"GAS41, TAF14B, YEATS family protein"
+AT4G09460	"AtMYB6, MYB6, myb domain protein 6"
+AT3G24490	Alcohol dehydrogenase transcription factor Myb/SANT-like family protein
+AT3G49950	GRAS family transcription factor
+AT3G56560	"anac065, NAC065, NAC domain containing protein 65"
+AT3G03660	"WOX11, WUSCHEL related homeobox 11"
+AT3G56970	"BHLH038, ORG2, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT5G22650	"ATHD2, ATHD2B, HD2, HD2B, HDA4, HDT02, HDT2, histone deacetylase 2B"
+AT5G38620	MADS-box transcription factor family protein
+AT1G27660	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G43840	"AT-HSFA6A, HSFA6A, heat shock transcription factor  A6A"
+AT5G09910	Ras-related small GTP-binding family protein
+AT5G46880	"HB-7, HDG5, homeobox-7"
+AT2G18550	"ATHB21, HB-2, HB21, homeobox protein 21"
+AT2G15740	C2H2-like zinc finger protein
+AT4G12620	"ATORC1B, ORC1B, UNE13, origin of replication complex 1B"
+AT3G04030	Homeodomain-like superfamily protein
+AT1G73360	"ATHDG11, EDT1, HDG11, homeodomain GLABROUS 11"
+AT1G24210	Paired amphipathic helix (PAH2) superfamily protein
+AT3G20840	"PLT1, Integrase-type DNA-binding superfamily protein"
+AT1G72740	Homeodomain-like/winged-helix DNA-binding family protein
+AT3G05860	MADS-box transcription factor family protein
+AT1G01530	"AGL28, AGAMOUS-like 28"
+AT2G19260	RING/FYVE/PHD zinc finger superfamily protein
+AT2G31180	"ATMYB14, MYB14, MYB14AT, myb domain protein 14"
+AT1G61700	RNA polymerases N / 8 kDa subunit
+AT2G45100	Cyclin/Brf1-like TBP-binding protein
+AT5G15310	"ATMIXTA, ATMYB16, MYB16, myb domain protein 16"
+AT3G24310	"ATMYB71, MYB305, myb domain protein 305"
+AT4G11070	"AtWRKY41, WRKY41, WRKY family transcription factor"
+AT4G07950	"DNA-directed RNA polymerase, subunit M, archaeal"
+AT1G46480	"WOX4, WUSCHEL related homeobox 4"
+AT5G44080	Basic-leucine zipper (bZIP) transcription factor family protein
+AT2G21900	"ATWRKY59, WRKY59, WRKY DNA-binding protein 59"
+AT3G25890	Integrase-type DNA-binding superfamily protein
+AT1G74650	"ATMYB31, ATY13, MYB31, myb domain protein 31"
+AT3G22961	Paired amphipathic helix (PAH2) superfamily protein
+AT5G24120	"ATSIG5, SIG5, SIGE, sigma factor E"
+AT1G26960	"AtHB23, HB23, homeobox protein 23"
+AT5G43650	"BHLH92, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT5G17430	"BBM, Integrase-type DNA-binding superfamily protein"
+AT3G20280	RING/FYVE/PHD zinc finger superfamily protein
+AT5G27807	"EEP1, MIR164, MIR164C, MIR164/MIR164C; miRNA"
+AT2G29660	zinc finger (C2H2 type) family protein
+AT2G22770	"NAI1, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT1G32150	"AtbZIP68, bZIP68, basic region/leucine zipper transcription factor 68"
+AT4G17020	transcription factor-related
+AT1G27240	Paired amphipathic helix (PAH2) superfamily protein
+AT1G64380	Integrase-type DNA-binding superfamily protein
+AT2G46530	"ARF11, auxin response factor 11"
+AT2G34880	"MEE27, PKDM7C, Transcription factor jumonji (jmj) family protein / zinc finger (C5HC2 type) family protein"
+AT3G10040	sequence-specific DNA binding transcription factors
+AT5G56740	"HAC07, HAC7, HAG02, HAG2, histone acetyltransferase of the GNAT family 2"
+AT4G12020	"ATWRKY19, MAPKKK11, MEKK4, WRKY19, protein kinase family protein"
+AT1G24260	"AGL9, SEP3, K-box region and MADS-box transcription factor family protein "
+AT2G30420	"ETC2, Homeodomain-like superfamily protein"
+AT4G18870	E2F/DP family winged-helix DNA-binding domain
+AT1G60920	"AGL55, AGAMOUS-like 55"
+AT2G18490	C2H2-like zinc finger protein
+AT5G06650	"GIS2, C2H2 and C2HC zinc fingers superfamily protein"
+AT5G46830	"ATNIG1, NIG1, NACL-inducible gene 1"
+AT5G22220	"ATE2FB, E2F1, E2FB, E2F transcription factor 1"
+AT3G55730	"AtMYB109, MYB109, myb domain protein 109"
+AT3G21880	B-box type zinc finger protein with CCT domain
+AT5G40220	"AGL43, AGAMOUS-like 43"
+AT3G23140	"URO, C2H2 and C2HC zinc fingers superfamily protein"
+AT1G72830	"ATHAP2C, HAP2C, NF-YA3, nuclear factor Y, subunit A3"
+AT3G57130	"BOP1, Ankyrin repeat family protein / BTB/POZ domain-containing protein"
+AT3G09290	"TAC1, telomerase activator1"
+AT2G17180	C2H2-like zinc finger protein
+AT1G11475	"NRPB10, NRPD10, NRPE10, RNA polymerases N / 8 kDa subunit"
+AT5G05790	Duplicated homeodomain-like superfamily protein
+AT1G74430	"ATMYB95, ATMYBCP66, MYB95, myb domain protein 95"
+AT2G28610	"PRS, PRS1, WOX3, Homeodomain-like superfamily protein"
+AT2G41940	"ZFP8, zinc finger protein 8"
+AT1G67120	ATPases;nucleotide binding;ATP binding;nucleoside-triphosphatases;transcription factor binding
+AT4G29930	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G43500	Plant regulator RWP-RK family protein
+AT2G33550	Homeodomain-like superfamily protein
+AT5G37260	"CIR1, RVE2, Homeodomain-like superfamily protein"
+AT3G47620	"AtTCP14, TCP14, TEOSINTE BRANCHED, cycloidea and PCF (TCP) 14"
+AT5G08070	"TCP17, TCP domain protein 17"
+AT2G14760	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT4G05420	"DDB1A, damaged DNA binding protein 1A"
+AT1G43160	"RAP2.6, related to AP2 6"
+AT3G16280	Integrase-type DNA-binding superfamily protein
+AT5G17690	"LHP1, TFL2, like heterochromatin protein (LHP1)"
+AT1G76110	HMG (high mobility group) box protein with ARID/BRIGHT DNA-binding domain
+AT3G51060	"SRS1, STY1, Lateral root primordium (LRP) protein-related"
+AT1G24590	"DRN-LIKE, DRNL, ESR2, SOB2, DORNROSCHEN-like"
+AT5G18037	NAC (No Apical Meristem) domain transcriptional regulator superfamily protein
+AT1G69120	"AGL7, AP1, K-box region and MADS-box transcription factor family protein "
+AT1G12890	Integrase-type DNA-binding superfamily protein
+AT5G09460	sequence-specific DNA binding transcription factors;transcription regulators
+AT1G69180	"CRC, Plant-specific transcription factor YABBY family protein"
+AT3G58070	"GIS, C2H2 and C2HC zinc fingers superfamily protein"
+AT3G55990	"ESK1, TBL29, Plant protein of unknown function (DUF828)"
+AT1G72210	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G78540	"ATSHB, SHB, STATLB, SH2 domain protein B"
+AT2G41900	CCCH-type zinc finger protein with ARM repeat domain
+AT4G14920	Acyl-CoA N-acyltransferase with RING/FYVE/PHD-type zinc finger protein
+AT3G01140	"AtMYB106, MYB106, NOK, myb domain protein 106"
+AT5G51790	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G46510	"AIB, ATAIB, ABA-inducible BHLH-type transcription factor"
+AT1G28050	B-box type zinc finger protein with CCT domain
+AT5G06250	AP2/B3-like transcriptional factor family protein
+AT3G09370	"AtMYB3R3, MYB3R-3, myb domain protein 3r-3"
+AT4G37940	"AGL21, AGAMOUS-like 21"
+AT5G42630	"ATS, KAN4, Homeodomain-like superfamily protein"
+AT5G62470	"ATMYB96, MYB96, MYBCOV1, myb domain protein 96"
+AT5G60140	AP2/B3-like transcriptional factor family protein
+AT1G01250	Integrase-type DNA-binding superfamily protein
+AT3G06160	AP2/B3-like transcriptional factor family protein
+AT2G18790	"HY3, OOP1, PHYB, phytochrome B"
+AT2G40950	"BZIP17, Basic-leucine zipper (bZIP) transcription factor family protein"
+AT5G57520	"ATZFP2, ZFP2, zinc finger protein 2"
+AT5G15150	"ATHB-3, ATHB3, HAT7, HB-3, homeobox 3"
+AT1G09250	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G40200	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G69690	TCP family transcription factor 
+AT5G22260	"MS1, RING/FYVE/PHD zinc finger superfamily protein"
+AT1G57820	"ORTH2, VIM1, Zinc finger (C3HC4-type RING finger) family protein"
+AT1G60280	"ANAC023, NAC023, NAC domain containing protein 23"
+AT3G61890	"ATHB-12, ATHB12, HB-12, homeobox 12"
+AT5G58340	myb-like HTH transcriptional regulator family protein
+AT3G60580	C2H2-like zinc finger protein
+AT3G25790	myb-like transcription factor family protein
+AT1G32360	Zinc finger (CCCH-type) family protein
+AT5G25390	"SHN2, Integrase-type DNA-binding superfamily protein"
+AT1G09770	"ATCDC5, ATMYBCDC5, CDC5, cell division cycle 5"
+AT5G40330	"ATMYB23, ATMYBRTF, MYB23, myb domain protein 23"
+AT1G43640	"AtTLP5, TLP5, tubby like protein 5"
+AT4G00760	"APRR8, PRR8, pseudo-response regulator 8"
+AT1G73500	"ATMKK9, MKK9, MAP kinase kinase 9"
+AT3G25990	Homeodomain-like superfamily protein
+AT1G68360	C2H2 and C2HC zinc fingers superfamily protein
+ATMG00940	"ORF164, DNA binding"
+AT1G34170	"ARF13, AUXIN RESPONSE FACTOR 13"
+AT1G34310	"ARF12, auxin response factor 12"
+AT3G61830	"ARF18, auxin response factor 18"
+AT4G31610	"ATREM1, REM1, Transcriptional factor B3 family protein"
+AT2G31280	"CPUORF7, conserved peptide upstream open reading frame 7"
+AT3G01970	"ATWRKY45, WRKY45, WRKY DNA-binding protein 45"
+AT5G39760	"AtHB23, HB23, homeobox protein 23"
+AT5G27880	C2H2 and C2HC zinc fingers superfamily protein
+AT5G40350	"AtMYB24, MYB24, myb domain protein 24"
+AT1G26470	"FUNCTIONS IN: molecular_function unknown; INVOLVED IN: regulation of transcription; LOCATED IN: nucleus, H4/H2A histone acetyltransferase complex; EXPRESSED IN: 23 plant structures; EXPRESSED DURING: 15 growth stages; CONTAINS InterPro DOMAIN/s: CT20 (InterPro:IPR012423); Has 60 Blast hits to 60 proteins in 27 species: Archae - 0; Bacteria - 0; Metazoa - 26; Fungi - 2; Plants - 30; Viruses - 0; Other Eukaryotes - 2 (source: NCBI BLink)."
+AT1G79430	"APL, WDY, Homeodomain-like superfamily protein"
+AT3G24500	"ATMBF1C, MBF1C, multiprotein bridging factor 1C"
+AT2G36490	"DML1, ROS1, demeter-like 1"
+AT3G48670	"IDN2, RDM12, XH/XS domain-containing protein"
+AT5G49620	"AtMYB78, MYB78, myb domain protein 78"
+AT1G75240	"AtHB33, HB33, homeobox protein 33"
+AT2G20400	myb-like HTH transcriptional regulator family protein
+AT4G27270	Quinone reductase family protein
+AT1G79000	"ATHAC1, ATHPCAT2, HAC1, PCAT2, histone acetyltransferase of the CBP family 1"
+AT5G56840	myb-like transcription factor family protein
+AT4G01680	"AtMYB55, MYB55, myb domain protein 55"
+AT2G46770	"ANAC043, EMB2301, NST1, NAC (No Apical Meristem) domain transcriptional regulator superfamily protein"
+AT5G08130	"BIM1, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT1G60340	NAC (No Apical Meristem) domain transcriptional regulator superfamily protein
+AT3G23690	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT3G06490	"AtMYB108, BOS1, MYB108, myb domain protein 108"
+AT4G32010	"HSI2-L1, HSL1, VAL2, HSI2-like 1"
+AT5G12840	"ATHAP2A, EMB2220, HAP2A, NF-YA1, nuclear factor Y, subunit A1"
+AT1G71030	"ATMYBL2, MYBL2, MYB-like 2"
+AT2G31380	"STH, salt tolerance homologue"
+AT1G16490	"ATMYB58, MYB58, myb domain protein 58"
+AT5G36740	Acyl-CoA N-acyltransferase with RING/FYVE/PHD-type zinc finger protein
+AT4G37260	"ATMYB73, MYB73, myb domain protein 73"
+AT4G27310	B-box type zinc finger family protein
+AT2G18280	"AtTLP2, TLP2, tubby like protein 2"
+AT1G34370	"STOP1, C2H2 and C2HC zinc fingers superfamily protein"
+AT2G43410	"FPA, RNA binding"
+AT1G64800	DNA binding;sequence-specific DNA binding transcription factors
+AT5G38140	"NF-YC12, nuclear factor Y, subunit C12"
+AT5G10510	"AIL6, PLT3, AINTEGUMENTA-like 6"
+AT1G31640	"AGL92, AGAMOUS-like 92"
+AT1G22640	"ATMYB3, MYB3, myb domain protein 3"
+AT5G46590	"anac096, NAC096, NAC domain containing protein 96"
+AT2G30590	"WRKY21, WRKY DNA-binding protein 21"
+AT1G68800	"BRC2, TCP12, TCP domain protein 12"
+AT3G16940	calmodulin binding;transcription regulators
+AT3G23220	Integrase-type DNA-binding superfamily protein
+AT5G13910	"LEP, Integrase-type DNA-binding superfamily protein"
+AT3G01460	"ATMBD9, MBD9, methyl-CPG-binding domain 9"
+AT5G42640	C2H2 and C2HC zinc fingers superfamily protein
+AT1G24230	Paired amphipathic helix (PAH2) superfamily protein
+AT5G55760	"SRT1, sirtuin 1"
+AT1G02580	"EMB173, FIS1, MEA, SDG5, SET domain-containing protein"
+AT1G21450	"SCL1, SCARECROW-like 1"
+AT2G27230	"LHW, transcription factor-related"
+AT1G80390	"IAA15, indole-3-acetic acid inducible 15"
+AT1G54060	"ASIL1, 6B-interacting protein 1-like 1"
+AT5G25475	AP2/B3-like transcriptional factor family protein
+AT1G76510	ARID/BRIGHT DNA-binding domain-containing protein
+AT5G56110	"AtMYB103, ATMYB80, MS188, MYB103, myb domain protein 103"
+AT3G04740	"ATMED14, MED14, SWP, RNA polymerase II transcription mediators"
+AT1G10120	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT4G23810	"ATWRKY53, WRKY53, WRKY family transcription factor"
+AT4G37460	"SRFR1, Tetratricopeptide repeat (TPR)-like superfamily protein"
+AT2G26880	"AGL41, AGAMOUS-like 41"
+AT5G47140	"GATA27, GATA transcription factor 27"
+AT5G16770	"AtMYB9, MYB9, myb domain protein 9"
+AT2G34830	"AtWRKY35, MEE24, WRKY35, WRKY DNA-binding protein 35"
+AT4G36710	GRAS family transcription factor
+AT3G24140	"FMA, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT1G32030	Domain of unknown function (DUF313) 
+AT4G36750	Quinone reductase family protein
+AT1G66140	"ZFP4, zinc finger protein 4"
+AT1G07540	"TRFL2, TRF-like 2"
+AT1G57560	"AtMYB50, MYB50, myb domain protein 50"
+AT1G59810	"AGL50, AGAMOUS-like 50"
+AT1G70030	Paired amphipathic helix (PAH2) superfamily protein
+AT2G37120	S1FA-like DNA-binding protein
+AT3G55370	"OBP3, OBF-binding protein 3"
+AT2G28810	Dof-type zinc finger DNA-binding family protein
+AT5G03220	"Mediator complex, subunit Med7"
+AT1G25440	B-box type zinc finger protein with CCT domain
+AT3G25730	"EDF3, ethylene response DNA binding factor 3"
+AT3G18960	AP2/B3-like transcriptional factor family protein
+AT1G30455	transcription regulators;translation initiation factors;zinc ion binding;transcription activators
+AT1G09710	Homeodomain-like superfamily protein
+AT1G19000	Homeodomain-like superfamily protein
+AT1G78080	"RAP2.4, related to AP2 4"
+AT5G25160	"ZFP3, zinc finger protein 3"
+AT2G43140	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G25250	"AtIDD16, IDD16, indeterminate(ID)-domain 16"
+AT5G26650	"AGL36, AGAMOUS-like 36"
+AT3G12130	KH domain-containing protein / zinc finger (CCCH type) family protein
+AT1G12540	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G25150	"TAF5, TBP-associated factor 5"
+AT2G36890	"ATMYB38, BIT1, MYB38, RAX2, Duplicated homeodomain-like superfamily protein"
+AT4G17460	"HAT1, Homeobox-leucine zipper protein 4 (HB-4) / HD-ZIP protein"
+AT3G47500	"CDF3, cycling DOF factor 3"
+AT2G02450	"anac034, ANAC035, LOV1, NAC035, NAC domain containing protein 35"
+AT5G53200	"TRY, Homeodomain-like superfamily protein"
+AT4G33880	"RSL2, ROOT HAIR DEFECTIVE 6-LIKE 2"
+AT1G02210	NAC (No Apical Meristem) domain transcriptional regulator superfamily protein
+AT5G64610	"HAM1, histone acetyltransferase of the MYST family 1"
+AT4G32551	"LUG, RON2, LisH dimerisation motif;WD40/YVTN repeat-like-containing domain"
+AT4G12750	Homeodomain-like transcriptional regulator
+AT1G22490	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT4G31270	sequence-specific DNA binding transcription factors
+AT5G41090	"anac095, NAC095, NAC domain containing protein 95"
+AT4G00120	"EDA33, GT140, IND, IND1, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT2G25230	"AtMYB100, MYB100, myb domain protein 100"
+AT1G35540	"ARF14, auxin response factor 14"
+AT1G69540	"AGL94, AGAMOUS-like 94"
+AT5G06770	KH domain-containing protein / zinc finger (CCCH type) family protein
+AT5G61600	"ERF104, ethylene response factor 104"
+AT1G08985	AP2/B3-like transcriptional factor family protein
+AT4G36160	"ANAC076, NAC076, VND2, NAC domain containing protein 76"
+AT5G53980	"ATHB52, HB52, homeobox protein 52"
+AT4G01580	AP2/B3-like transcriptional factor family protein
+AT4G29000	Tesmin/TSO1-like CXC domain-containing protein
+AT3G01320	"SNL1, SIN3-like 1"
+AT1G68130	"AtIDD14, IDD14, indeterminate(ID)-domain 14"
+AT4G11140	"CRF1, cytokinin response factor 1"
+AT4G31420	Zinc finger protein 622
+AT1G64100	pentatricopeptide (PPR) repeat-containing protein
+AT3G05690	"ATHAP2B, HAP2B, NF-YA2, UNE8, nuclear factor Y, subunit A2"
+AT4G36060	"bHLH11, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT4G01280	Homeodomain-like superfamily protein
+AT3G47600	"ATMYB94, ATMYBCP70, MYB94, myb domain protein 94"
+AT2G38470	"ATWRKY33, WRKY33, WRKY DNA-binding protein 33"
+AT5G56620	"anac099, NAC099, NAC domain containing protein 99"
+AT2G34440	"AGL29, AGAMOUS-like 29"
+AT1G16060	"ADAP, ARIA-interacting double AP2 domain protein"
+AT1G73870	B-box type zinc finger protein with CCT domain
+AT1G49120	Integrase-type DNA-binding superfamily protein
+AT4G29100	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G47900	"AtTLP3, TLP3, tubby like protein 3"
+AT2G02540	"ATHB21, HB21, ZFHD4, homeobox protein 21"
+AT4G03250	Homeodomain-like superfamily protein
+AT5G67060	"HEC1, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT5G26170	"ATWRKY50, WRKY50, WRKY DNA-binding protein 50"
+AT3G46600	GRAS family transcription factor
+AT3G21270	"ADOF2, DOF2, DOF zinc finger protein 2"
+AT2G32940	"AGO6, Argonaute family protein"
+AT2G40970	"MYBC1, Homeodomain-like superfamily protein"
+AT4G25560	"AtMYB18, MYB18, myb domain protein 18"
+AT5G07310	Integrase-type DNA-binding superfamily protein
+AT2G21240	"ATBPC4, BBR, BPC4, basic pentacysteine 4"
+AT1G25470	AP2 domain-containing transcription factor family protein
+AT3G60030	"SPL12, squamosa promoter-binding protein-like 12"
+AT3G12910	NAC (No Apical Meristem) domain transcriptional regulator superfamily protein
+AT5G63470	"NF-YC4, nuclear factor Y, subunit C4"
+AT5G08520	Duplicated homeodomain-like superfamily protein
+AT3G11020	"DREB2, DREB2B, DRE/CRT-binding protein 2B"
+AT3G61630	"CRF6, cytokinin response factor 6"
+AT3G53370	S1FA-like DNA-binding protein
+AT1G77850	"ARF17, auxin response factor 17"
+AT2G37025	"TRFL8, TRF-like 8"
+AT5G27050	"AGL101, AGAMOUS-like 101"
+AT5G65310	"ATHB-5, ATHB5, HB5, homeobox protein 5"
+AT5G47230	"ATERF-5, ATERF5, ERF5, ethylene responsive element binding factor 5"
+AT5G09740	"HAM2, histone acetyltransferase of the MYST family 2"
+AT3G58120	"ATBZIP61, BZIP61, Basic-leucine zipper (bZIP) transcription factor family protein"
+AT5G60142	AP2/B3-like transcriptional factor family protein
+AT2G12900	Basic-leucine zipper (bZIP) transcription factor family protein
+AT5G48890	C2H2-like zinc finger protein
+AT4G26370	antitermination NusB domain-containing protein
+AT5G64060	"anac103, NAC103, NAC domain containing protein 103"
+AT2G30424	"TCL2, Homeodomain-like superfamily protein"
+AT4G36900	"DEAR4, RAP2.10, related to AP2 10"
+AT5G37800	"ATRSL1, RSL1, RHD SIX-LIKE 1"
+AT4G01550	"anac069, NAC069, NAC domain containing protein 69"
+AT2G41240	"BHLH100, basic helix-loop-helix protein 100"
+AT5G51190	Integrase-type DNA-binding superfamily protein
+AT1G21600	"PTAC6, plastid transcriptionally active 6"
+AT4G32730	"ATMYB3R-1, ATMYB3R1, MYB3R-1, MYB3R1, PC-MYB1, Homeodomain-like protein"
+AT5G05770	"WOX7, WUSCHEL related homeobox 7"
+AT1G27370	"SPL10, squamosa promoter binding protein-like 10"
+AT2G01930	"ATBPC1, BBR, BPC1, basic pentacysteine1"
+AT3G16220	Predicted eukaryotic LigT
+AT5G54360	C2H2-like zinc finger protein
+AT4G14770	"ATTCX2, TCX2, TESMIN/TSO1-like CXC 2"
+AT1G27280	Paired amphipathic helix (PAH2) superfamily protein
+AT1G28420	"HB-1, homeobox-1"
+AT4G06746	"DEAR5, RAP2.9, related to AP2 9"
+AT1G69310	"ATWRKY57, WRKY57, WRKY DNA-binding protein 57"
+AT5G24930	"ATCOL4, COL4, CONSTANS-like 4"
+AT5G04410	"anac078, NAC2, NAC domain containing protein 2"
+AT1G49770	"RGE1, ZOU, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT1G19490	Basic-leucine zipper (bZIP) transcription factor family protein
+AT5G09210	GC-rich sequence DNA-binding factor-like protein
+AT1G53910	"RAP2.12, related to AP2 12"
+AT2G38250	Homeodomain-like superfamily protein
+AT5G66870	"ASL1, LBD36, ASYMMETRIC LEAVES 2-like 1"
+AT2G40140	"ATSZF2, CZF1, SZF2, ZFAR1, zinc finger (CCCH-type) family protein"
+AT2G13570	"NF-YB7, nuclear factor Y, subunit B7"
+AT1G26260	"CIB5, cryptochrome-interacting basic-helix-loop-helix 5"
+AT1G64620	Dof-type zinc finger DNA-binding family protein
+AT1G79020	Enhancer of polycomb-like transcription factor protein
+AT5G38740	"AGL77, AGAMOUS-like 77"
+AT1G14440	"AtHB31, HB31, homeobox protein 31"
+AT1G33070	MADS-box family protein
+AT4G16430	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G07950	"MED22B, Surfeit locus protein 5 subunit 22 of Mediator complex"
+AT5G18270	"ANAC087, Arabidopsis NAC domain containing protein 87"
+AT3G54990	"SMZ, Integrase-type DNA-binding superfamily protein"
+AT5G58280	AP2/B3-like transcriptional factor family protein
+AT1G74080	"ATMYB122, MYB122, myb domain protein 122"
+AT2G39880	"AtMYB25, MYB25, myb domain protein 25"
+AT3G17609	"HYH, HY5-homolog"
+AT3G15510	"ANAC056, ATNAC2, NAC2, NARS1, NAC domain containing protein  2"
+AT4G21080	Dof-type zinc finger domain-containing protein
+AT1G71930	"ANAC030, VND7, vascular related NAC-domain protein 7"
+AT5G08141	"AtbZIP75, bZIP75, basic leucine-zipper 75"
+AT1G03970	"GBF4, G-box binding factor 4"
+AT4G00940	Dof-type zinc finger DNA-binding family protein
+AT5G49490	"AGL83, AGAMOUS-like 83"
+AT1G29280	"ATWRKY65, WRKY65, WRKY DNA-binding protein 65"
+AT5G09330	"anac082, NAC082, VNI1, NAC domain containing protein 82"
+AT3G13810	"AtIDD11, IDD11, indeterminate(ID)-domain 11"
+AT3G15210	"ATERF-4, ATERF4, ERF4, RAP2.5, ethylene responsive element binding factor 4"
+AT1G03790	"SOM, Zinc finger C-x8-C-x5-C-x3-H type family protein"
+AT5G49420	MADS-box transcription factor family protein
+AT3G13890	"ATMYB26, MS35, MYB26, myb domain protein 26"
+AT5G27910	"NF-YC8, nuclear factor Y, subunit C8"
+AT1G34390	"ARF22, auxin response factor 22"
+AT3G10330	Cyclin-like family protein
+AT3G27785	"ATMYB118, MYB118, PGA37, myb domain protein 118"
+AT2G38090	Duplicated homeodomain-like superfamily protein
+AT1G68200	Zinc finger C-x8-C-x5-C-x3-H type family protein
+AT3G01530	"ATMYB57, MYB57, myb domain protein 57"
+AT3G53310	AP2/B3-like transcriptional factor family protein
+AT3G49760	"AtbZIP5, bZIP5, basic leucine-zipper 5"
+AT3G02790	zinc finger (C2H2 type) family protein
+AT4G18390	"TCP2, TCP2, TEOSINTE BRANCHED 1, cycloidea and PCF transcription factor 2"
+AT2G31210	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G51220	"WIP5, WIP domain protein 5"
+AT1G63650	"ATMYC-2, EGL1, EGL3, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT5G38490	Domain of unknown function (DUF313) 
+AT2G45160	"ATHAM1, HAM1, GRAS family transcription factor"
+AT3G55210	"anac063, NAC063, NAC domain containing protein 63"
+AT2G43060	"IBH1, ILI1 binding bHLH 1"
+AT1G49720	"ABF1, abscisic acid responsive element-binding factor 1"
+AT1G04370	"ATERF14, ERF14, Ethylene-responsive element binding factor 14"
+AT2G37060	"NF-YB8, nuclear factor Y, subunit B8"
+AT3G53200	"AtMYB27, MYB27, myb domain protein 27"
+AT4G29190	Zinc finger C-x8-C-x5-C-x3-H type family protein
+AT1G21340	Dof-type zinc finger DNA-binding family protein
+AT2G24645	Transcriptional factor B3 family protein
+AT2G19810	CCCH-type zinc finger family protein
+AT1G80580	Integrase-type DNA-binding superfamily protein
+AT4G10240	B-box zinc finger family protein
+AT3G62340	"AtWRKY68, WRKY68, WRKY family transcription factor"
+AT4G25530	"FWA, HDG6, FLOWERING WAGENINGEN"
+AT3G56660	"BZIP49, basic region/leucine zipper motif protein 49"
+AT4G29230	"anac075, NAC075, NAC domain containing protein 75"
+AT4G17950	AT hook motif DNA-binding family protein
+AT1G79350	"EMB1135, RING/FYVE/PHD zinc finger superfamily protein"
+AT5G46350	"ATWRKY8, WRKY8, WRKY DNA-binding protein 8"
+AT3G57300	"ATINO80, INO80, INO80 ortholog"
+AT2G22430	"ATHB6, HB6, homeobox protein 6"
+AT4G31640	transcriptional factor B3 family protein
+AT2G35350	"PLL1, poltergeist like 1"
+AT1G71450	Integrase-type DNA-binding superfamily protein
+AT1G31150	Domain of unknown function (DUF1985)
+AT1G12860	"ICE2, SCRM2, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT5G42780	"AtHB27, HB27, homeobox protein 27"
+AT1G77080	"AGL27, FLM, MAF1, K-box region and MADS-box transcription factor family protein "
+AT4G31805	WRKY family transcription factor
+AT2G42680	"ATMBF1A, MBF1A, multiprotein bridging factor 1A"
+AT5G50490	"NF-YC5, nuclear factor Y, subunit C5"
+AT5G06800	myb-like HTH transcriptional regulator family protein
+AT1G13450	Homeodomain-like superfamily protein
+AT5G14000	"anac084, NAC084, NAC domain containing protein 84"
+AT5G02850	hydroxyproline-rich glycoprotein family protein
+AT1G05055	"ATGTF2H2, GTF2H2, general transcription factor II H2"
+AT3G15270	"SPL5, squamosa promoter binding protein-like 5"
+AT3G20750	"GATA29, GATA transcription factor 29"
+AT5G47290	myb family transcription factor
+AT1G58110	Basic-leucine zipper (bZIP) transcription factor family protein
+AT3G53920	"SIG3, SIGC, RNApolymerase sigma-subunit C"
+AT1G77250	RING/FYVE/PHD-type zinc finger family protein
+AT5G01200	Duplicated homeodomain-like superfamily protein
+AT5G44190	"ATGLK2, GLK2, GPRI2, GOLDEN2-like 2"
+AT5G20170	RNA polymerase II transcription mediators
+AT1G72350	MADS-box transcription factor family protein
+AT5G09780	Transcriptional factor B3 family protein
+AT4G38960	B-box type zinc finger family protein
+AT2G46310	"CRF5, cytokinin response factor 5"
+AT1G12260	"ANAC007, EMB2749, NAC007, VND4, NAC 007"
+AT2G25000	"ATWRKY60, WRKY60, WRKY DNA-binding protein 60"
+AT1G01210	"DNA-directed RNA polymerase, subunit M, archaeal"
+AT3G18380	sequence-specific DNA binding transcription factors;sequence-specific DNA binding
+AT3G25710	"ATAIG1, BHLH32, TMO5, basic helix-loop-helix 32"
+AT1G26790	Dof-type zinc finger DNA-binding family protein
+AT2G04880	"ATWRKY1, WRKY1, ZAP1, zinc-dependent activator protein-1"
+AT1G52150	"ATHB-15, ATHB15, CNA, ICU4, Homeobox-leucine zipper family protein / lipid-binding START domain-containing protein"
+AT3G02400	SMAD/FHA domain-containing protein 
+AT3G06380	"ATTLP9, TLP9, tubby-like protein 9"
+AT2G13960	Homeodomain-like superfamily protein
+AT3G56400	"ATWRKY70, WRKY70, WRKY DNA-binding protein 70"
+AT3G20770	"AtEIN3, EIN3, Ethylene insensitive 3 family protein"
+AT1G19040	NAC (No Apical Meristem) domain transcriptional regulator superfamily protein
+AT1G16640	AP2/B3-like transcriptional factor family protein
+AT2G42200	"SPL9, squamosa promoter binding protein-like 9"
+AT3G18400	"anac058, NAC058, NAC domain containing protein 58"
+AT5G43175	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G28360	"ATERF12, ERF12, ERF domain protein 12"
+AT3G56980	"BHLH039, ORG3, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT5G10570	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G60300	NAC (No Apical Meristem) domain transcriptional regulator superfamily protein
+AT4G37790	"HAT22, Homeobox-leucine zipper protein family"
+AT5G18240	"ATMYR1, MYR1, myb-related protein 1"
+AT2G18060	"ANAC037, VND1, vascular related NAC-domain protein 1"
+AT1G77200	Integrase-type DNA-binding superfamily protein
+AT5G52260	"AtMYB19, MYB19, myb domain protein 19"
+AT5G41570	"ATWRKY24, WRKY24, WRKY DNA-binding protein 24"
+AT3G56770	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G40620	Basic-leucine zipper (bZIP) transcription factor family protein
+AT4G33450	"ATMYB69, MYB69, myb domain protein 69"
+AT2G42780	"FUNCTIONS IN: molecular_function unknown; INVOLVED IN: regulation of transcription; LOCATED IN: integral to membrane, nucleus; EXPRESSED IN: 20 plant structures; EXPRESSED DURING: 11 growth stages; CONTAINS InterPro DOMAIN/s: RNA polymerase II transcription factor SIII, subunit A (InterPro:IPR010684); Has 187 Blast hits to 186 proteins in 77 species: Archae - 0; Bacteria - 0; Metazoa - 104; Fungi - 29; Plants - 38; Viruses - 0; Other Eukaryotes - 16 (source: NCBI BLink)."
+AT1G60250	B-box zinc finger family protein
+AT1G34670	"AtMYB93, MYB93, myb domain protein 93"
+AT1G55970	"HAC04, HAC4, HAC6, HAG04, HAG4, histone acetyltransferase of the CBP family 4"
+AT2G23340	"DEAR3, DREB and EAR motif protein 3"
+AT4G37750	"ANT, CKC, CKC1, DRG, Integrase-type DNA-binding superfamily protein"
+AT4G32880	"ATHB-8, ATHB8, HB-8, homeobox gene 8"
+AT1G24190	"ATSIN3, SIN3, SNL3, SIN3-like 3"
+AT5G67000	Integrase-type DNA-binding superfamily protein
+AT4G31615	Transcriptional factor B3 family protein
+AT3G19070	Homeodomain-like superfamily protein
+AT1G72360	"HRE1, Integrase-type DNA-binding superfamily protein"
+AT1G30210	"ATTCP24, TCP24, TEOSINTE BRANCHED 1, cycloidea, and PCF family 24"
+AT2G03340	"WRKY3, WRKY DNA-binding protein 3"
+AT1G03800	"ATERF10, ERF10, ERF domain protein 10"
+AT1G63100	GRAS family transcription factor
+AT2G32460	"ATM1, ATMYB101, MYB101, myb domain protein 101"
+AT3G66656	"AGL91, AGAMOUS-like 91"
+AT2G46920	"POL, Protein phosphatase 2C family protein"
+AT3G60390	"HAT3, homeobox-leucine zipper protein 3"
+AT3G12977	NAC (No Apical Meristem) domain transcriptional regulator superfamily protein
+AT3G10800	"BZIP28, Basic-leucine zipper (bZIP) transcription factor family protein"
+AT1G69780	"ATHB13, Homeobox-leucine zipper protein family"
+AT3G46770	AP2/B3-like transcriptional factor family protein
+AT2G38880	"ATHAP3, ATNF-YB1, HAP3, HAP3A, NF-YB1, nuclear factor Y, subunit B1"
+AT5G04640	"AGL99, AGAMOUS-like 99"
+AT4G17600	"LIL3:1, Chlorophyll A-B binding family protein"
+AT4G33280	AP2/B3-like transcriptional factor family protein
+AT3G48920	"AtMYB45, MYB45, myb domain protein 45"
+AT1G24625	"ZFP7, zinc finger protein 7"
+AT1G06170	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT4G35270	Plant regulator RWP-RK family protein
+AT5G65330	"AGL78, AGAMOUS-like 78"
+AT1G04880	HMG (high mobility group) box protein with ARID/BRIGHT DNA-binding domain
+AT1G46768	"RAP2.1, related to AP2 1"
+AT3G10113	Homeodomain-like superfamily protein
+AT5G53290	"CRF3, cytokinin response factor 3"
+AT5G04760	Duplicated homeodomain-like superfamily protein
+AT1G55580	"LAS, SCL18, GRAS family transcription factor"
+AT5G54470	B-box type zinc finger family protein
+AT1G35460	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G25540	"PFT1, phytochrome and flowering time regulatory protein (PFT1)"
+AT3G45170	"GATA14, GATA transcription factor 14"
+AT4G16280	"FCA, RNA binding;abscisic acid binding"
+AT5G18830	"ATSPL7, SPL7, squamosa promoter binding protein-like 7"
+AT4G35550	"ATWOX13, HB-4, WOX13, WUSCHEL related homeobox 13"
+AT5G15040	Paired amphipathic helix (PAH2) superfamily protein
+AT4G21550	"VAL3, VP1/ABI3-like 3"
+AT2G40220	"ABI4, ATABI4, GIN6, ISI3, SAN5, SIS5, SUN6, Integrase-type DNA-binding superfamily protein"
+AT5G63900	Acyl-CoA N-acyltransferase with RING/FYVE/PHD-type zinc finger domain
+AT4G00050	"UNE10, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT4G35700	zinc finger (C2H2 type) family protein
+AT1G68920	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT2G21235	Basic-leucine zipper (bZIP) transcription factor family protein
+AT4G12610	"ATRAP74, RAP74, transcription activators;DNA binding;RNA polymerase II transcription factors;catalytics;transcription initiation factors"
+AT1G28300	"LEC2, AP2/B3-like transcriptional factor family protein"
+AT1G02030	C2H2-like zinc finger protein
+AT1G17310	MADS-box transcription factor family protein
+AT2G42410	"ATZFP11, ZFP11, zinc finger protein 11"
+AT4G38070	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT4G31650	Transcriptional factor B3 family protein
+AT1G69010	"BIM2, BES1-interacting Myc-like protein 2"
+AT1G80590	"ATWRKY66, WRKY66, WRKY DNA-binding protein 66"
+AT5G49450	"AtbZIP1, bZIP1, basic leucine-zipper 1"
+AT2G40340	"AtERF48, DREB2C, Integrase-type DNA-binding superfamily protein"
+AT2G46970	"PIL1, phytochrome interacting factor 3-like 1"
+AT4G18770	"AtMYB98, MYB98, myb domain protein 98"
+AT2G31420	Domain of unknown function (DUF313) 
+AT3G56520	NAC (No Apical Meristem) domain transcriptional regulator superfamily protein
+AT5G09790	"ATXR5, SDG15, ARABIDOPSIS TRITHORAX-RELATED PROTEIN 5"
+AT4G25480	"ATCBF3, CBF3, DREB1A, dehydration response element B1A"
+AT2G26430	"ATRCY1, RCY1, arginine-rich cyclin 1"
+AT2G21060	"ATCSP4, ATGRP2B, GRP2B, glycine-rich protein 2B"
+AT5G08550	"ILP1, GC-rich sequence DNA-binding factor-like protein"
+AT4G17880	Basic helix-loop-helix (bHLH) DNA-binding family protein
+AT4G03170	AP2/B3-like transcriptional factor family protein
+AT1G61940	"AtTLP4, TLP4, tubby like protein 4"
+AT2G24696	transcriptional factor B3 family protein
+AT3G50890	"AtHB28, HB28, homeobox protein 28"
+AT4G17980	"anac071, NAC071, NAC domain containing protein 71"
+AT2G33500	B-box type zinc finger protein with CCT domain
+AT5G35840	"PHYC, phytochrome C"
+AT3G44460	"AtbZIP67, DPBF2, Basic-leucine zipper (bZIP) transcription factor family protein"
+AT5G48670	"AGL80, FEM111, AGAMOUS-like 80"
+AT3G10500	"anac053, NAC053, NAC domain containing protein 53"
+AT5G18680	"AtTLP11, TLP11, tubby like protein 11"
+AT3G51960	"ATBZIP24, BZIP24, basic leucine zipper 24"
+AT5G52830	"ATWRKY27, WRKY27, WRKY DNA-binding protein 27"
+AT2G40750	"ATWRKY54, WRKY54, WRKY DNA-binding protein 54"
+AT3G01080	"ATWRKY58, WRKY58, WRKY DNA-binding protein 58"
+AT5G16470	zinc finger (C2H2 type) family protein
+AT3G25940	TFIIB zinc-binding protein
+AT5G50470	"NF-YC7, nuclear factor Y, subunit C7"
+AT3G08500	"AtMYB83, MYB83, myb domain protein 83"
+AT1G65300	"AGL38, PHE2, AGAMOUS-like 38"
+AT4G17490	"ATERF6, ERF-6-6, ERF6, ethylene responsive element binding factor 6"
+AT3G60630	"ATHAM2, HAM2, GRAS family transcription factor"
+AT1G70920	"ATHB18, HB18, homeobox-leucine zipper protein 18"
+AT2G35640	Homeodomain-like superfamily protein
+AT1G69560	"ATMYB105, LOF2, MYB105, myb domain protein 105"
+AT1G75410	"BLH3, BEL1-like homeodomain 3"
+AT1G20980	"ATSPL14, FBR6, SPL14, SPL1R2, squamosa promoter binding protein-like 14"
+AT5G60970	"TCP5, TEOSINTE BRANCHED 1, cycloidea and PCF transcription factor 5"
+AT4G17710	"HDG4, homeodomain GLABROUS 4"
+AT5G54630	zinc finger protein-related
+AT2G46410	"CPC, Homeodomain-like superfamily protein"
+AT3G61120	"AGL13, AGAMOUS-like 13"
+AT4G04450	"AtWRKY42, WRKY42, WRKY family transcription factor"
+AT1G65910	"anac028, NAC028, NAC domain containing protein 28"
+AT3G46070	C2H2-type zinc finger family protein
+AT1G67220	"ATHPCAT1, HAC02, HAC2, histone acetyltransferase of the CBP family 2"
+AT1G22590	"AGL87, AGAMOUS-like 87"
+AT3G09360	Cyclin/Brf1-like TBP-binding protein
+AT1G07705	NOT2 / NOT3 / NOT5 family
+AT4G16610	C2H2-like zinc finger protein
+AT2G26960	"AtMYB81, MYB81, myb domain protein 81"
+AT1G68150	"ATWRKY9, WRKY9, WRKY DNA-binding protein 9"
+AT3G56850	"AREB3, DPBF3, ABA-responsive element binding protein 3"
+AT5G26880	"AGL26, AGAMOUS-like 26"
+AT5G03680	"PTL, Duplicated homeodomain-like superfamily protein"
+AT3G52440	Dof-type zinc finger DNA-binding family protein
+AT1G27270	Paired amphipathic helix (PAH2) superfamily protein
+AT5G21960	Integrase-type DNA-binding superfamily protein
+AT1G25340	"AtMYB116, MYB116, myb domain protein 116"
+AT5G08565	Transcription initiation Spt4-like protein
+AT1G67970	"AT-HSFA8, HSFA8, heat shock transcription factor  A8"
+AT1G30500	"NF-YA7, nuclear factor Y, subunit A7"
+AT2G45120	C2H2-like zinc finger protein
+AT5G01310	"APTX, APRATAXIN-like"
+AT4G32800	Integrase-type DNA-binding superfamily protein
+AT3G10760	Homeodomain-like superfamily protein
+AT5G53210	"SPCH, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT3G50700	"AtIDD2, IDD2, indeterminate(ID)-domain 2"
+AT1G68240	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT3G19360	Zinc finger (CCCH-type) family protein
+AT5G18300	"anac088, NAC088, NAC domain containing protein 88"
+AT4G09180	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G67030	"ZFP6, zinc finger protein 6"
+AT1G23810	Paired amphipathic helix (PAH2) superfamily protein
+AT2G17410	ARID/BRIGHT DNA-binding domain-containing protein
+AT1G53160	"SPL4, squamosa promoter binding protein-like 4"
+AT5G51870	"AGL71, AGAMOUS-like 71"
+AT1G76350	Plant regulator RWP-RK family protein
+AT5G03150	"JKD, C2H2-like zinc finger protein"
+AT5G04240	"ELF6, Zinc finger (C2H2 type) family protein / transcription factor jumonji (jmj) family protein"
+AT3G30210	"ATMYB121, MYB121, myb domain protein 121"
+AT1G20700	"ATWOX14, WOX14, WUSCHEL related homeobox 14"
+AT1G28160	Integrase-type DNA-binding superfamily protein
+AT4G38900	Basic-leucine zipper (bZIP) transcription factor family protein
+AT4G17230	"SCL13, SCARECROW-like 13"
+AT1G47270	"AtTLP6, TLP6, tubby like protein 6"
+AT1G29962	"AGL64, AGAMOUS-like 64"
+AT1G50640	"ATERF3, ERF3, ethylene responsive element binding factor 3"
+AT1G18570	"AtMYB51, BW51A, BW51B, HIG1, MYB51, myb domain protein 51"
+AT5G06510	"NF-YA10, nuclear factor Y, subunit A10"
+AT3G10580	Homeodomain-like superfamily protein
+AT5G09750	"HEC3, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT5G53430	"ATX5, SDG29, SET29, SET domain group 29"
+AT3G12480	"NF-YC11, nuclear factor Y, subunit C11"
+AT5G07100	"WRKY26, WRKY DNA-binding protein 26"
+AT2G38560	"TFIIS, transcript elongation factor IIS"
+AT2G47070	"SPL1, squamosa promoter binding protein-like 1"
+AT5G58890	"AGL82, AGAMOUS-like 82"
+AT5G62110	Homeodomain-like superfamily protein
+AT1G08540	"ABC1, ATSIG1, ATSIG2, SIG1, SIG2, SIGA, SIGB, RNApolymerase sigma subunit 2"
+AT2G20880	Integrase-type DNA-binding superfamily protein
+AT3G01330	"DEL3, E2FF, E2L2, DP-E2F-like protein 3"
+AT5G65230	"AtMYB53, MYB53, myb domain protein 53"
+AT5G66980	AP2/B3-like transcriptional factor family protein
+AT3G50410	"OBP1, OBF binding protein 1"
+AT2G37430	C2H2 and C2HC zinc fingers superfamily protein
+AT3G02000	"ROXY1, Thioredoxin superfamily protein"
+AT1G14510	"AL7, alfin-like 7"
+AT5G09250	"KIWI, ssDNA-binding transcriptional regulator"
+AT5G05550	sequence-specific DNA binding transcription factors
+AT2G01810	RING/FYVE/PHD zinc finger superfamily protein
+AT1G15360	"SHN1, WIN1, Integrase-type DNA-binding superfamily protein"
+AT2G18810	Domain of unknown function (DUF313) 
+AT2G06210	"ELF8, VIP6, binding"
+AT1G74930	"ORA47, Integrase-type DNA-binding superfamily protein"
+AT2G24260	"LRL1, LJRHL1-like 1"
+AT1G13260	"EDF4, RAV1, related to ABI3/VP1 1"
+AT2G39250	"SNZ, Integrase-type DNA-binding superfamily protein"
+AT5G03790	"ATHB51, HB51, LMI1, homeobox 51"
+AT4G28811	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G67190	"DEAR2, DREB and EAR motif protein 2"
+AT2G41070	"ATBZIP12, DPBF4, EEL, Basic-leucine zipper (bZIP) transcription factor family protein"
+AT4G36650	"ATPBRP, PBRP, plant-specific TFIIB-related protein"
+AT4G04780	"MED21, mediator 21"
+AT5G58800	Quinone reductase family protein
+AT3G21330	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G79180	"ATMYB63, MYB63, myb domain protein 63"
+AT1G50620	RING/FYVE/PHD zinc finger superfamily protein
+AT4G30935	"ATWRKY32, WRKY32, WRKY DNA-binding protein 32"
+AT4G11250	"AGL52, AGAMOUS-like 52"
+AT5G17320	"HDG9, homeodomain GLABROUS 9"
+AT4G36540	"BEE2, BR enhanced expression 2"
+AT1G49480	"RTV1, related to vernalization1 1"
+AT4G26640	"AtWRKY20, WRKY20, WRKY family transcription factor family protein"
+AT1G51700	"ADOF1, DOF1, DOF zinc finger protein 1"
+AT4G21040	Dof-type zinc finger domain-containing protein
+AT1G66380	"AtMYB114, MYB114, myb domain protein 114"
+AT4G21750	"ATML1, Homeobox-leucine zipper family protein / lipid-binding START domain-containing protein"
+AT1G51070	"bHLH115, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT2G46130	"ATWRKY43, WRKY43, WRKY DNA-binding protein 43"
+AT1G18340	basal transcription factor complex subunit-related
+AT1G79950	RAD3-like DNA-binding helicase protein
+AT1G28460	"AGL59, AGAMOUS-like 59"
+AT3G04060	"anac046, NAC046, NAC domain containing protein 46"
+AT5G03415	"ATDPB, DPB, Transcription factor DP"
+AT2G37650	GRAS family transcription factor
+AT4G38620	"ATMYB4, MYB4, myb domain protein 4"
+AT1G49830	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT3G28920	"AtHB34, HB34, homeobox protein 34"
+AT3G11580	AP2/B3-like transcriptional factor family protein
+AT1G16690	Enhancer of polycomb-like transcription factor protein
+AT1G74840	Homeodomain-like superfamily protein
+AT4G38340	Plant regulator RWP-RK family protein
+AT1G32640	"ATMYC2, JAI1, JIN1, MYC2, RD22BP1, ZBF1, Basic helix-loop-helix (bHLH) DNA-binding family protein"
+AT5G52510	"SCL8, SCARECROW-like 8"
+AT5G59450	GRAS family transcription factor
+AT5G67180	"TOE3, target of early activation tagged (EAT) 3"
+AT5G17260	"anac086, NAC086, NAC domain containing protein 86"
+AT1G29860	"ATWRKY71, WRKY71, WRKY DNA-binding protein 71"
+AT2G31720	Domain of unknown function (DUF313) 
+AT2G21650	"ATRL2, MEE3, RSM1, Homeodomain-like superfamily protein"
+AT1G30330	"ARF6, auxin response factor 6"
+AT3G57670	"NTT, WIP2, C2H2-type zinc finger family protein"
+AT5G61380	"APRR1, AtTOC1, PRR1, TOC1, CCT motif -containing response regulator protein"
+AT5G54680	"bHLH105, ILR3, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT4G09070	TATA-binding related factor (TRF) of subunit 20 of Mediator complex
+AT5G02840	"LCL1, LHY/CCA1-like 1"
+AT5G22290	"anac089, NAC089, NAC domain containing protein 89"
+AT2G35530	"AtbZIP16, bZIP16, basic region/leucine zipper transcription factor 16"
+AT4G01060	"CPL3, ETC3, CAPRICE-like MYB3"
+AT3G21150	"BBX32, B-box 32"
+AT3G12820	"AtMYB10, MYB10, myb domain protein 10"
+AT4G28140	Integrase-type DNA-binding superfamily protein
+AT1G31310	hydroxyproline-rich glycoprotein family protein
+AT2G28510	Dof-type zinc finger DNA-binding family protein
+AT4G00020	"BRCA2(IV), BRCA2A, EDA20, MEE43, BREAST CANCER 2 like 2A"
+AT1G35490	bZIP family transcription factor
+AT3G10480	"ANAC050, NAC050, NAC domain containing protein 50"
+AT4G00150	"ATHAM3, HAM3, GRAS family transcription factor"
+AT3G19184	AP2/B3-like transcriptional factor family protein
+AT4G00540	"ATMYB3R2, MYB3R-2, MYB3R2, PC-MYB2, myb domain protein 3r2"
+AT1G73830	"BEE3, BR enhanced expression 3"
+AT5G28650	"ATWRKY74, WRKY74, WRKY DNA-binding protein 74"
+AT5G28300	Duplicated homeodomain-like superfamily protein
+AT5G20730	"ARF7, BIP, IAA21, IAA23, IAA25, MSG1, NPH4, TIR5, Transcriptional factor B3 family protein / auxin-responsive factor AUX/IAA-related"
+AT3G09910	"ATRAB18C, ATRABC2B, RABC2b, RAB GTPase homolog C2B"
+AT4G10600	RING/FYVE/PHD zinc finger superfamily protein
+AT2G24680	transcriptional factor B3 family protein
+AT5G46010	Homeodomain-like superfamily protein
+AT3G53820	C2H2 and C2HC zinc fingers superfamily protein
+AT1G73730	"AtEIL3, ATSLIM, EIL3, SLIM1, ETHYLENE-INSENSITIVE3-like 3"
+AT4G17785	"MYB39, myb domain protein 39"
+AT2G16910	"AMS, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT3G22100	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G61470	C2H2-like zinc finger protein
+AT5G07580	Integrase-type DNA-binding superfamily protein
+AT5G10120	Ethylene insensitive 3 family protein
+AT4G25400	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G61420	"AtMYB28, HAG1, MYB28, PMG1, myb domain protein 28"
+AT3G20310	"ATERF-7, ATERF7, ERF7, ethylene response factor 7"
+AT4G22140	"EBS, PHD finger family protein / bromo-adjacent homology (BAH) domain-containing protein"
+AT3G17100	sequence-specific DNA binding transcription factors
+AT5G04840	bZIP protein
+AT1G06150	"EMB1444, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT1G02250	"anac005, NAC005, NAC domain containing protein 5"
+AT4G39780	Integrase-type DNA-binding superfamily protein
+AT3G04100	"AGL57, AGAMOUS-like 57"
+AT1G68880	"AtbZIP, bZIP, basic leucine-zipper 8"
+AT1G17950	"ATMYB52, BW52, MYB52, myb domain protein 52"
+AT5G06839	"bZIP65, TGA10, bZIP transcription factor family protein"
+AT4G17050	"UGLYAH, ureidoglycine aminohydrolase"
+AT2G22760	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G02450	"NIMIN-1, NIMIN1, NIM1-interacting 1"
+AT1G66230	"AtMYB20, MYB20, myb domain protein 20"
+AT3G04670	"ATWRKY39, WRKY39, WRKY DNA-binding protein 39"
+AT5G45580	Homeodomain-like superfamily protein
+AT1G61660	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT1G51600	"GATA28, TIFY2A, ZML2, ZIM-LIKE 2"
+AT1G27050	"ATHB54, HB54, homeobox protein 54"
+AT2G22800	"HAT9, Homeobox-leucine zipper protein family"
+AT2G36610	"ATHB22, HB22, homeobox protein 22"
+AT2G35270	"GIK, Predicted AT-hook DNA-binding family protein"
+AT3G24120	Homeodomain-like superfamily protein
+AT1G05380	Acyl-CoA N-acyltransferase with RING/FYVE/PHD-type zinc finger protein
+AT4G23050	PAS domain-containing protein tyrosine kinase family protein
+AT5G15130	"ATWRKY72, WRKY72, WRKY DNA-binding protein 72"
+AT5G04150	"BHLH101, basic helix-loop-helix (bHLH) DNA-binding superfamily protein"
+AT5G57620	"AtMYB36, MYB36, myb domain protein 36"
+AT1G54760	"AGL85, AGAMOUS-like 85"
+AT5G65050	"AGL31, MAF2, AGAMOUS-like 31"
+AT5G47220	"ATERF-2, ATERF2, ERF2, ethylene responsive element binding factor 2"
+AT3G16870	"GATA17, GATA transcription factor 17"
+AT3G06220	AP2/B3-like transcriptional factor family protein
+AT3G16230	Predicted eukaryotic LigT
+AT1G19700	"BEL10, BLH10, BEL1-like homeodomain 10"
+AT1G48000	"AtMYB112, MYB112, myb domain protein 112"
+AT5G62165	"AGL42, AGAMOUS-like 42"
+AT5G18450	Integrase-type DNA-binding superfamily protein
+AT5G20850	"ATRAD51, RAD51, RAS associated with diabetes protein 51"
+AT1G76880	Duplicated homeodomain-like superfamily protein
+AT5G35550	"ATMYB123, ATTT2, MYB123, TT2, Duplicated homeodomain-like superfamily protein"
+AT1G77640	Integrase-type DNA-binding superfamily protein
+AT3G29020	"AtMYB110, MYB110, myb domain protein 110"
+AT1G72570	Integrase-type DNA-binding superfamily protein
+AT5G60200	"TMO6, TARGET OF MONOPTEROS 6"
+AT3G50060	"MYB77, myb domain protein 77"
+AT5G22760	PHD finger family protein
+AT4G25470	"ATCBF2, CBF2, DREB1C, FTQ4, C-repeat/DRE binding factor 2"
+AT1G64000	"ATWRKY56, WRKY56, WRKY DNA-binding protein 56"
+AT1G27250	Paired amphipathic helix (PAH2) superfamily protein
+AT5G52660	Homeodomain-like superfamily protein
+AT4G14700	"ATORC1A, ORC1A, origin recognition complex 1"
+AT5G61890	Integrase-type DNA-binding superfamily protein
+AT5G60690	"IFL, IFL1, REV, Homeobox-leucine zipper family protein / lipid-binding START domain-containing protein"
+AT5G46910	Transcription factor jumonji (jmj) family protein / zinc finger (C5HC2 type) family protein
+AT4G13620	Integrase-type DNA-binding superfamily protein
+AT2G33710	Integrase-type DNA-binding superfamily protein
+AT2G31070	"TCP10, TCP domain protein 10"
+AT3G10590	Duplicated homeodomain-like superfamily protein
+AT3G05670	RING/U-box protein
+AT5G41920	GRAS family transcription factor
+AT5G43410	Integrase-type DNA-binding superfamily protein
+AT1G18400	"BEE1, BR enhanced expression 1"
+AT4G09960	"AGL11, STK, K-box region and MADS-box transcription factor family protein "
+AT2G36720	Acyl-CoA N-acyltransferase with RING/FYVE/PHD-type zinc finger domain
+AT3G53340	"NF-YB10, nuclear factor Y, subunit B10"
+AT5G17300	"RVE1, Homeodomain-like superfamily protein"
+AT3G13540	"ATMYB5, MYB5, myb domain protein 5"
+AT1G66170	"MMD1, RING/FYVE/PHD zinc finger superfamily protein"
+AT2G40740	"ATWRKY55, WRKY55, WRKY DNA-binding protein 55"
+AT4G20970	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT3G54320	"ASML1, ATWRI1, WRI, WRI1, Integrase-type DNA-binding superfamily protein"
+AT1G01520	Homeodomain-like superfamily protein
+AT1G32510	"ANAC011, NAC011, NAC domain containing protein 11"
+AT1G43770	RING/FYVE/PHD zinc finger superfamily protein
+AT3G50650	GRAS family transcription factor
+AT3G19510	"HAT3.1, Homeodomain-like protein with RING/FYVE/PHD-type zinc finger domain"
+AT4G34000	"ABF3, DPBF5, abscisic acid responsive elements-binding factor 3"
+AT1G47760	"AGL102, AGAMOUS-like 102"
+AT5G37020	"ARF8, ATARF8, auxin response factor 8"
+AT3G44290	"anac060, NAC060, NAC domain containing protein 60"
+AT2G28350	"ARF10, auxin response factor 10"
+AT5G24330	"ATXR6, SDG34, ARABIDOPSIS TRITHORAX-RELATED PROTEIN 6"
+AT3G02990	"ATHSFA1E, HSFA1E, heat shock transcription factor A1E"
+AT5G52010	C2H2-like zinc finger protein
+AT5G02320	"ATMYB3R5, MYB3R-5, myb domain protein 3r-5"
+AT4G24060	Dof-type zinc finger DNA-binding family protein
+AT1G62975	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G60130	AP2/B3-like transcriptional factor family protein
+AT2G35310	Transcriptional factor B3 family protein
+AT1G32130	"ATIWS1, IWS1, Transcription elongation factor (TFIIS) family protein"
+AT5G35610	Paired amphipathic helix (PAH2) superfamily protein
+AT2G16210	Transcriptional factor B3 family protein
+AT4G28530	"anac074, NAC074, NAC domain containing protein 74"
+AT4G23550	"ATWRKY29, WRKY29, WRKY family transcription factor"
+AT3G48590	"ATHAP5A, HAP5A, NF-YC1, nuclear factor Y, subunit C1"
+AT3G06630	protein kinase family protein
+AT3G17010	AP2/B3-like transcriptional factor family protein
+AT3G53790	"TRFL4, TRF-like 4"
+AT2G31370	Basic-leucine zipper (bZIP) transcription factor family protein
+AT4G08250	GRAS family transcription factor
+AT2G34820	basic helix-loop-helix (bHLH) DNA-binding superfamily protein
+AT5G02470	"DPA, Transcription factor DP"
+AT5G16680	RING/FYVE/PHD zinc finger superfamily protein
+AT4G28610	"AtPHR1, PHR1, phosphate starvation response  1"
+AT1G17920	"HDG12, homeodomain GLABROUS 12"
+AT1G01010	"ANAC001, NAC001, NAC domain containing protein 1"
+AT5G11590	"TINY2, Integrase-type DNA-binding superfamily protein"
+AT3G60460	"DUO1, myb-like HTH transcriptional regulator family protein"
+AT5G42910	Basic-leucine zipper (bZIP) transcription factor family protein
+AT5G57390	"AIL5, CHO1, EMK, AINTEGUMENTA-like 5"
+AT1G51190	"PLT2, Integrase-type DNA-binding superfamily protein"
+AT1G59890	"SNL5, SIN3-like 5"
+AT4G26440	"ATWRKY34, MSP3, WRKY34, WRKY DNA-binding protein 34"
+AT2G47260	"ATWRKY23, WRKY23, WRKY DNA-binding protein 23"
+AT3G58710	"ATWRKY69, WRKY69, WRKY DNA-binding protein 69"
+AT3G53570	"AFC1, AME2, FC1, FUS3-complementing gene 1"
+AT1G50680	AP2/B3 transcription factor family protein
+AT2G31230	"ATERF15, ERF15, ethylene-responsive element binding factor 15"
+AT2G37000	TCP family transcription factor 
