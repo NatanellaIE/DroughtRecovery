@@ -1,1 +1,830 @@
+# R script for single nuclei RNA-seq data analysis in "A Transcriptomic Cell Atlas of Drought Recovery Induced Immunity"
+# Jingting Yu; IGC, SALK
+# R 4.2.1
 
+# load library
+library(Seurat)
+library(DT)
+library(ggplot2)
+library(patchwork)
+library(reshape2)
+library(dplyr)
+library(tidyverse)
+library(magrittr)
+library(ArchR)
+library(RColorBrewer)
+library(scCustomize) 
+library(readxl)
+library(WebGestaltR)
+library(ggplot2)
+library(forcats)
+library(SeuratDisk)
+library(SeuratData)
+library(scds)
+library(SingleCellExperiment)
+library(ggpubr)
+library(forcats)
+library(ComplexHeatmap)
+library(WebGestaltR)
+stringsAsFactors = FALSE
+set.seed(12345)
+
+#######################################
+# Part 1: Pre-processing of each sample 
+#######################################
+
+# Filtered matrix from Cellrange can be downloaded from GSE220278
+# Here is an example for one sample, drought_verm_time0_rep1
+obj.D0.1 <- Read10X("./your_path_of_folder_with_cellranger_matrix_of_Drought_Rep1/") 
+obj.D0.1 <- CreateSeuratObject(counts = obj.D0.1, project = "D0.1")
+obj.D0.1
+# check nUMI and nFeature
+median(obj.D0.1@meta.data$nCount_RNA)
+median(obj.D0.1@meta.data$nFeature_RNA)
+# check the feature names
+genefeature <- read.delim("./features.tsv.gz", header = F)
+ATCGname <- genefeature[grep("ATCG", genefeature$V1),]
+ATMGname <- genefeature[grep("ATMG", genefeature$V1),]
+totalgene <- row.names(obj.D0.1@assays$RNA@data)
+table(Matrix::rowSums(obj.D0.1@assays$RNA@data)>0) # number of genes are expressed in at lease 1 cell
+#check ATMG and ATCG genes
+counts <- GetAssayData(obj.D0.1, assay="RNA")
+ATCG.counts <- counts[(which(rownames(counts) %in% ATCGname$V2)),]
+ATMG.counts <- counts[(which(rownames(counts) %in% ATMGname$V2)),]
+#quantify Chloroplast and Mitochondrial genes
+obj.D0.1[["percent.ATMG"]] <- PercentageFeatureSet(obj.D0.1, features = ATMGname$V2)
+obj.D0.1[["percent.ATCG"]] <- PercentageFeatureSet(obj.D0.1, features = ATCGname$V2)
+# visualization
+VlnPlot(obj.D0.1, features = c("nFeature_RNA", "nCount_RNA", "percent.ATMG", "percent.ATCG"), ncol = 2, pt.size = 0)
+ggsave("D0.1.vln.png", width = 6, height = 8, units = "in")
+png("D0.1.FeatureScatter.png", width=50,height=10,units="cm",res=600)
+plot1 <- FeatureScatter(obj.D0.1, feature1 = "nCount_RNA", feature2 = "percent.ATCG")
+plot2 <- FeatureScatter(obj.D0.1, feature1 = "nCount_RNA", feature2 = "nFeature_RNA")
+plot3 <- FeatureScatter(obj.D0.1, feature1 = "nFeature_RNA", feature2 = "percent.ATCG")
+plot1+plot2+plot3
+dev.off()
+
+# Remove low quality cells
+obj.D0.1 <- subset(obj.D0.1, subset = percent.ATCG<=40 & percent.ATMG<=1) 
+table(Matrix::rowSums(obj.D0.1@assays$RNA@data)>0) 
+VlnPlot(obj.D0.1, features = c("nFeature_RNA", "nCount_RNA", "percent.ATMG", "percent.ATCG"), ncol = 2, pt.size = 0.001)
+ggsave("D0.1.edit.vln.pt.png", width = 6, height = 8, units = "in")
+# Save object
+saveRDS(obj.D0.1, "obj.D0.1.edit.RDS")
+
+# repeat the pre-processing for every sample and save the eidited objects as 
+# obj.D0.1 - drought_verm_time0_rep1
+# obj.D0.2 - drought_verm_time0_rep2
+# obj.W0.1 - well-watered_verm_time0_rep1
+# obj.W0.2 - well-watered_verm_time0_rep2
+# obj.W15.1 - well-watered_verm_time15_rep1
+# obj.W15.2 - well-watered_verm_time15_rep2
+# obj.R15.1 - recovery_verm_time15_rep1
+# obj.R15.2 - recovery_verm_time15_rep2
+# End of part 1.
+
+###############################
+# Part 2: Integration with RPCA
+###############################
+
+# Generate the integrated object
+obj.list <- list(obj.D0.1, obj.D0.2, obj.W0.1, obj.W0.2, obj.W15.1, obj.W15.2, obj.R15.1, obj.R15.2)
+names(obj.list) <- c("D0.1", "D0.2", "W0.1", "W0.2", "W15.1", "W15.2", "R15.1", "R15.2")
+# Normalize and identify variable features for each dataset independently
+obj.list <- lapply(X = obj.list, FUN = function(x) {
+  x <- NormalizeData(x)
+  x <- FindVariableFeatures(x, selection.method = "vst", nfeatures = 2000)
+})
+# Select features that are repeatedly variable across datasets for integration run PCA on each
+features <- SelectIntegrationFeatures(object.list = obj.list)
+obj.list <- lapply(X = obj.list, FUN = function(x) {
+  x <- ScaleData(x, features = features, verbose = FALSE)
+  x <- RunPCA(x, features = features, verbose = FALSE)
+})
+obj.anchors <- FindIntegrationAnchors(object.list = obj.list, anchor.features = features, reduction = "rpca", dims=1:30)
+obj.combined <- IntegrateData(anchorset = obj.anchors)
+# Modify meta table
+tmp <- data.frame(sample=c("D0.1", "D0.2", "W0.1", "W0.2", "W15.1", "W15.2", "R15.1", "R15.2"),
+                  cond=c("D0", "D0", "W0", "W0", "W15", "W15", "R15", "R15"))
+obj.combined$condition <- obj.combined$orig.ident
+obj.combined$condition <- plyr::mapvalues(as.vector(obj.combined$condition), from=as.vector(tmp$sample), to=as.vector(tmp$cond))
+obj.combined$sample <- obj.combined$orig.ident
+
+# Standard downstream analysis for clustering and Visualization
+DefaultAssay(obj.combined) <- "integrated"
+obj.combined <- ScaleData(obj.combined, verbose = FALSE)
+obj.combined <- RunPCA(obj.combined, npcs = 30, verbose = FALSE)
+obj.combined <- RunTSNE(obj.combined, reduction = "pca", dims = 1:30)
+obj.combined <- FindNeighbors(obj.combined, reduction = "pca", dims = 1:30)
+obj.combined <- FindClusters(obj.combined, resolution = 0.8) 
+# Check cell numbers by condition and clusters; remove cluster19 with only two cells
+table(obj.combined$condition, obj.combined$seurat_clusters)
+sub.combined <- subset(obj.combined, idents=c(0:18))
+# Visualization
+DimPlot(sub.combined, reduction = "tsne", group.by = "seurat_clusters", label=T) + NoLegend()
+DimPlot(sub.combined, reduction = "tsne", split.by = "condition")
+saveRDS(sub.combined, "combined_obj.RDS")
+
+# Doublet estimation
+DefaultAssay(sub.combined) <- "RNA"
+sce <- as.SingleCellExperiment(sub.combined) 
+sce = cxds(sce, retRes=T, estNdbl=T, verb=T)  
+sce = bcds(sce, retRes=T, estNdbl=T, verb=T) 
+sce = cxds_bcds_hybrid(sce, estNdbl=T, verb=T)
+sub.combined[["cxds_score"]] <- colData(sce)$cxds_score
+sub.combined[["cxds_call"]] <- colData(sce)$cxds_call
+sub.combined[["bcds_score"]] <- colData(sce)$bcds_score
+sub.combined[["bcds_call"]] <- colData(sce)$bcds_call
+sub.combined[["hybrid_score"]] <- colData(sce)$hybrid_score
+sub.combined[["hybrid_call"]] <- colData(sce)$hybrid_call
+
+# Fraction of doublet in each cluster
+df <- data.table(sub.combined@meta.data)
+df.hybrid_call <- df[, c("hybrid_call", "seurat_clusters"), with = FALSE]
+plot <- df.hybrid_call %>% purrr::map( ~ {
+  freq1 <- df[, .N, keyby = .(.x, hybrid_call)]
+  freq1[, total := sum(N), by = .(.x)]
+  freq1[, ratio := N / total]
+  linesize = .35
+  fontsize = 8
+  ggplot(freq1, aes(fill=hybrid_call, y=ratio, x= .x)) + 
+    geom_bar(position="stack", stat="identity")+
+    scale_fill_manual(values = c("TRUE" = 'darkred', "FALSE" = "grey")) +
+    xlab('Clsuter') +
+    scale_y_continuous(breaks = seq(0,1,0.1), expand = c(0,0), name = '%')+
+    theme_bw()+
+    theme( panel.grid.major.x = element_blank(), 
+           panel.grid.major.y = element_blank(),
+           panel.grid.minor = element_blank(),
+           strip.background = element_blank(),panel.border = element_rect(size = linesize),
+           axis.ticks = element_blank(), 
+           axis.text.x = element_text(size = 5))
+})
+plot$seurat_clusters
+# End of part 2.
+
+####################################################
+# Part 3: Cluster annotation and downstream analyses
+####################################################
+
+# Identify cluster markers and pick top15 markers
+sub.combined.marker <- FindAllMarkers(sub.combined, only.pos = TRUE, min.pct = 0.1, logfc.threshold = 0)
+sub.combined.marker.signif <- sub.combined.marker[sub.combined.marker$p_val_adj<0.05,]
+sub.combined.marker.signif$Gene_ID <- sub.combined.marker.signif$gene
+sub.combined.marker.signif$Gene_ID <- plyr::mapvalues(sub.combined.marker.signif$Gene_ID, 
+                                                      from=as.vector(genefeature$V2), to=as.vector(genefeature$V1), warn_missing = F)
+top15m <- sub.combined.marker.signif %>% group_by(cluster) %>% top_n(n = 15, wt = avg_log2FC) %>% data.frame
+ref_marker <- read.delim("./markers_collected_from_Kim_2021.xlsx",header=T)
+ref_marker <- ref_marker[,c(1,4)]
+names(ref_marker)[1] <- "Gene_ID"
+#annotate based on the overlap between reference markers and top15 markers
+top15m_ref <- unique(merge(top15m, ref_marker))
+
+# Determine the initial, level 1, cell types
+sub.combined$label_l1 <- sub.combined$seurat_clusters
+Idents(sub.combined) <- sub.combined$seurat_clusters
+sub.combined <- RenameIdents(sub.combined, 
+                             `0`="Mesophyll, Procambium_XP", `1`="Epidermis, Stress/Defense", `2`="Epidermis", 
+                             `3`="1_Mesophyll, Stress/Defense", `4`="Mesophyll, Procambium_PP, Stress/Defense", 
+                             `5`="2_Mesophyll, Stress/Defense", `6`="Stress, Immune-associated", `7`="Epidermis, Guard cell", `8`="Xylem parenchyma", 
+                             `9`="1_Guard cell", `10`="Epidermis, Mesophyll, Stress/Defense", `11`="Vasculature", 
+                             `12`="Phloem companion cell", `13`="Mesophyll", `14`="Epidermis, Mesophyll, Defense", 
+                             `15`="SAM, Trichome", `16`="2_Guard cell", `17`="SAM, Differentiating Epidermis, Procambium_PP, Stress/Defense", 
+                             `18`="SAM")
+sub.combined$label_l1 <- Idents(sub.combined)
+# Relable the seurat_clusters to put similar cell types together for visualization
+Idents(sub.combined) <- sub.combined$seurat_clusters
+sub.combined <- RenameIdents(sub.combined, 
+                             `0`="4", `1`="6", `2`="5", `3`="2", `4`="12", `5`="3", 
+                             `6`="19", `7`="9", `8`="17", 
+                             `9`="10", `10`="8", `11`="16", `12`="18", `13`="1", 
+                             `14`="7", `15`="15", `16`="11", `17`="13",  `18`="14")
+sub.combined$seurat_clusters_relabel <- Idents(sub.combined)
+sub.combined$seurat_clusters_relabel <- factor(sub.combined$seurat_clusters_relabel, levels=as.character(c(1:19)))
+sub.combined$seurat_clusters_relabel_v2 <- paste0(sub.combined$seurat_clusters_relabel, ": ", sub.combined$label_l1)
+sub.combined$seurat_clusters_relabel_v2 <- factor(sub.combined$seurat_clusters_relabel_v2, levels=names(table(sub.combined$seurat_clusters_relabel_v2))[c(1,12:19,2:11)])
+Idents(sub.combined) <- sub.combined$seurat_clusters_relabel
+# TSNE plot
+mesophy <- as.vector(c("#F7FCB9", "#D9F0A3", "#ADDD8E", "#78C679"))
+Epidermis <- as.vector(c("#c6dbef", "#9ecae1", "#6baed6", "#3182bd"))
+xylem <- as.vector(c("#9EBCDA", "#8C96C6", "#8C6BB1", "#FCBF6E", "#F47E1F"))
+rest <- as.vector(c("#FC8D62", "#B3B3B3", "#E78AC3", "#E6AB02", "#C51B7D", "#FCCDE5"))
+DimPlot(sub.combined, reduction = "tsne", group.by = "seurat_clusters_relabel", label = T, label.size = 5,
+              label.color = "black", raster = FALSE)+ ggtitle("") +
+  scale_color_manual(values = c(mesophy,Epidermis,xylem,rest), labels = levels(sub.combined$seurat_clusters_relabel_v2))
+
+# Determine the level 2 cell type annotation: clusters annotated as same cell type from level 1 were grouped together
+Idents(sub.combined) <- sub.combined$seurat_clusters
+sub.combined <- RenameIdents(sub.combined, 
+                             `0`="Mesophyll", `1`="Epidermis", `2`="Epidermis", 
+                             `3`="Mesophyll", `4`="Procambium, Differentiating Epidermis", 
+                             `5`="Mesophyll", 
+                             `6`="Stress, Immune-associated", `7`="Guard cell", `8`="Xylem parenchyma", 
+                             `9`="Guard cell", 
+                             `10`="Epidermis",
+                             `11`="Vasculature", `12`="Phloem companion cell", `13`="Mesophyll", 
+                             `14`="Epidermis", `15`="Trichome", 
+                             `16`="Guard cell", `17`="Procambium, Differentiating Epidermis", 
+                             `18`="SAM")
+sub.combined$label_l2 <- Idents(sub.combined)
+
+# Remove Vasculature cells in l2
+table(sub.combined$label_l2)
+sub.combined.l2 <- sub.combined[, sub.combined$label_l2!="Vasculature"]
+# Cell percentage in each cluster
+tmp <- FetchData(sub.combined.l2, c("label_l2", "condition"))
+ggplot(data.frame(tmp), aes(x=label_l2, fill=condition)) +
+  geom_bar(position = "fill",   colour="black") +
+  scale_y_continuous(labels = scales::percent, expand = c(0, 0)) +
+  scale_fill_manual(values = c("#73A5A1","#CDB463","#B8CEC2","#C26B66"))  +
+  scale_x_discrete(position = "bottom", expand = c(0, 0)) +
+  ylab("%cells") + xlab("") +
+  theme(panel.background = element_blank(),
+        axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Identify level 2 cluster markers
+Idents(sub.combined.l2) <- sub.combined.l2$label_l2
+sub.combined.marker <- FindAllMarkers(sub.combined.l2, only.pos = TRUE, min.pct = 0.1, logfc.threshold = 0)
+sub.combined.marker.signif <- sub.combined.marker[sub.combined.marker$p_val_adj<0.05,]
+sub.combined.marker.signif$Gene_ID <- sub.combined.marker.signif$gene
+sub.combined.marker.signif$Gene_ID <- plyr::mapvalues(sub.combined.marker.signif$Gene_ID, 
+                                                      from=as.vector(genefeature$V2), to=as.vector(genefeature$V1), warn_missing = F)
+# Pick the top15 markers and compared to reference marker list
+top15m <- sub.combined.marker.signif %>% group_by(cluster) %>% top_n(n = 15, wt = avg_log2FC) %>% data.frame
+top15m_ref <- unique(merge(top15m, ref_marker))
+# narrow down to a smaller list
+top15m <- c("AT4G13495","SLAH3","AtMYB47","AT1G13650","AT5G44020","LTP7","FDH","PDF1","LTP5","AT4G23670",
+            "BES1","STP1","AT2G04570","AT1G33811", "AT1G04800","GASA9","AT1G16960","TGG1","FRO6","FRO7","BT1.1","CSLB3",
+            "CDEF1","AT4G22513","AT5G38940","AT4G22505","AT4G22490","AT4G22485","AT5G25970","AT4G22517","AT3G05727",
+            "DCR","GAUT14","AT2G25220","BOR5","AT2G33850","CSLA9","BHLH112","MYB28","AAP6","HMA2",
+            "NAKR1","SUC2","AHA3","NRAMP6", "AMY2","GWD2","SBT4.1","AT2G32880","AT2G32870")
+pdf("./l2_marker_barplot.pdf", width=6, height=8)
+Clustered_DotPlot(sub.combined.l2, unique(top15m), k=2, plot_km_elbow=F)
+dev.off()
+
+# GO enrichment analysis with top100 markers per level 2 cluster
+runEnrich_ora <- function(rankGene,direction, outfnm, outdir) {
+  gestSp <- "athaliana"
+  refSet <- "genome"
+  enrichData <- c("geneontology_Biological_Process_noRedundant")
+  geneFormat <- "entrezgene"
+  fdr <- 0.05
+  for(j in seq(1,length(enrichData))) {
+    enrichTestGSEA <- WebGestaltR(enrichMethod = "ORA",
+                                  organism=gestSp, 
+                                  enrichDatabase=enrichData[j],
+                                  interestGene = rankGene,
+                                  interestGeneType = geneFormat,
+                                  referenceSet=refSet,
+                                  fdrMethod="BH", sigMethod="fdr", fdrThr=fdr,
+                                  isOutput=T,outputDirectory=outdir,
+                                  projectName=paste0("ORA_", direction, "_", outfnm,"_GO_BP"),
+                                  nThreads=12)
+  }
+}
+outdir <- "./l2_ORA_top100/"
+tmp <- sub.combined.marker.signif %>% group_by(cluster) %>% top_n(n = 100, wt = avg_log2FC) %>% data.frame
+cluster <- unique(as.vector(tmp$cluster))
+for(i in c(1:length(cluster))){
+  deg <- tmp[tmp$cluster == cluster[i],]
+  deg$ID <- deg$gene
+  deg$ID <- plyr::mapvalues(as.vector(deg$ID), from=as.vector(genefeature$V2), to=as.vector(genefeature$V1), warn_missing=F)
+  deg$ID <- plyr::mapvalues(as.vector(deg$ID), from=as.vector(xx$id), to=as.vector(xx$entrz), warn_missing=F)
+  deg_up <- as.vector(deg$ID)
+  runEnrich_ora(deg_up,"sigMarker",cluster[i], outdir)
+}
+
+# Differential expression analysis between conditions based on level 2 annotation
+sub.combined.l2$label_l2Xcondition <- paste(sub.combined.l2$condition, sub.combined.l2$label_l2,sep = "_")
+table(sub.combined$label_l2Xcondition)
+Idents(sub.combined) <- sub.combined$label_l2Xcondition
+name <- as.vector(unique(sub.combined$label_l2))
+R15 <- paste0("R15_",name)
+W15 <- paste0("W15_",name)
+W0 <- paste0("W0_",name)
+D0 <- paste0("D0_",name)
+# R15 VS D0
+for (i in 1:length(name)){
+  outname <- paste0("./R15_vs_D0/", name[i], ".csv") 
+  tmp <- FindMarkers(sub.combined, ident.1 = R15[i], ident.2 = D0[i], logfc.threshold = 0, min.pct = 0.05)
+  write.csv(tmp, outname, quote=F)
+}
+# R15 VS W15
+for (i in 1:length(name)){
+  outname <- paste0("./R15_vs_W15/", name[i], ".csv") 
+  tmp <- FindMarkers(sub.combined, ident.1 = R15[i], ident.2 = W15[i], logfc.threshold = 0, min.pct = 0.05)
+  write.csv(tmp, outname, quote=F)
+}
+# D0 vs. W0
+for (i in 1:length(name)){
+  outname <- paste0("./D0_vs_W0/", name[i], ".csv") 
+  tmp <- FindMarkers(sub.combined, ident.1 = D0[i], ident.2 = W0[i], logfc.threshold = 0, min.pct = 0.05)
+  write.csv(tmp, outname, quote=F)
+}
+
+# GO enrichemnt analysis for drought condition
+fnm <- list.files("./l2_marker/D0_vs_W0")
+dat_up <- c();dat_down <- c()
+for (i in 1:length(fnm)){
+  tmp <- read.csv(fnm[i])
+  tmp_up <- tmp[tmp$p_val_adj<0.05 & tmp$avg_log2FC>0,]
+  tmp_up$cluster <- strsplit(fnm[i], ".csv")[[1]][1]
+  tmp_up <- tmp_up %>% group_by(cluster) %>% top_n(n = 100, wt = avg_log2FC) %>% data.frame
+  dat_up <- rbind(dat_up, tmp_up)
+  tmp_down <- tmp[tmp$p_val_adj<0.05 & tmp$avg_log2FC<0,]
+  tmp_down$cluster <- strsplit(fnm[i], ".csv")[[1]][1]
+  tmp_down <- tmp_down %>% group_by(cluster) %>% top_n(n = 100, wt = avg_log2FC) %>% data.frame
+  dat_down <- rbind(dat_down, tmp_down)
+}
+
+cluster <- unique(as.vector(dat_up$cluster))
+outdir <- "./l2_marker/D0_vs_W0/ORA_top100_up/"
+for(i in c(1:length(cluster))){
+  deg <- dat_up[dat_up$cluster == cluster[i],]
+  deg$ID <- deg[,1]
+  deg$ID <- plyr::mapvalues(as.vector(deg$ID), from=as.vector(genefeature$V2), to=as.vector(genefeature$V1), warn_missing=F)
+  deg$ID <- plyr::mapvalues(as.vector(deg$ID), from=as.vector(xx$id), to=as.vector(xx$entrz), warn_missing=F)
+  deg_up <- as.vector(deg$ID)
+  runEnrich_ora(deg_up,"sigMarker",cluster[i], outdir)
+}
+cluster <- unique(as.vector(dat_down$cluster))
+outdir <- "./l2_marker/D0_vs_W0/ORA_top100_down/"
+for(i in c(1:length(cluster))){
+  deg <- dat_down[dat_down$cluster == cluster[i],]
+  deg$ID <- deg[,1]
+  deg$ID <- plyr::mapvalues(as.vector(deg$ID), from=as.vector(genefeature$V2), to=as.vector(genefeature$V1), warn_missing=F)
+  deg$ID <- plyr::mapvalues(as.vector(deg$ID), from=as.vector(xx$id), to=as.vector(xx$entrz), warn_missing=F)
+  tmp <- as.vector(deg$ID)
+  runEnrich_ora(tmp,"sigMarker",cluster[i], outdir)
+}
+
+# GO enrichemnt analysis for recovery condition
+fnm <- list.files("./l2_marker/R15_vs_W15/")
+dat_up <- c()
+dat_down <- c()
+for (i in 1:length(fnm)){
+  tmp <- read.csv(fnm[i])
+  tmp_up <- tmp[tmp$p_val_adj<0.05 & tmp$avg_log2FC>0,]
+  tmp_up$cluster <- strsplit(fnm[i], ".csv")[[1]][1]
+  tmp_up <- tmp_up %>% group_by(cluster) %>% top_n(n = 100, wt = avg_log2FC) %>% data.frame
+  dat_up <- rbind(dat_up, tmp_up)
+  tmp_down <- tmp[tmp$p_val_adj<0.05 & tmp$avg_log2FC<0,]
+  tmp_down$cluster <- strsplit(fnm[i], ".csv")[[1]][1]
+  tmp_down <- tmp_down %>% group_by(cluster) %>% top_n(n = 100, wt = avg_log2FC) %>% data.frame
+  dat_down <- rbind(dat_down, tmp_down)
+}
+cluster <- unique(as.vector(dat_up$cluster))
+outdir <- "./l2_marker/R15_vs_W15/ORA_top100_up/"
+for(i in c(1:length(cluster))){
+  deg <- dat_up[dat_up$cluster == cluster[i],]
+  deg$ID <- deg[,1]
+  deg$ID <- plyr::mapvalues(as.vector(deg$ID), from=as.vector(genefeature$V2), to=as.vector(genefeature$V1), warn_missing=F)
+  deg$ID <- plyr::mapvalues(as.vector(deg$ID), from=as.vector(xx$id), to=as.vector(xx$entrz), warn_missing=F)
+  deg_up <- as.vector(deg$ID)
+  runEnrich_ora(deg_up,"sigMarker",cluster[i], outdir)
+}
+cluster <- unique(as.vector(dat_down$cluster))
+outdir <- "./l2_marker/R15_vs_W15/ORA_top100_down/"
+for(i in c(1:length(cluster))){
+  deg <- dat_down[dat_down$cluster == cluster[i],]
+  deg$ID <- deg[,1]
+  deg$ID <- plyr::mapvalues(as.vector(deg$ID), from=as.vector(genefeature$V2), to=as.vector(genefeature$V1), warn_missing=F)
+  deg$ID <- plyr::mapvalues(as.vector(deg$ID), from=as.vector(xx$id), to=as.vector(xx$entrz), warn_missing=F)
+  tmp <- as.vector(deg$ID)
+  runEnrich_ora(tmp,"sigMarker",cluster[i], outdir)
+}
+# End of part 3.
+
+########################
+# Part 4: Subclustering
+########################
+
+# subclustering of same cell type annotated from level 1 and refine the cell type annotation
+# Here is an example for Epidermis cells, cluster 5-9 from level 1 annotation
+sub.combined.l2
+Idents(sub.combined.l2) <- sub.combined.l2$seurat_clusters_relabel_v2
+Epidermis <- subset(sub.combined.l2, idents= c("5: Epidermis", "6: Epidermis, Stress/Defense", "7: Epidermis, Mesophyll, Defense",
+                                               "8: Epidermis, Mesophyll, Stress/Defense", "9: Epidermis, Guard cell"))
+DefaultAssay(Epidermis) <- "RNA"
+obj.list <- SplitObject(Epidermis, split.by = "sample")
+obj.list <- lapply(X = obj.list, FUN = function(x) {
+  x <- NormalizeData(x)
+  x <- FindVariableFeatures(x, selection.method = "vst", nfeatures = 2000)
+})
+features <- SelectIntegrationFeatures(object.list = obj.list)
+obj.list <- lapply(X = obj.list, FUN = function(x) {
+  x <- ScaleData(x, features = features, verbose = FALSE)
+  x <- RunPCA(x, features = features, verbose = FALSE)
+})
+obj.anchors <- FindIntegrationAnchors(object.list = obj.list, anchor.features = features, reduction = "rpca", dims=1:30)
+Epidermis <- IntegrateData(anchorset = obj.anchors)
+set.seed(12345)
+DefaultAssay(Epidermis) <- "integrated"
+Epidermis <- ScaleData(Epidermis, verbose = FALSE)
+Epidermis <- RunPCA(Epidermis, npcs = 30, verbose = FALSE)
+Epidermis <- RunTSNE(Epidermis, reduction = "pca", dims = 1:30)
+Epidermis <- FindNeighbors(Epidermis, reduction = "pca", dims = 1:30)
+Epidermis <- FindClusters(Epidermis, resolution = 0.5)
+mycolors <- colorRampPalette(brewer.pal(12, "Set3"))(15)
+DimPlot(Epidermis, reduction = "tsne", group.by = "seurat_clusters", label=T)+ggtitle("")+NoLegend()+
+  scale_color_manual(values=mycolors)
+
+# Annotation by comparing markers to reference marker list 1
+marker <- FindAllMarkers(Epidermis, only.pos = TRUE, min.pct = 0.1, logfc.threshold = 0)
+marker.signif <- marker[marker$p_val_adj<0.05,]
+marker.signif$Gene_ID <- marker.signif$gene
+marker.signif$Gene_ID <- plyr::mapvalues(marker.signif$Gene_ID, 
+                                         from=as.vector(genefeature$V2), to=as.vector(genefeature$V1), warn_missing = F)
+top50m <- marker.signif %>% group_by(cluster) %>% top_n(n=50, wt = avg_log2FC) %>% data.frame
+top50m_ref <- merge(top15m, ref_marker)
+top50m_ref <- unique(top50m_ref)
+
+# Annotation by comparing markers to reference marker list 2
+master_marker <- read.delim("./marker_master_list.txt",header=T)
+master_marker <- master_marker[,c(1,4)]
+names(master_marker) <- c("Gene_ID", "Cell.type")
+top50m_ref_2 <- merge(top15m, master_marker)
+top50m_ref_2 <- unique(top50m_ref)
+
+# Determine the sub cell type
+Idents(Epidermis) <- Epidermis$seurat_clusters
+Epidermis <- RenameIdents(Epidermis, 
+                          `0`="Low Quality", `1`="Epidermis, Stress", `2`="Epidermis", `3`="Epidermis, GC, Stress", 
+                          `4`="GC", `5`="GC", `6`="Epidermis, Stress", `7`="Abaxial epidermis, trichome", 
+                          `8`="Epidermis, trichome",  `9`="Abaxial epidermis, Stress", `10`="Epidermis, trichome", 
+                          `11`="Abaxial epidermis", `12`="GC", `13`="Epidermis, Stress",`14`="Epidermis/ Mesophyll, Stress")
+Epidermis$sub_label <- Idents(Epidermis)
+Epidermis$sub_label <- paste0(Epidermis$seurat_clusters, ": ",Epidermis$sub_label)
+Epidermis$sub_label <- factor(Epidermis$sub_label, 
+                              levels=unique(Epidermis$sub_label)[c(5,12,4,7,11,3,15,10,13,9,8,14,6,1,2)])
+Idents(Epidermis) <- Epidermis$sub_label
+mycolors <- c("#A4B494","#519872", "#9C446E","#1E3E63","#567383","#56336B","#B89CC5","#B9A221","#304F40","#808A4E","#164A45","#72252B","#991C30","#CC3E64","#75222C")
+length(mycolors)
+DimPlot(Epidermis, reduction = "tsne", group.by = "sub_label", #label=T,label.size = 5,
+              label.color = "black", raster=FALSE) + ggtitle("")+
+  scale_color_manual(values=mycolors, labels=levels(Idents(Epidermis)))
+
+# Remove low quality cells
+Idents(Epidermis) <- Epidermis$seurat_clusters
+Epidermis_sub <- subset(Epidermis, idents=c(1:14))
+table(Epidermis_sub$sub_label)
+Idents(Epidermis_sub) <- Epidermis_sub$sub_label
+Epidermis_sub$condition <- factor(Epidermis_sub$condition, levels=c("W0","D0", "W15","R15"))
+# Identify marker genes
+marker <- FindAllMarkers(Epidermis_sub, only.pos = TRUE, min.pct = 0.1, logfc.threshold = 0)
+# Caculate cell percentage per cluster
+test <- FetchData(Epidermis_sub, c("sub_label", "condition"))
+ggplot(data.frame(test), aes(x=sub_label, fill=condition)) +
+  geom_bar(position = "fill",   colour="black") +
+  scale_y_continuous(labels = scales::percent, expand = c(0, 0)) +
+  scale_fill_manual(values = c("#73A5A1","#CDB463","#B8CEC2","#C26B66"))  +
+  scale_x_discrete(position = "bottom", expand = c(0, 0)) +
+  ylab("%cells") + xlab("") +
+  theme(panel.background = element_blank(),  axis.text.x = element_text(angle = 45, hjust = 1))
+
+# GO enrichment with markers per cluster
+outdir <- "./Epidermis/ORA_top100/"
+tmp <- marker %>% group_by(cluster) %>% top_n(n = 100, wt = avg_log2FC) %>% data.frame
+cluster <- unique(as.vector(tmp$cluster))
+for(i in c(1:length(cluster))){
+  deg <- tmp[tmp$cluster == i,]
+  deg$ID <- deg$gene
+  deg$ID <- plyr::mapvalues(as.vector(deg$ID), from=as.vector(genefeature$V2), to=as.vector(genefeature$V1), warn_missing=F)
+  deg$ID <- plyr::mapvalues(as.vector(deg$ID), from=as.vector(xx$id), to=as.vector(xx$entrz), warn_missing=F)
+  head(deg)
+  deg_up <- as.vector(deg$ID)
+  length(deg_up)
+  runEnrich_ora(deg_up,"sigMarker",i, outdir)
+}
+# end for Epidermis subclustering.
+# For other major cell types, we did the similar subseting and processing processures.
+# Mesophyll <- subset(sub.combined.l2, idents=c("1: Mesophyll","2: 1_Mesophyll, Stress/Defense","3: 2_Mesophyll, Stress/Defense","4: Mesophyll, Procambium_XP")) 
+# Phloem <- subset(sub.combined.l2, idents="18: Phloem companion cell") 
+# Procambium <- subset(sub.combined.l2, idents=c("12: Mesophyll, Procambium_PP, Stress/Defense", "13: SAM, Differentiating Epidermis, Procambium_PP, Stress/Defense"))
+# SAM <- subset(sub.combined.l2, idents=c("13: SAM, Differentiating Epidermis, Procambium_PP, Stress/Defense", "14: SAM", "15: SAM, Trichome"))
+# Guard <- subset(sub.combined.l2, idents=c("9: Epidermis, Guard cell", "10: 1_Guard cell", "11: 2_Guard cell")) 
+# Stress <- subset(sub.combined.l2, idents="19: Stress, Immune-associated")
+# Trichome <- subset(sub.combined.l2, idents="15: SAM, Trichome")
+# Xylem <- subset(sub.combined.l2, idents="17: Xylem parenchyma")
+# End of part 4.
+
+##########################################
+# Part 5: Analysis with refined annotation 
+##########################################
+# refine the major cell type labels (level 2) with subclustering annotations
+Epidermis_subcell <- Epidermis@meta.data[,c("seurat_clusters","sub_label", "seurat_clusters_relabel","seurat_clusters_relabel_v2")]
+Epidermis_subcell$V3_label <- Epidermis_subcell$seurat_clusters
+tmp <- data.frame(seurat_clusters=c(0:14), label=c("Low Quality", "Epidermal","Epidermal","Epidermal", "Guard","Guard",
+                                                   "Epidermal","Epidermal","Epidermal","Epidermal","Epidermal","Epidermal","Guard","Epidermal",
+                                                   "Unannotated"))
+Epidermis_subcell$V3_label <- mapvalues(Epidermis_subcell$V3_label, from=tmp$seurat_clusters,to=tmp$label)
+
+Guard_subcell <- Guard@meta.data[,c("seurat_clusters","sub_label", "seurat_clusters_relabel","seurat_clusters_relabel_v2")]
+Guard_subcell$V3_label <- Guard_subcell$seurat_clusters
+tmp <- data.frame(seurat_clusters=c(0:11), label=c("Low Quality", "Mesophyll","Epidermal","Epidermal","Epidermal","Guard","Guard",
+                                                   "Epidermal","Guard","Epidermal","Meristematic","Guard"))
+Guard_subcell$V3_label <- mapvalues(Guard_subcell$V3_label, from=tmp$seurat_clusters,to=tmp$label)
+
+Mesophyll_subcell <- Mesophyll@meta.data[,c("seurat_clusters","sub_label", "seurat_clusters_relabel","seurat_clusters_relabel_v2")]
+Mesophyll_subcell$V3_label <- Mesophyll_subcell$seurat_clusters
+tmp <- data.frame(seurat_clusters=c(0:12), label=c("Mesophyll","Mesophyll","Mesophyll","Epidermal","Mesophyll","Epidermal","Mesophyll",
+                                                   "Epidermal","Mesophyll","Mesophyll","Epidermal","Low Quality","Epidermal"))
+Mesophyll_subcell$V3_label <- mapvalues(Mesophyll_subcell$V3_label, from=tmp$seurat_clusters,to=tmp$label)
+
+SAM_subcell <- SAM@meta.data[,c("seurat_clusters","sub_label", "seurat_clusters_relabel","seurat_clusters_relabel_v2")]
+SAM_subcell$V3_label <- SAM_subcell$seurat_clusters
+tmp <- data.frame(seurat_clusters=c(0:7), label=c("Low Quality","Trichome","Guard","Meristematic","Meristematic","Meristematic","Meristematic",
+                                                  "Meristematic"))
+SAM_subcell$V3_label <- mapvalues(SAM_subcell$V3_label, from=tmp$seurat_clusters,to=tmp$label)
+
+trichome_subcell <- Trichome@meta.data[,c("seurat_clusters","sub_label", "seurat_clusters_relabel","seurat_clusters_relabel_v2")]
+trichome_subcell$V3_label <- "Trichome"
+
+Procambium_subcell <- Procambium@meta.data[,c("seurat_clusters","sub_label", "seurat_clusters_relabel","seurat_clusters_relabel_v2")]
+Procambium_subcell$V3_label <- Procambium_subcell$seurat_clusters
+tmp <- data.frame(seurat_clusters=c(0:10), label=c("Meristematic","Vascular","Low Quality","Xylem parenchyma",
+                                                   "Phloem companion cell","Procambium","Xylem parenchyma","Vascular",
+                                                   "Epidermal","Procambium","Meristematic"))
+Procambium_subcell$V3_label <- mapvalues(Procambium_subcell$V3_label, from=tmp$seurat_clusters,to=tmp$label)
+
+stress_subcell <- Stress@meta.data[,c("seurat_clusters","sub_label", "seurat_clusters_relabel","seurat_clusters_relabel_v2")]
+stress_subcell$V3_label <- stress_subcell$seurat_clusters
+tmp <- data.frame(seurat_clusters=c(0:9), label=c("Epidermal","Low Quality","Vascular","Low Quality","Epidermal","Stress","Meristematic",
+                                                  "Epidermal","Vascular","Meristematic"))
+stress_subcell$V3_label <- mapvalues(stress_subcell$V3_label, from=tmp$seurat_clusters,to=tmp$label)
+
+Phloem_subcell <- Phloem@meta.data[,c("seurat_clusters", "seurat_clusters_relabel_v2")]
+Phloem_subcell$V3_label <- "Phloem companion cell"
+
+Xylem_parenchyma <- Xylem@meta.data[,c("seurat_clusters", "seurat_clusters_relabel_v2")]
+Xylem_parenchyma$V3_label <- "Xylem parenchyma"
+
+# Reorder cells by types
+Epidermis_subcell$cell <- rownames(Epidermis_subcell)
+Guard_subcell$cell <- rownames(Guard_subcell)
+Mesophyll_subcell$cell <- rownames(Mesophyll_subcell)
+SAM_subcell$cell <- rownames(SAM_subcell)
+trichome_subcell$cell <- rownames(trichome_subcell)
+Procambium_subcell$cell <- rownames(Procambium_subcell)
+stress_subcell$cell <- rownames(stress_subcell)
+Phloem_subcell$cell <- rownames(Phloem_subcell)
+Xylem_parenchyma$cell <- rownames(Xylem_parenchyma)
+sub.combined.l2$V3_label <- rownames(sub.combined.l2@meta.data)
+sub.combined.l2$V3_label <- mapvalues(sub.combined.l2$V3_label, from=Epidermis_subcell$cell, to=as.vector(Epidermis_subcell$V3_label),warn_missing=F)
+sub.combined.l2$V3_label <- mapvalues(sub.combined.l2$V3_label, from=Guard_subcell$cell, to=as.vector(Guard_subcell$V3_label),warn_missing=F)
+sub.combined.l2$V3_label <- mapvalues(sub.combined.l2$V3_label, from=Mesophyll_subcell$cell, to=as.vector(Mesophyll_subcell$V3_label),warn_missing=F)
+sub.combined.l2$V3_label <- mapvalues(sub.combined.l2$V3_label, from=SAM_subcell$cell, to=as.vector(SAM_subcell$V3_label),warn_missing=F)
+sub.combined.l2$V3_label <- mapvalues(sub.combined.l2$V3_label, from=trichome_subcell$cell, to=as.vector(trichome_subcell$V3_label),warn_missing=F)
+sub.combined.l2$V3_label <- mapvalues(sub.combined.l2$V3_label, from=Procambium_subcell$cell, to=as.vector(Procambium_subcell$V3_label),warn_missing=F)
+sub.combined.l2$V3_label <- mapvalues(sub.combined.l2$V3_label, from=stress_subcell$cell, to=as.vector(stress_subcell$V3_label),warn_missing=F)
+sub.combined.l2$V3_label <- mapvalues(sub.combined.l2$V3_label, from=Phloem_subcell$cell, to=as.vector(Phloem_subcell$V3_label),warn_missing=F)
+sub.combined.l2$V3_label <- mapvalues(sub.combined.l2$V3_label, from=Xylem_parenchyma$cell, to=as.vector(Xylem_parenchyma$V3_label),warn_missing=F)
+Idents(sub.combined.l2) <- sub.combined.l2$V3_label
+sub.combined.l2.reorder <- subset(sub.combined.l2, idents=c("Epidermal","Guard","Mesophyll","Stress","Trichome","Procambium","Meristematic",
+                                                            "Vascular", "Xylem parenchyma", "Phloem companion cell"))
+table(sub.combined.l2.reorder$V3_label)
+
+# new TSNE
+sub.combined.l2.reorder$V3_label <- factor(sub.combined.l2.reorder$V3_label, 
+                                           levels=c("Mesophyll", "Epidermal","Guard","Procambium","Meristematic",
+                                                    "Trichome","Vascular","Xylem parenchyma","Phloem companion cell",
+                                                    "Stress"))
+Idents(sub.combined.l2.reorder) <- sub.combined.l2.reorder$V3_label
+mycolors <- c("#73A5A1", "#235493", "#296987", "#DA9C94", "#1F3F57", "#9798AC", "#A4B494","#76363E", "#C26B66", "#CDB463")
+DimPlot(sub.combined.l2.reorder, reduction = "tsne", group.by = "V3_label",label.color = "black", raster=FALSE) + ggtitle("") +
+  scale_color_manual(values=mycolors, labels=levels(Idents(sub.combined.l2.reorder)))
+# Identify marker genes
+marker <- FindAllMarkers(sub.combined.l2.reorder, only.pos = TRUE, min.pct = 0.1, logfc.threshold = 0)
+# GO enrichment analysis
+outdir <- "./newLableV3/ORA_top100/"
+tmp <- marker[marker$p_val_adj<0.05 ,]
+tmp <- tmp %>% group_by(cluster) %>% top_n(n = 100, wt = avg_log2FC) %>% data.frame
+cluster <- unique(as.vector(tmp$cluster))
+for(i in cluster){
+  deg <- tmp[tmp$cluster == i,]
+  deg$ID <- deg$gene
+  deg$ID <- plyr::mapvalues(as.vector(deg$ID), from=as.vector(genefeature$V2), to=as.vector(genefeature$V1), warn_missing=F)
+  deg$ID <- plyr::mapvalues(as.vector(deg$ID), from=as.vector(xx$id), to=as.vector(xx$entrz), warn_missing=F)
+  head(deg)
+  deg_up <- as.vector(deg$ID)
+  length(deg_up)
+  runEnrich_ora(deg_up,"sigMarker",i, outdir)
+}
+# GO enrichment barplot
+fnms <- list.dirs("./newLableV3/ORA_top100/")
+tmp <- sapply(fnms, function(x){strsplit(x,"./Project_")[[1]][2]})
+fnms <- paste0(fnms, "/", "enrichment_results_", tmp, ".txt")
+alldat <- c()
+for (i in 1:length(fnms)){
+  dat <- read.delim(fnms[i],header=T)
+  dat$type <- strsplit(as.vector(tmp[i]),"ORA_sigMarker_|_GO_BP")[[1]][2]
+  head(dat)
+  alldat <- rbind(alldat,dat)
+}
+dat <- alldat[alldat$FDR < 0.05,]
+dat$labs <- dat$description
+dat$type <- factor(dat$type, levels=c("Mesophyll", "Epidermal","Guard","Procambium","Meristematic",
+                                      "Trichome","Vascular","Xylem parenchyma","Phloem companion cell",
+                                      "Stress"))
+dat <- dat %>% group_by(type) %>% arrange(enrichmentRatio,decreasing= F)
+dat$enrichmentRatio[dat$enrichmentRatio>38] <- 38
+new_order <- dat %>% group_by(type) %>% 
+  do(data_frame(al=levels(reorder(interaction(.$type, .$labs,drop=T),.$enrichmentRatio)))) %>% pull(al)
+
+p <- dat %>% mutate(al=factor(interaction(type, labs), 
+                              levels=rev(new_order[c(11:1, 21:12, 33:22, 34, 38:35, 42:39, 56:43, 61:57, 87:62)]))) %>% 
+  ggplot(aes(x=al, y=enrichmentRatio,fill=type)) + 
+  geom_bar(stat="identity",color="white") +
+  scale_x_discrete(breaks= new_order, labels=gsub("^.*\\.", "", new_order)) +
+  scale_fill_manual(values=mycolors[-6]) +
+  geom_text(aes(label=signif(FDR, digits = 2)), hjust=1.1, color="white", size=3) +
+  labs(y="EnrichmentRatio")  +
+  coord_flip() +
+  theme(axis.text.y.left = element_text(size=15),
+        axis.title = element_text(size=15),
+        axis.title.y=element_blank(), 
+        panel.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.line = element_line(colour = "grey"),
+        panel.border=element_rect(colour = "grey", fill=NA),
+        axis.ticks.y=element_blank(),
+        legend.position="right",
+        axis.text.x = element_text(color="black"),
+        axis.text.y = element_text(color="black"),
+        plot.margin = margin(0.1,1,0.1,0.1, "cm")) 
+ggsave("./subcluster_GO.pdf",p,width=14, height=16)
+
+# Differential analysis between conditions
+sub.combined.l2.reorder$V3Xcondition <- paste(sub.combined.l2.reorder$condition, sub.combined.l2.reorder$V3_label,sep = "_")
+Idents(sub.combined.l2.reorder) <- sub.combined.l2.reorder$V3Xcondition
+name <- as.vector(unique(sub.combined.l2.reorder$V3_label))
+R15 <- paste0("R15_",name)
+W15 <- paste0("W15_",name)
+# R15 VS W15 
+for (i in 1:length(name)){
+  outname <- paste0("./newLableV3/R15_vs_W15/Cluster_", name[i], ".csv") 
+  temp <- FindMarkers(sub.combined.l2.reorder, ident.1 = R15[i], ident.2 = W15[i], logfc.threshold = 0, min.pct = 0.05)
+  write.csv(temp, outname, quote=F)
+}
+W0 <- paste0("W0_",name)
+D0 <- paste0("D0_",name)
+for (i in 1:length(name)){
+  outname <- paste0("./newLableV3/D0_vs_W0/Cluster_", name[i], ".csv") 
+  temp <- FindMarkers(sub.combined.l2.reorder, ident.1 = D0[i], ident.2 = W0[i], logfc.threshold = 0, min.pct = 0.05)
+  write.csv(temp, outname, quote=F)
+}
+
+# Identify the differential drought/recovery specific TFs
+Arabidopsis_TFs <- read_excel("Arabidopsis_TFs.xlsx")
+Arabidopsis_TFs <- Arabidopsis_TFs$`Arabidopsis TFS`
+Arabidopsis_TFs <- as.vector(genefeature$V2[genefeature$V1 %in% Arabidopsis_TFs])
+
+# Drought signals: D0 vs W0
+fnms <- list.files("./newLableV3/D0_vs_W0/", "*.csv")
+dedat <- c()
+for(i in 1:length(fnms)){
+  deg <- read.csv(paste0("./newLableV3/D0_vs_W0/", fnms[i]), header=T)
+  deg_up <- deg[deg$p_val_adj<0.05 & deg$avg_log2FC>0,]
+  deg_down <- deg[deg$p_val_adj<0.05 & deg$avg_log2FC<0,]
+  deg <- deg_up[, c(1,3:6)]
+  names(deg) <- c("Gene", "ave_log2FC", "pct.1", "pct.2","FDR")
+  if(nrow(deg)>0){
+    deg$Cluster <- strsplit(fnms[i], ".csv")[[1]][1]
+    deg$Signif <- "up"
+    deg <- deg[deg$Gene %in% Arabidopsis_TFs,]
+    dedat <- rbind(dedat, deg)
+  }
+  deg <- deg_down[, c(1,3:6)]
+  names(deg) <- c("Gene", "ave_log2FC", "pct.1", "pct.2","FDR")
+  if(nrow(deg)>0){
+    deg$Cluster <- strsplit(fnms[i], ".csv")[[1]][1]
+    deg$Signif <- "down"
+    deg <- deg[deg$Gene %in% Arabidopsis_TFs,]
+  }
+  dedat <- rbind(dedat, deg)
+}
+drought <- dedat
+
+# Recovery signals: R15 vs W15
+fnms <- list.files("./newLableV3/R15_vs_W15/", "*.csv")
+dedat <- c()
+for(i in c(1:length(fnms))){
+  deg <- read.csv(paste0("./newLableV3/R15_vs_W15/", fnms[i]), header=T)
+  deg_up <- deg[deg$p_val_adj<0.05 & deg$avg_log2FC>0,]
+  deg_down <- deg[deg$p_val_adj<0.05 & deg$avg_log2FC<0,]
+  deg <- deg_up[, c(1,3:6)]
+  names(deg) <- c("Gene", "ave_log2FC", "pct.1", "pct.2","FDR")
+  if(nrow(deg)>0){
+    deg$Cluster <- strsplit(fnms[i], ".csv")[[1]][1]
+    deg$Signif <- "up"
+    deg <- deg[deg$Gene %in% Arabidopsis_TFs,]
+    if(nrow(deg)>0){
+      dedat <- rbind(dedat, deg)
+    }
+  }
+  deg <- deg_down[, c(1,3:6)]
+  names(deg) <- c("Gene", "ave_log2FC", "pct.1", "pct.2","FDR")
+  if(nrow(deg)>0){
+    deg$Cluster <- strsplit(fnms[i], ".csv")[[1]][1]
+    deg$Signif <- "down"
+    deg <- deg[deg$Gene %in% Arabidopsis_TFs,]
+    if(nrow(deg)>0){
+      dedat <- rbind(dedat, deg)
+    }
+  }
+}
+recovery_w15 <- dedat
+
+# Heatmap for recovery specific TFs
+recovery_w15 <- recovery_w15[abs(recovery_w15$ave_log2FC)>log2(1.5),]
+drought <- drought[abs(drought$ave_log2FC)>log2(1.3),]
+dat <- rbind(recovery_w15, drought)
+tf_sub <- unique(dat$Gene)
+
+Idents(sub.combined.l2.reorder) <- sub.combined.l2.reorder$V3Xcondition
+sub.combined.l2.reorder <- ScaleData(sub.combined.l2.reorder)
+drough_up <- drought[drought$Signif=="up",]
+drough_down <- drought[drought$Signif=="down",]
+recovery_w15_up <- recovery_w15[recovery_w15$Signif=="up",]
+recovery_w15_down <- recovery_w15[recovery_w15$Signif=="down",]
+down <- unique(recovery_w15_down$Gene[! recovery_w15_down$Gene %in% drough_down$Gene]) 
+up <- unique(recovery_w15_up$Gene[! recovery_w15_up$Gene %in% drough_up$Gene]) 
+mat<- AverageExpression(sub.combined.l2.reorder, slot="scale", features=unique(c(up, down), assays="RNA"))
+mat <- as.data.frame(mat$RNA )
+mat <- mat[,c(11:20, 10:1, 21:40)]
+mat<- t(scale(t(mat)))
+
+anno <- data.frame(Cluster=unique(colnames(mat)), Condition=c(rep(c("W0","D0", "W15", "R15"),each=10)))
+anno$Type <- sapply(anno$Cluster, function(x){strsplit(x, "_")[[1]][2]}) 
+Identity <- levels(sub.combined.l2.reorder$V3_label)
+identity_colors <- mycolors
+names(identity_colors) <- Identity
+cond <- c("W0","D0","W15", "R15")
+cond_colors <- c("#73A5A1","#CDB463","#B8CEC2","#C26B66")
+names(cond_colors) <- cond
+colors_list <- list(Identity = identity_colors,Condition = cond_colors)
+column_ha <- HeatmapAnnotation(Identity = factor(anno$Type, levels=Identity),
+                               Condition=factor(anno$Condition, levels=cond),
+                               col = colors_list,
+                               na_col = "grey",
+                               name = c("Identity", "Condition"),
+                               annotation_legend_param = list(
+                                 Identity=list(labels=Identity),
+                                 Condition=list(labels=cond)))
+
+set.seed(12345)
+pdf("./newLableV3/recovery_DE_heatmap_average.pdf", width=8, height = 10)
+Heatmap(mat, name = "Z-scores",  
+        column_split = factor(anno$Type, levels=Identity),
+        cluster_columns = F,
+        show_column_names = F,
+        column_title = NULL,
+        column_gap = unit(0.5, "mm"),
+        cluster_rows = TRUE,
+        show_row_dend = T,
+        col = col_fun,
+        row_names_gp = gpar(fontsize=8),
+        top_annotation =column_ha,
+        row_km_repeats = 100
+)
+dev.off()
+# End of part 5.
+
+sessionInfo()
+## R version 4.2.1 (2022-06-23)
+## Platform: x86_64-pc-linux-gnu (64-bit)
+##
+## Matrix products: default
+## BLAS/LAPACK: /usr/lib64/libopenblas-r0.3.3.so
+## 
+## Random number generation:
+##  RNG:     L'Ecuyer-CMRG 
+## Normal:  Inversion 
+## Sample:  Rejection 
+##
+## locale:
+## [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C               LC_TIME=en_US.UTF-8       
+## [4] LC_COLLATE=en_US.UTF-8     LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+## [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                  LC_ADDRESS=C              
+## [10] LC_TELEPHONE=C             LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+## attached base packages:
+## [1] stats4    grid      stats     graphics  grDevices utils     datasets  methods  
+## [9] base     
+
+## other attached packages:
+## [1] writexl_1.4.1               circlize_0.4.15             tidyr_1.2.0                
+## [4] raster_3.5-29               org.At.tair.db_3.15.1       AnnotationDbi_1.58.0       
+## [7] ComplexHeatmap_2.12.1       ggpubr_0.4.0                SingleCellExperiment_1.18.0
+## [10] forcats_0.5.2               WebGestaltR_0.4.4           readxl_1.4.1               
+## [13] scCustomize_0.7.0           RColorBrewer_1.1-3          rhdf5_2.40.0               
+## [16] SummarizedExperiment_1.26.1 Biobase_2.56.0              MatrixGenerics_1.8.1       
+## [19] Rcpp_1.0.9                  Matrix_1.4-1                GenomicRanges_1.48.0       
+## [22] GenomeInfoDb_1.32.3         IRanges_2.30.1              S4Vectors_0.34.0           
+## [25] BiocGenerics_0.42.0         matrixStats_0.62.0          data.table_1.14.2          
+## [28] stringr_1.4.1               plyr_1.8.7                  gtable_0.3.0               
+## [31] gtools_3.9.3                gridExtra_2.3               ArchR_1.0.2                
+## [34] magrittr_2.0.3              dplyr_1.0.9                 reshape2_1.4.4             
+## [37] patchwork_1.1.1             ggplot2_3.3.6               DT_0.24                    
+## [40] sp_1.5-0                    SeuratObject_4.1.0          Seurat_4.1.1               
